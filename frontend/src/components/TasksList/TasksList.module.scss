@@ -1,0 +1,41 @@
+.tasksList {
+  .title {
+    margin: 0 0 20px;
+    color: #333;
+    font-size: 1.5rem;
+  }
+
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .taskItem {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .checkbox {
+    margin-right: 15px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+  }
+
+  .taskText {
+    font-size: 1.1rem;
+    color: #333;
+
+    &.completed {
+      text-decoration: line-through;
+      color: #999;
+    }
+  }
+}

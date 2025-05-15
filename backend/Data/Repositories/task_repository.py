@@ -13,6 +13,11 @@ class TaskRepository:
         result = await self.db.execute(select(BotTask))
         return result.scalars().all()
 
+    async def get_tasks_by_statuses(self, statuses: List[TaskStatus]) -> List[BotTask]:
+        stmt = select(BotTask).where(BotTask.status.in_(statuses))
+        result = await self.db.execute(stmt)
+        return result.scalars().all()
+
     async def get_pending_tasks(self) -> List[BotTask]:
         result = await self.db.execute(
             select(BotTask).filter(BotTask.status == TaskStatus.Pending)

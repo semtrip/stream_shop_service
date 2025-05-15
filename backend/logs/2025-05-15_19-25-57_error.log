@@ -1,0 +1,782 @@
+[2025-05-15 19:26:22] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:26:22] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:26:23] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:26:23] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:26:25] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:26:25] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:26:28] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:26:28] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:26:29] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:26:29] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:26:31] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:26:31] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:26:33] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:26:33] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:26:35] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:26:35] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:26:37] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:26:37] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:26:39] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:26:39] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:26:40] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:26:40] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:26:42] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:26:42] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:26:43] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:26:43] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:26:46] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:26:46] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:26:48] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:26:48] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:26:49] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:26:49] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:26:51] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:26:51] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:26:53] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:26:53] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:26:55] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:26:55] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:26:57] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:26:57] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:26:58] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:26:58] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:27:00] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:27:00] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:27:03] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:27:03] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:27:04] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:27:04] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:27:06] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:27:06] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:27:08] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:27:08] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:27:10] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:27:10] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:27:12] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:27:12] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:27:14] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:27:14] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:27:16] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:27:16] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:27:18] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:27:18] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:27:19] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:27:19] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:27:20] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:27:20] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:27:22] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:27:22] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:27:24] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:27:24] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:27:25] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:27:25] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:27:27] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:27:27] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:27:29] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:27:29] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:27:30] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:27:30] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:27:32] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:27:32] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:27:34] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:27:34] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:27:35] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:27:35] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:27:37] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:27:37] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:27:38] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:27:38] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:27:40] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:27:40] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2025-05-15 19:27:41] [error] Bot error: 'str' object has no attribute 'get'
+[2025-05-15 19:27:41] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 57, in start
+    async with session.head(url, proxies=proxy_url, headers=headers, timeout=10):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+        prep.url, proxies, stream, verify, cert
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 759, in merge_environment_settings
+    no_proxy = proxies.get("no_proxy") if proxies is not None else None
+               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+

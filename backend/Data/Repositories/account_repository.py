@@ -35,9 +35,32 @@ class AccountRepository:
         account.lastChecked = datetime.utcnow()
         self.db.merge(account)
         await self.db.commit()
-
+    
     async def get_all(self) -> List[Account]:
-        result = await self.db.execute(select(Account))
+        result = await self.db.execute(
+            select(Account)
+        )
+        return result.scalars().all()
+
+    async def get_all_twitch(self) -> List[Account]:
+        result = await self.db.execute(
+            select(Account)
+            .filter(func.lower(Account.platform) == 'twitch')
+        )
+        return result.scalars().all()
+    
+    async def get_all_youtube(self) -> List[Account]:
+        result = await self.db.execute(
+            select(Account)
+            .filter(func.lower(Account.platform) == 'youtube')
+        )
+        return result.scalars().all()
+    
+    async def get_all_kick(self) -> List[Account]:
+        result = await self.db.execute(
+            select(Account)
+            .filter(func.lower(Account.platform) == 'kick')
+        )
         return result.scalars().all()
 
     async def add_account(self, account: Account):

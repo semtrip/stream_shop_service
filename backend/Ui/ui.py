@@ -1,27 +1,27 @@
 import inquirer
-from log import logger
+import os
+
+from Logger.log import logger
 
 class MenuUI:
     def __init__(self):
         self.data = None
+        self.ensure_load_files_dir()
+
+    def ensure_load_files_dir(self):
+        os.makedirs("load_files", exist_ok=True)
 
     def show_main_menu(self):
-        """Показывает главное меню и возвращает выбранный пункт."""
         questions = [
             inquirer.List('action',
-                    message="StreamShop service [MAIN MENU]",
-                    choices=[
-                        "Загрузить аккаунты",
-                        "Загрузить прокси",
-                        "Проверить аккаунты",
-                        "Проверить прокси",
-                        "Создать задачу",
-                        "Посмотреть задачи",
-                        "Работа с задачами",
-                        "Работа с логами",
-                        "Выход"
-                    ]
-                ),
+                message="StreamShop service [MAIN MENU]",
+                choices=[
+                    "Аккаунты",
+                    "Прокси",
+                    "Задачи",
+                    "Логи",
+                    "Выход"
+                ]),
         ]
         answers = inquirer.prompt(questions)
         return answers['action']
@@ -34,17 +34,26 @@ class MenuUI:
         return answers['action']
 
     def display_message(self, message):
-        """Отображает сообщение в консоль."""
         logger.info(message)
-        
+
     def show_exit_message(self):
-        """Сообщение перед выходом из программы."""
         logger.info("Выход из программы...")
+
+    def list_files_in_load_dir(self):
+        files = os.listdir("load_files")
+        return [f for f in files if os.path.isfile(os.path.join("load_files", f))]
+
+    def select_file_from_load_dir(self, title="Выберите файл для загрузки"):
+        files = self.list_files_in_load_dir()
+        if not files:
+            self.display_message("Нет доступных файлов в папке 'load_files'.")
+            return None
+
+        selected = self.show_sub_menu(title, files)
+        return os.path.join("load_files", selected)
 
     @staticmethod
     def clear_screen():
-        """Очищает экран консоли"""
-        import os
         import platform
         if platform.system() == "Windows":
             os.system('cls')

@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, Boolean
+from sqlalchemy import Column, Integer, String, Boolean, DateTime
 from db import Base
 
 class Proxy(Base):
@@ -11,4 +11,7 @@ class Proxy(Base):
     password = Column(String)
     type = Column(String, nullable=False)  # https, socks, socks5
     useds = Column(Integer, default=0)
-    isValid = Column(Boolean, default=False, nullable=False)
+    twitchValid = Column(Boolean, default=False, nullable=False)
+    youtubeValid = Column(Boolean, default=False, nullable=False)
+    kickValid = Column(Boolean, default=False, nullable=False)
+    lastChecked = Column(DateTime, nullable=False)

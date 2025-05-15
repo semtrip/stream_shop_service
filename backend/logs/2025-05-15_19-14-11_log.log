@@ -1,0 +1,151 @@
+[2025-05-15 19:14:13] [info] Загружено [36m1[0m задач в память
+[2025-05-15 19:14:13] [info] Сброс выполняющихся и ошибочных задач в статус Pending...
+[2025-05-15 19:14:13] [info] Сброшено [33m1[0m задач.
+[2025-05-15 19:14:13] [info] Загружено [36m300[0m прокси в память
+[2025-05-15 19:14:13] [info] Загружено [36m800[0m аккаунтов в память
+[2025-05-15 19:14:29] [info] Twitch service иницилизирован для assstronavt
+[2025-05-15 19:14:29] [info] Запускается Twitch-сервис для задачи 1 (URL: https://www.twitch.tv/assstronavt)
+[2025-05-15 19:14:29] [info] Проверка онлайна стрима [36massstronavt[0m
+[2025-05-15 19:14:32] [info] [TWITCH isStreamLive] stream [36massstronavt[0m - [32mOnline[0m
+[2025-05-15 19:14:32] [info] Стрим https://www.twitch.tv/assstronavt в эфире. Начинаем выполнение задачи 1.
+[2025-05-15 19:14:32] [info] [TWITCH] Запуск 50 ботов в течение 00:01:00 времени
+[2025-05-15 19:14:32] [info] [TWITCH] Получено прокси: 50
+[2025-05-15 19:14:34] [info] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.167.7:1051
+[2025-05-15 19:14:36] [info] Bot connected: https://euc11.playlist.ttvnw.net/v1/playlist/CscElG6C-2dfkgx4ePrXUhOPi6Yuwc-5DxRBvj0dU3PbJFJvnKPpau7MAW_oqAL7G2Y4cB1NqSwXPnrEqBhzDkup0CcufgefutD0_fgAmFoC_6iYPZNZ5sr9LriWE4ny9bNRZ5I59-GysUCZohr9AVa3pHBe43DVhiRSAuRKNEg02IgGf3yEYfSoL4h1NOyLYgrhknUqW4HO7h9QkPNgtffsAJOmEUiiBq7QMq3eqJNbCA6ds0lIXajPhrRv4ddd5kDdRYlkHibvMluaN80IQVlRFP9UK14MIlq7dOR4G8HkyltySNBU5EBffkYroCmFHkRlx64fb41f-D3FBmDBcOByNFmwaSruwc2fsYD3pXdxxqxVYwLRpysu-38kM2kaHYrbjk-N7UEwREugqiLCGc69Mf4d77suPVqht4UcuYA7cYG8MSzU9QnKkR7XZS3NWHZUIFNdLVMewvTz5vI3tVLRMlrie98fIrsZm5hhopNf9nhvBjcokaKwMsmo23cvoHtqLDfcULn6NvIQ7i8-SjeaQUV2wNh3RwTCgH3t6QAWTxugAcGm9iOWFvo72gWcfG9Ci8iHah7Jx17LQ3cvBbP42JXq59ZlYa74Frv3PVv0wrTrPUHZwnWZrxV0ZZfbPku4nGMLw4uO9gycJAAwC9dYj0dQxMAJ6bW2umSrmE9vzJz3QDIwaqLYgp7zd82yXQInxyg-uRl7aH_gqCaQsB5omsrWlFjyPgGIMZfgGmDMBECpISf2cT_NWzgdbyIcUzdqP5Q_iVD2lhoMhjjYqrrz2-RIV--oIAEqCWV1LXdlc3QtMjCkDA.m3u8
+[2025-05-15 19:14:40] [info] Bot connected: https://euc13-0.playlist.ttvnw.net/v1/playlist/CskEvTU-qLtleCxEwkXsvMl6XtSkMUTmMjtm7udj4ZhsE2fxNUtXV3Le3-fij3nseMXQODRMb2ZfWd8A1be08iVbTk2VGuP6jYXz23jvZlROac3zvI0YM9OItyJe9DFDT6Yihdcw1k6FDRCeOy96UyyRPzJuyj1uf2CTUe4WRZqVTEpPauaVfgMIl2a-zNstN3AvrahI64hUmWbR1T3enLkfs0_ihkGA4UWqqLyiSkHT-alQBCBGf9KSdSRR5y0_PNwN9M8naMnmbHGh65lp8KgefAZEVeYfcPs26nGbVETgHjBPiblpD1veFUDGeIMLUHRd6xkYa21H5dieBiJoKFdNXMatH1IjnBktr6Gure7XCb8C90N6pvYLoAVMMVxaYcUe6q2YF2Pwq3hRYDR2Yn1Eeiq2tR1iIuk7tw826DPOZzrhzOJsPXrqxV9MsxC_K6Ez4QMMAV-iuiJXqPK7K70N59eK2EgtcPKwmnyikddsErK38sKsYdPj0OCjuUTAfi4wVuJNTQ1Znacn7tFL5lcy2Uql5rRZtk_MNzHXjOOsZdZlltFVlq8r0busnjkzxAHcLJDf4gRufLFZ22T1GNgz1WEtNAcAUF5nS4VoIm_7OrxC-jHUgYJ4IqO4LrvYIYTJX_KJwHbZyt7u7TSdh74oy7LiJJk7AhBzJIvnDqPmgRHzOHw-JgC3BNvEmvqW67jP8BNedRKGQgES7fqlPbxY3NXFhOXHltbRB9XoUG--RAY1HDJX-x7nHXIp01ga2lpJagsTbiaWyDouGgxKB5BI9u-cTt7rM1QgASoJZXUtd2VzdC0yMKQM.m3u8
+[2025-05-15 19:14:43] [info] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.49.143:1051
+[2025-05-15 19:14:45] [info] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.15.90:1051
+[2025-05-15 19:14:47] [info] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@46.8.223.89:1051
+[2025-05-15 19:14:49] [info] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@188.130.185.213:1051
+[2025-05-15 19:14:50] [info] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.139.120:1051
+[2025-05-15 19:14:52] [error] Bot error: Unexpected SOCKS version number: 0
+[2025-05-15 19:14:52] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\python_socks\async_\asyncio\v2\_proxy.py", line 130, in _connect
+    await connector.connect(
+    ...<3 lines>...
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\python_socks\_connectors\socks5_async.py", line 44, in connect
+    reply: socks5.AuthMethodReply = conn.receive(data)
+                                    ~~~~~~~~~~~~^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\python_socks\_protocols\socks5.py", line 333, in receive
+    reply = AuthMethodReply.loads(data)
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\python_socks\_protocols\socks5.py", line 104, in loads
+    raise ReplyError(f'Unexpected SOCKS version number: {ver}')
+python_socks._protocols.errors.ReplyError: Unexpected SOCKS version number: 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 53, in start
+    async with self.session.head(url, timeout=10):
+               ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\aiohttp\client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1375, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\aiohttp_socks\connector.py", line 66, in _wrap_create_connection
+    return await self._connect_via_proxy(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\aiohttp_socks\connector.py", line 123, in _connect_via_proxy
+    stream = await proxy.connect(
+             ^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\python_socks\async_\asyncio\v2\_proxy.py", line 79, in connect
+    return await self._connect(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\python_socks\async_\asyncio\v2\_proxy.py", line 143, in _connect
+    raise ProxyError(e, error_code=e.error_code)
+python_socks._errors.ProxyError: Unexpected SOCKS version number: 0
+
+[2025-05-15 19:14:52] [error] Bot error: Unexpected SOCKS version number: 0
+[2025-05-15 19:14:52] [error] Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\python_socks\async_\asyncio\v2\_proxy.py", line 130, in _connect
+    await connector.connect(
+    ...<3 lines>...
+    )
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\python_socks\_connectors\socks5_async.py", line 44, in connect
+    reply: socks5.AuthMethodReply = conn.receive(data)
+                                    ~~~~~~~~~~~~^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\python_socks\_protocols\socks5.py", line 333, in receive
+    reply = AuthMethodReply.loads(data)
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\python_socks\_protocols\socks5.py", line 104, in loads
+    raise ReplyError(f'Unexpected SOCKS version number: {ver}')
+python_socks._protocols.errors.ReplyError: Unexpected SOCKS version number: 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\Twitch\bot.py", line 53, in start
+    async with self.session.head(url, timeout=10):
+               ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\aiohttp\client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1375, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\aiohttp_socks\connector.py", line 66, in _wrap_create_connection
+    return await self._connect_via_proxy(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\aiohttp_socks\connector.py", line 123, in _connect_via_proxy
+    stream = await proxy.connect(
+             ^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\python_socks\async_\asyncio\v2\_proxy.py", line 79, in connect
+    return await self._connect(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\semtrip.DESKTOP-QDM923H\AppData\Roaming\Python\Python313\site-packages\python_socks\async_\asyncio\v2\_proxy.py", line 143, in _connect
+    raise ProxyError(e, error_code=e.error_code)
+python_socks._errors.ProxyError: Unexpected SOCKS version number: 0
+
+[2025-05-15 19:14:52] [info] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@188.130.137.220:1051

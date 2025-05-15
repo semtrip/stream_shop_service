@@ -1,0 +1,23 @@
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  .title {
+    margin: 0 0 10px;
+    color: #666;
+    font-size: 1.1rem;
+  }
+
+  .value {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
