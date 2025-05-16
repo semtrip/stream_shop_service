@@ -1,0 +1,12 @@
+[2025-05-17 02:38:04] [error] Bot ID:[213] Watch loop error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'euw12-0.playlist.ttvnw.net'. (_ssl.c:1028)
+[2025-05-17 02:38:15] [error] Bot ID:[213] Watch loop error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'euw12-0.playlist.ttvnw.net'. (_ssl.c:1028)
+[2025-05-17 02:38:33] [error] Bot ID:[213] Watch loop error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'euw12-0.playlist.ttvnw.net'. (_ssl.c:1028)
+[2025-05-17 02:39:01] [error] ChatBot ID:[153] Chat error: Connection closed by server
+[2025-05-17 02:39:01] [error] ChatBot ID:[58] Chat error: Connection closed by server
+[2025-05-17 02:39:02] [error] ChatBot ID:[225] Chat error: Connection closed by server
+[2025-05-17 02:39:02] [error] ChatBot ID:[70] Chat error: Connection closed by server
+[2025-05-17 02:39:02] [error] ChatBot ID:[68] Chat error: Connection closed by server
+[2025-05-17 02:39:02] [error] ChatBot ID:[308] Chat error: Connection closed by server
+[2025-05-17 02:39:02] [error] ChatBot ID:[63] Chat error: Connection closed by server
+[2025-05-17 02:39:02] [error] ChatBot ID:[64] Chat error: Connection closed by server
+[2025-05-17 02:39:02] [error] ChatBot ID:[108] Chat error: Connection closed by server

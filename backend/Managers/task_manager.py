@@ -4,7 +4,7 @@ import asyncio
 from datetime import time, timedelta
 
 from Logger.log import logger, log_color
-from Service.Twitch.service import TwtichService
+from Service.Twitch.service import TwitchService
 from Models.task import BotTask, TaskStatus
 from Data.Repositories.task_repository import TaskRepository
 class TaskManager():
@@ -124,9 +124,10 @@ class TaskManager():
             async def task_runner():
                 try:
                     if task.platform.lower() == "twitch" and task.activity == "Зрители в эфир":
-                        service: TwtichService = await TwtichService.create(self.db,
+                        service: TwitchService = await TwitchService.create(self.db,
                             url=task.url,
                             count_bots=task.countBot,
+                            auth_bots=task.authBot,
                             rump_time=task.rampUpTime
                         )
                         task.service = service

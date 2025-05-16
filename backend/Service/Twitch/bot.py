@@ -1,35 +1,38 @@
 import random
-from Logger.log import logger
-from streamlink import Streamlink
-from fake_useragent import UserAgent
 import asyncio
+import traceback
+from Logger.log import logger
+from fake_useragent import UserAgent
 import aiohttp
 from aiohttp_socks import ProxyConnector
-import traceback
-import requests
+from aiohttp_socks import ProxyType
+import m3u8
 
 ua = UserAgent()
 
 class TwitchBot:
-    def __init__(self, streamlink_session, chanel_name, proxy, stop_event, delay_range=(1, 5)):
-        self.channel_url = "https://www.twitch.tv/" + chanel_name
+    def __init__(self, streamlink_session, channel_name, proxy, stop_event, id, delay_range=(1, 5)):
+        self.channel_url = "https://www.twitch.tv/" + channel_name
         self.proxy = proxy
         self.stop_event = stop_event
         self.delay_range = delay_range
         self.stream_session = streamlink_session
-        self.session: aiohttp.ClientSession = None
         self.running = False
+        self.id = id
+        self.last_active = asyncio.get_event_loop().time()
+        self.restart_attempts = 0
+        self.max_restarts = 5
 
     def configure_proxies(self):    
         if self.proxy.username and self.proxy.password:
             credentials = f"{self.proxy.username}:{self.proxy.password}@"
         else:
             credentials = ""
-    
+
         if self.proxy.type in ["socks4", "socks5"]:
             return f"socks5://{credentials}{self.proxy.ip}:{self.proxy.port}"
         return f"http://{credentials}{self.proxy.ip}:{self.proxy.port}"
-    
+
     async def get_url(self):
         url = ""
         try:
@@ -45,42 +48,112 @@ class TwitchBot:
 
     async def start(self):
         self.running = True
-        headers = {"User-Agent": ua.random}
         proxy_url = self.configure_proxies()
-        logger.info(f"Connecting with proxy: {proxy_url}")
+        logger.info(f"Bot ID:[{self.id}] Connecting with proxy: {proxy_url}")
+        try:
 
-        # connector = ProxyConnector.from_url(proxy_url)
-        # self.session = aiohttp.ClientSession(connector=connector, headers=headers)
+            connector = ProxyConnector(
+                proxy_type=ProxyType.SOCKS5 if self.proxy.type.lower() == 'socks5' else ProxyType.SOCKS4,
+                host=self.proxy.ip,
+                port=self.proxy.port,
+                username=self.proxy.username,
+                password=self.proxy.password
+            )
+            headers = {
+                "Accept-Language": "en-US,en;q=0.5",
+                "Connection": "keep-alive",
+                "DNT": "1",
+                "Upgrade-Insecure-Requests": "1",
+                "User-Agent": ua.random,
+                "Client-ID": "ewvlchtxgqq88ru9gmfp1gmyt6h2b93",
+                "Referer": "https://www.google.com/"
+            }
 
-        session = requests.Session() 
-        proxies = {
-            'http': proxy_url,
-            'https': proxy_url
-        }
-        while not self.stop_event.is_set():
-            try:
-                url = await self.get_url()
-                if url:
-                    #async with self.session.head(url, timeout=10):
-                    # def send_head():
-                    #     return session.head(url, proxies=proxies, headers=headers, timeout=10)
+            async with aiohttp.ClientSession(connector=connector, headers=headers) as session:
+                self.session = session 
+                stream_url = await self.get_simple_stream_url()  # Упрощённый метод получения URL
+                if not stream_url:
+                    logger.warning("Could not get stream URL")
+                    return
 
-                    # await asyncio.get_event_loop().run_in_executor(None, send_head)
+                await self.watch_stream(stream_url)
+        except Exception as e:
+            logger.error(f"Bot ID:[{self.id}] Error starting bot: {e}")
+            await asyncio.sleep(5)
 
-                    with requests.Session() as s:
-                        s.head(url, proxies=proxies, headers=headers, timeout=10)
+    async def watch_stream(self, stream_url):
+        logger.info(f"Bot ID:[{self.id}] Watching stream...")
+        retry_count = 0
+        max_retries = 3
 
-                    logger.info(f"Bot connected: {url}")
-            except Exception as e:
-                logger.error(f"Bot error: {e}")
-                logger.error(traceback.format_exc())
+        try:
+            while not self.stop_event.is_set() and self.running and retry_count < max_retries:
+                try:
+                    async with self.session.get(stream_url) as resp:
+                        if resp.status != 200:
+                            logger.warning(f"Bot ID:[{self.id}] Bad status: {resp.status}")
+                            retry_count += 1
+                            await asyncio.sleep(5)
+                            continue
 
-            await asyncio.sleep(random.randint(*self.delay_range))
+                        playlist = await resp.text()
+                        m3u8_obj = m3u8.loads(playlist)
+                        segment_urls = [seg.uri for seg in m3u8_obj.segments]
 
-        await self.stop()
+                        if not segment_urls:
+                            logger.warning(f"Bot ID:[{self.id}] No segments found.")
+                            retry_count += 1
+                            await asyncio.sleep(5)
+                            continue
+
+                        retry_count = 0
+
+                        for segment in segment_urls:
+                            if self.stop_event.is_set() or not self.running:
+                                return
+                            try:
+                                full_segment_url = segment if segment.startswith("http") else \
+                                    stream_url.rsplit("/", 1)[0] + "/" + segment
+
+                                async with self.session.get(full_segment_url) as seg_resp:
+                                    if seg_resp.status == 200:
+                                        self.last_active = asyncio.get_event_loop().time()
+                                    else:
+                                        logger.warning(f"Bot ID:[{self.id}] Bad segment status: {seg_resp.status}")
+                            except Exception as e:
+                                logger.error(f"Bot ID:[{self.id}] Error downloading segment: {e}")
+
+                            await asyncio.sleep(random.uniform(*self.delay_range))
+
+                except Exception as e:
+                    logger.error(f"Bot ID:[{self.id}] Watch loop error: {e}")
+                    retry_count += 1
+                    await asyncio.sleep(5 * retry_count)
+
+        except Exception as e:
+            logger.error(f"Bot ID:[{self.id}] Fatal stream error: {e}")
+        finally:
+            self.running = False
+
+
+    async def get_simple_stream_url(self):
+        """Упрощённый метод получения URL стрима"""
+        try:
+            # Здесь можно использовать синхронный Streamlink в отдельном потоке
+            streams = await asyncio.to_thread(self.stream_session.streams, self.channel_url)
+            return streams.get('audio_only', streams.get('worst')).url
+        except Exception as e:
+            logger.error(f"Error getting stream URL: {e}")
+            return None
+    
+    def is_inactive(self, threshold=120):
+        """Если бот не был активен threshold секунд — считаем его мертвым"""
+        now = asyncio.get_event_loop().time()
+        return (now - self.last_active) > threshold
+
+    def is_dead(self, threshold=120):
+        return not self.running or self.is_inactive(threshold)
 
     async def stop(self):
-        if self.session:
-            await self.session.close()
         self.running = False
-        logger.info("Bot session closed")
+        logger.info("Bot stopped")

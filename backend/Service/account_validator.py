@@ -1,24 +1,49 @@
-from typing import Optional, Tuple, List
-from sqlalchemy.ext.asyncio import AsyncSession
+import asyncio
 import aiohttp
+from typing import List, Optional, Tuple
+from sqlalchemy.ext.asyncio import AsyncSession
 from Data.Repositories.account_repository import AccountRepository
-from Logger.log import logger, log_color
 from Models.account import Account
 from Models.proxy import Proxy
-import asyncio
-from Managers.proxy_manager import ProxyManager
+from Logger.log import logger
+from aiohttp_socks import ProxyConnector
+from datetime import datetime
 
 
-class AccountValidator():
+class AccountValidator:
     def __init__(self, db: AsyncSession):
         self.db = db
         self.repo = AccountRepository(db)
-        self.proxy_manager = ProxyManager(db)
+        self.proxy_manager = None
+
+    @classmethod
+    async def create(cls, db: AsyncSession):
+        self = cls(db)
+        from Managers.proxy_manager import ProxyManager
+        self.proxy_manager = await ProxyManager.get_instance(db)
+        return self
+
+    def _format_proxy_url(self, proxy: Proxy) -> Optional[str]:
+        """Форматирует прокси в URL для подключения"""
+        if not proxy:
+            return None
+            
+        proxy_type = proxy.type.lower()
+        if proxy_type in ('http', 'https'):
+            if proxy.username and proxy.password:
+                return f"http://{proxy.username}:{proxy.password}@{proxy.ip}:{proxy.port}"
+            return f"http://{proxy.ip}:{proxy.port}"
+        elif proxy_type in ('socks', 'socks5'):
+            if proxy.username and proxy.password:
+                return f"socks5://{proxy.username}:{proxy.password}@{proxy.ip}:{proxy.port}"
+            return f"socks5://{proxy.ip}:{proxy.port}"
+        return None
 
     async def validate_account_twitch(self, account: Account, proxy: Proxy) -> Tuple[bool, Optional[str]]:
+        """Валидация Twitch аккаунта через прокси"""
         url = "https://id.twitch.tv/oauth2/validate"
         headers = {"Authorization": f"OAuth {account.token}"}
-        
+
         try:
             proxy_url = self._format_proxy_url(proxy)
             if not proxy_url:
@@ -26,7 +51,6 @@ class AccountValidator():
 
             connector = None
             if proxy.type.lower() in ('socks', 'socks5'):
-                from aiohttp_socks import ProxyConnector
                 connector = ProxyConnector.from_url(proxy_url)
 
             async with aiohttp.ClientSession(connector=connector) as session:
@@ -37,92 +61,93 @@ class AccountValidator():
                     ssl=False
                 ) as resp:
                     if resp.status == 200:
-                        data = await resp.json() #return client_id:Str, login:Str, scopes:List, user_id:Str, expires_in:Int
-                        logger.info(f"clientID: {data.client_id}")
+                        data = await resp.json()
                         return bool(data.get("login")), None
                     return False, f"HTTP error {resp.status}"
-                    
+
         except Exception as e:
             error_msg = str(e)
-            # Упрощаем сообщение об ошибке для логов
             if "Expected HTTP/" in error_msg:
                 error_msg = "SOCKS proxy connection failed"
             return False, error_msg
-        finally:
-            await self.proxy_manager.release_proxy(proxy.id)
 
-    def _format_proxy_url(self, proxy: Proxy) -> Optional[str]:
-        """Форматирует URL прокси для aiohttp с учетом особенностей SOCKS"""
-        if not proxy:
-            return None
-            
-        if proxy.type.lower() in ('http', 'https'):
-            return f"http://{proxy.ip}:{proxy.port}"
-            
-        elif proxy.type.lower() in ('socks', 'socks5'):
-            if proxy.username and proxy.password:
-                return f"socks5://{proxy.username}:{proxy.password}@{proxy.ip}:{proxy.port}"
-            return f"socks5://{proxy.ip}:{proxy.port}"
-        
-        return None
-    
-    async def validate_accounts(self, accounts: List[Account], max_concurrent: int = 10):
+    async def validate_account_youtube(self, account: Account, proxy: Proxy) -> Tuple[bool, Optional[str]]:
+        """Валидация YouTube аккаунта через прокси"""
+        # TODO: Реализовать валидацию YouTube аккаунтов
+        return False, "YouTube validation not implemented"
+
+    async def validate_account_kick(self, account: Account, proxy: Proxy) -> Tuple[bool, Optional[str]]:
+        """Валидация Kick аккаунта через прокси"""
+        # TODO: Реализовать валидацию Kick аккаунтов
+        return False, "Kick validation not implemented"
+
+    async def validate_account(self, account: Account) -> Account:
+        """Основной метод валидации аккаунта"""
+        try:
+            if self.proxy_manager is None:
+                from Managers.proxy_manager import ProxyManager
+                self.proxy_manager = await ProxyManager.get_instance(self.db)
+
+            platform = account.platform.lower()
+
+            # Получаем свободный прокси для этой платформы
+            proxy = await self.proxy_manager.get_free_proxy_not_account(platform)
+            if not proxy:
+                account.isValid = False
+                await self.repo.update_account(account)
+                return account
+
+            # Выбираем метод валидации в зависимости от платформы
+            if platform == 'twitch':
+                is_valid, error = await self.validate_account_twitch(account, proxy)
+            elif platform == 'youtube':
+                is_valid, error = await self.validate_account_youtube(account, proxy)
+            elif platform == 'kick':
+                is_valid, error = await self.validate_account_kick(account, proxy)
+            else:
+                is_valid, error = False, f"Unsupported platform: {platform}"
+
+            account.isValid = is_valid
+            account.lastChecked = datetime.utcnow()
+
+            # Если аккаунт валиден, привязываем к нему прокси
+            if is_valid:
+                account.proxy_id = proxy.id
+                proxy.active_accounts_count += 1
+                await self.db.commit()
+                logger.info(f"[{platform.capitalize()}] Account {account.user} - VALID (Proxy: {proxy.ip}:{proxy.port})")
+            else:
+                account.last_error = error
+                logger.info(f"[{platform.capitalize()}] Account {account.user} - INVALID ({error})")
+
+            await self.repo.update_account(account)
+            await self.proxy_manager.release_proxy(proxy.id)
+            return account
+
+        except Exception as e:
+            logger.error(f"Error validating account {account.user}: {str(e)}")
+            account.isValid = False
+            await self.repo.update_account(account)
+            return account
+
+    async def validate_accounts(self, accounts: List[Account], max_concurrent: int = 10) -> List[Account]:
+        """Валидация списка аккаунтов с ограничением одновременных запросов"""
         semaphore = asyncio.Semaphore(max_concurrent)
 
-        async def validate_with_semaphore(account: Account):
+        async def validate_one(account: Account):
             async with semaphore:
-                try:
-                    match account.platform.lower():
-                        case 'twitch':
-                            proxy = await self.proxy_manager.get_free_proxy('twitch')
-                            if not proxy:
-                                logger.warning(f"[Twitch] Нет свободных прокси для аккаунта {account.user}")
-                                account.isValid = False
-                                account.last_error = "No available proxies"
-                                return account
-                            
-                            is_valid, error = await self.validate_account_twitch(account, proxy)
-                            account.isValid = is_valid
-                            account.proxy_id = proxy.id if is_valid else None
-                            
-                            if is_valid:
-                                logger.info(f"[Twitch] Аккаунт {log_color.BLUE}{account.user}{log_color.RESET} - {log_color.GREEN}OK{log_color.RESET})")
-                            else:
-                                account.last_error = error
-                                logger.info(f"[Twitch] Аккаунт {log_color.BLUE}{account.user}{log_color.RESET} - {log_color.RED}Invalid{log_color.RESET} ({log_color.YELLOW}{error}{log_color.RESET}")
-                            
-                        case 'youtube':
-                            account.isValid = False
-                            account.last_error = "Platform not supported yet"
-                        case 'kick':
-                            account.isValid = False
-                            account.last_error = "Platform not supported yet"
-                        case _:
-                            account.isValid = False
-                            account.last_error = "Unknown platform"
-                    
-                    return account
-                
-                except Exception as e:
-                    logger.error(f"\033[31m[ERROR]\033[0m Ошибка при валидации аккаунта {account.user}: {str(e)}")
-                    account.isValid = False
-                    account.last_error = str(e)
-                    return account
+                return await self.validate_account(account)
 
-        validation_tasks = [validate_with_semaphore(account) for account in accounts]
-        results = await asyncio.gather(*validation_tasks)
-        
-        try:
+        tasks = [asyncio.create_task(validate_one(account)) for account in accounts]
+        results = await asyncio.gather(*tasks)
+        return results
+
+    async def validate_all_accounts(self, max_concurrent: int = 10) -> List[Account]:
+        """Валидация всех аккаунтов в базе данных"""
+        async with self.db.begin():
+            accounts = await self.repo.get_all()
+            logger.info(f"Starting validation of {len(accounts)} accounts")
+            validated_accounts = await self.validate_accounts(accounts, max_concurrent)
             await self.db.commit()
-        except Exception as e:
-            logger.error(f"\033[31m[DB ERROR]\033[0m Ошибка при сохранении результатов: {str(e)}")
-            await self.db.rollback()
-            raise
-        
-        return [r for r in results if r is not None]
-
-    async def validate_all_accounts(self, max_concurrent: int = 10):
-        accounts = await self.repo.get_all_twitch()
-        logger.info(f"\033[34m[INFO]\033[0m Начало валидации {len(accounts)} аккаунтов")
-        validated_accounts = await self.validate_accounts(accounts, max_concurrent)
-        return validated_accounts
+            logger.info(f"Completed validation of {len(validated_accounts)} accounts")
+            return validated_accounts

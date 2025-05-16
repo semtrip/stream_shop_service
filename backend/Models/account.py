@@ -9,6 +9,9 @@ class Account(Base):
     user = Column(String, nullable=True)
     token = Column(String, nullable=False)
     cookies = Column(String, nullable=False)
-    proxy_id = Column(Integer, ForeignKey("proxy.id"))
+
+    proxy_id = Column(Integer, ForeignKey("proxies.id"), nullable=True)
     platform = Column(String, nullable=False)  # youtube, kick, twitch
     isValid = Column(Boolean, default=False, nullable=False)
+
+    proxy = relationship("Proxy", back_populates="accounts")

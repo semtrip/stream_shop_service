@@ -4,6 +4,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from Data.Repositories.account_repository import AccountRepository
 from Models.account import Account
 from Logger.log import logger, log_color
+from Models.proxy import Proxy
 import os
 
 
@@ -55,6 +56,17 @@ class AccountManager:
                     self.busy_accounts[account.id] = True
                     return account
             return None
+
+    async def release_account_with_proxy(self, account_id: int):
+        """Освобождает аккаунт и уменьшает счетчик активных аккаунтов на прокси"""
+        async with self.lock:
+            account = await self.get_account_by_id(account_id)
+            if account and account.proxy_id:
+                proxy = await self.proxy_manager.get_proxy_by_id(account.proxy_id)
+                if proxy and proxy.active_accounts_count > 0:
+                    proxy.active_accounts_count -= 1
+                    await self.db.commit()
+            self.busy_accounts.pop(account_id, None)
 
     async def get_multiple_free_accounts(self, platform: str, count: int) -> List[Account]:
         """
@@ -134,6 +146,13 @@ class AccountManager:
         """Возвращает аккаунт по ID"""
         async with self.lock:
             return next((a for a in self.accounts if a.id == account_id), None)
+    
+    async def get_account_by_proxy_id(self, proxy_id: int) -> Optional[Account]:
+        """Возвращает аккаунт по ID"""
+        async with self.lock:
+            for accuont in self.accounts:
+                if(accuont.proxy_id == proxy_id):
+                    return accuont
 
     async def get_valid_accounts_count(self, platform: str) -> int:
         """Возвращает количество валидных аккаунтов для платформы"""

@@ -11,7 +11,7 @@ from Managers.proxy_manager import ProxyManager
 from Managers.account_manager import AccountManager
 from Models.task import BotTask, TaskStatus
 from Service.proxy_validator import ProxyValidator
-from Service.account_validator import AccountValidator
+from Service.account_validator2 import AccountValidator
 from Logger.log import logger, log_streamer
 from Ui.ui import MenuUI
 
@@ -69,7 +69,7 @@ class Commands():
     async def check_accounts(self):
         """Запуск валидации всех аккаунтов"""
         try:
-            account_validator = AccountValidator(self.db)
+            account_validator:AccountValidator = AccountValidator(self.db)
             await account_validator.validate_all_accounts()
         except Exception as e:
             logger.error(f"Ошибка при валидации аккаунтов: {e}")
@@ -78,8 +78,12 @@ class Commands():
     async def check_proxies(self):
         """Запуск валидации всех прокси"""
         try:
+            isNew = False
+            answer = await aioconsole.ainput("Проверять только новые? (y/n): ")
+            if answer.lower() == "y":
+                isNew = True
             proxy_validator = ProxyValidator(self.db)
-            await proxy_validator.validate_all_proxies()
+            await proxy_validator.validate_all_proxies(isNew)
         except Exception as e:
             self.menu_ui.display_message(f"Ошибка при валидации прокси: {e}")
 

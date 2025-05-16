@@ -15,6 +15,16 @@ class ProxyRepository:
         result = await self.db.execute(select(Proxy))
         return result.scalars().all()
 
+    async def get_all_invalid(self) -> List[Proxy]:
+        result = await self.db.execute(
+            select(Proxy).where(
+                Proxy.twitchValid == False,
+                Proxy.youtubeValid == False,
+                Proxy.kickValid == False
+            )
+        )
+        return result.scalars().all()
+
     async def get_valid_proxies(self, platform: str) -> List[Proxy]:
         """
         Получение списка валидных прокси для указанной платформы

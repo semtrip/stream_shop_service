@@ -2,6 +2,7 @@ import asyncio, re, os
 from typing import Dict, List, Optional
 from sqlalchemy.ext.asyncio import AsyncSession
 from Models.proxy import Proxy
+from Models.account import Account
 from Data.Repositories.proxy_repository import ProxyRepository
 from Logger.log import logger, log_color
 from datetime import datetime
@@ -55,6 +56,60 @@ class ProxyManager:
                     await self.db.commit()
                     return proxy
             return None
+    
+
+    async def get_free_proxy_and_account(self, platform: str) -> Optional[Proxy]:
+        """
+        Получает свободную прокси для указанной платформы с аккаунтом.
+        
+        :param platform: 'twitch', 'youtube' или 'kick'
+        :return: Proxy или None, если нет свободных
+        """
+        async with self.lock:
+            for proxy in self.proxies:
+                if not self._is_proxy_valid_for_platform_and_account(proxy, platform):
+                    continue
+                if proxy.id not in self.busy_proxies:
+                    self.busy_proxies[proxy.id] = True
+                    proxy.useds += 1
+                    await self.db.commit()
+                    return proxy
+            return None
+        
+    async def get_free_proxy_not_account(self, platform: str) -> Optional[Proxy]:
+        """
+        Получает свободную прокси для указанной платформы с аккаунтом.
+        
+        :param platform: 'twitch', 'youtube' или 'kick'
+        :return: Proxy или None, если нет свободных
+        """
+        async with self.lock:
+            for proxy in self.proxies:
+                if not self._is_proxy_valid_for_platform(proxy, platform):
+                    continue
+
+                if proxy.active_accounts_count > 0:
+                    continue
+                    
+                if proxy.id not in self.busy_proxies:
+                    self.busy_proxies[proxy.id] = True
+                    proxy.useds += 1
+                    await self.db.commit()
+                    return proxy
+            return None
+
+    async def bind_proxy_to_account(self, proxy: Proxy, account: Account):
+        """
+        Привязывает аккаунт к прокси:
+        - обновляет объект в памяти
+        - увеличивает счётчик активных аккаунтов
+        - сохраняет в БД
+        """
+        async with self.lock:
+            for current_proxy in self.proxies:
+                if(current_proxy.id == proxy.id):
+                    current_proxy.active_accounts_count += 1
+
 
     async def get_multiple_free_proxies(self, platform: str, count: int) -> List[Proxy]:
         """
@@ -89,6 +144,20 @@ class ProxyManager:
         elif platform == 'kick':
             return proxy.kickValid
         return False
+
+    def _is_proxy_valid_for_platform_and_account(self, proxy: Proxy, platform: str) -> bool:
+        """Проверяет, валидна ли прокси и есть ли аккаунт для платформы"""
+        valid_flag = getattr(proxy, f"{platform}Valid", False)
+        has_account = any(acc.platform == platform for acc in proxy.accounts)
+        return valid_flag and has_account
+
+
+    def _is_proxy_valid_for_platform_not_account(self, proxy: Proxy, platform: str) -> bool:
+        """Проверяет, валидна ли прокси и нет аккаунта по платформе"""
+        valid_flag = getattr(proxy, f"{platform}Valid", False)
+        has_account = any(acc.platform == platform for acc in proxy.accounts)
+        return valid_flag and not has_account
+
 
     async def release_proxy(self, proxy_id: int):
         """Освобождает прокси по ID"""
