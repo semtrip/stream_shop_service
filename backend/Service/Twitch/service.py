@@ -15,7 +15,7 @@ from Logger.log import logger, log_color
 ua = UserAgent()
 
 class TwitchService():
-    def __init__(self, account_manager, proxy_manager, url, count_bots, auth_bots, rump_time, proxies):
+    def __init__(self, account_manager, proxy_manager, url, count_bots, auth_bots, ramp_up_time, proxies):
         self.account_manager:AccountManager = account_manager
         self.proxy_manager:ProxyManager = proxy_manager
 
@@ -23,7 +23,7 @@ class TwitchService():
         self.channel_url = f"https://www.twitch.tv/{self.channel_name}"
         self.count_bots = count_bots
         self.auth_bots = auth_bots
-        self.rump_time = rump_time
+        self.rump_time = ramp_up_time
         self.bots:List[TwitchBot] = []
         self.threads = []
         self.proxies = proxies
@@ -44,13 +44,13 @@ class TwitchService():
         
 
     @classmethod
-    async def create(cls, db: AsyncSession, url, count_bots, auth_bots, rump_time=5):
+    async def create(cls, db: AsyncSession, url, count_bots, auth_bots, ramp_up_time=5):
         account_manager = await AccountManager.get_instance(db)
         proxy_manager = await ProxyManager.get_instance(db)
         proxies = await proxy_manager.get_multiple_free_proxies('twitch', count_bots)
         #proxy_account = await proxy_manager.get_free_proxy_and_account('twitch')
         #logger.info(proxy_account)
-        return cls(account_manager, proxy_manager, url, count_bots, auth_bots, rump_time, proxies)
+        return cls(account_manager, proxy_manager, url, count_bots, auth_bots, ramp_up_time, proxies)
 
     async def is_stream_live(self):
         logger.info(f"Проверка онлайна стрима {log_color.CYAN}{self.channel_name}{log_color.RESET}")
@@ -72,7 +72,7 @@ class TwitchService():
 
         logger.info(f"[TWITCH] Запуск {self.count_bots} ботов в течение {self.rump_time} времени")
         logger.info(f"[TWITCH] Получено прокси: {len(self.proxies)}")
-        total_delay_range= self.rump_time.minute * 60
+        total_delay_range= self.rump_time * 60
         for i in range(self.count_bots- self.auth_bots):
             proxy = self.proxies[i % len(self.proxies)]
             bot = TwitchBot(self.stream_session, self.channel_name, proxy, self.stop_event, id=i)

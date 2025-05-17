@@ -1,4 +1,0 @@
-[2025-05-17 02:44:30] [error] Bot ID:[229] Watch loop error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'euw12-0.playlist.ttvnw.net'. (_ssl.c:1028)
-[2025-05-17 02:44:36] [error] Bot ID:[229] Watch loop error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'euw12-0.playlist.ttvnw.net'. (_ssl.c:1028)
-[2025-05-17 02:44:48] [error] Bot ID:[229] Watch loop error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'euw12-0.playlist.ttvnw.net'. (_ssl.c:1028)
-[2025-05-17 02:47:51] [error] Bot ID:[333] Error downloading segment: [Errno 22] Couldn't connect to proxy 188.130.210.196:1051 [Превышен таймаут семафора]

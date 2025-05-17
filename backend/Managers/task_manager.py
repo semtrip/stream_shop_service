@@ -4,9 +4,11 @@ import asyncio
 from datetime import time, timedelta
 
 from Logger.log import logger, log_color
-from Service.Twitch.service import TwitchService
+#from Service.Twitch.service import TwitchService
+from Service.test.service2 import TwitchService
 from Models.task import BotTask, TaskStatus
 from Data.Repositories.task_repository import TaskRepository
+import datetime
 class TaskManager():
     _instance = None
 
@@ -107,15 +109,18 @@ class TaskManager():
 
     
     async def run_task(self, task_id: int):
-        task = self.tasks.get(task_id)
+        task:BotTask = self.tasks.get(task_id)
         if not task:
             logger.info(f"Ошибка: задача {task_id} не найдена")
             return
         if task.status == "Running":
             logger.info(f"Задача {task_id} уже запущена")
             return
-        if task.status in ["Cancelled", "Completed"]:
+        if task.status in [TaskStatus.Completed, TaskStatus.Cancelled]:
             logger.info(f"Задача {task_id} не может быть запущена (статус: {task.status})")
+            return
+        if task.elapsedTime and task.elapsedTime < datetime.time(hour=0, minute=1, second=0):
+            logger.info(f"Задача {task_id} осталось меньше 1 минуты. Запуск не возможен")
             return
         try:
             task.status = TaskStatus.Running
@@ -128,7 +133,7 @@ class TaskManager():
                             url=task.url,
                             count_bots=task.countBot,
                             auth_bots=task.authBot,
-                            rump_time=task.rampUpTime
+                            ramp_up_time=task.rampUpTime.minute
                         )
                         task.service = service
                         await self._wait_for_stream_online(task, service)

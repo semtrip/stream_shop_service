@@ -153,6 +153,15 @@ class AccountManager:
             for accuont in self.accounts:
                 if(accuont.proxy_id == proxy_id):
                     return accuont
+        return None
+    
+    def get_account_by_proxy_id_sync(self, proxy_id: int) -> Optional[Account]:
+        """Возвращает аккаунт по ID"""
+        with self.lock:
+            for accuont in self.accounts:
+                if(accuont.proxy_id == proxy_id):
+                    return accuont
+        return None
 
     async def get_valid_accounts_count(self, platform: str) -> int:
         """Возвращает количество валидных аккаунтов для платформы"""

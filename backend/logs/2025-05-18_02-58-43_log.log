@@ -1,0 +1,505 @@
+[2025-05-18 02:58:45] [info] Загружено [36m1[0m задач в память
+[2025-05-18 02:58:45] [info] Сброс выполняющихся и ошибочных задач в статус Pending...
+[2025-05-18 02:58:45] [info] Сброшено [33m1[0m задач.
+[2025-05-18 02:58:45] [info] Загружено [36m800[0m прокси в память
+[2025-05-18 02:58:45] [info] Загружено [36m800[0m аккаунтов в память
+[2025-05-18 02:58:56] [info] Twitch service иницилизирован для semtrip
+[2025-05-18 02:58:56] [info] Запускается Twitch-сервис для задачи 2 (URL: https://www.twitch.tv/semtrip)
+[2025-05-18 02:58:56] [info] Проверка онлайна стрима [36msemtrip[0m
+[2025-05-18 02:58:59] [info] [TWITCH isStreamLive] stream [36msemtrip[0m - [32mOnline[0m
+[2025-05-18 02:58:59] [info] Стрим https://www.twitch.tv/semtrip в эфире. Начинаем выполнение задачи 2.
+[2025-05-18 02:58:59] [info] [TWITCH] Запуск 100 ботов в течение 1 времени
+[2025-05-18 02:58:59] [info] [TWITCH] Получено прокси: 100
+[2025-05-18 02:58:59] [info] Bot ID:[14] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@188.130.129.73:1051
+[2025-05-18 02:59:00] [info] Bot ID:[27] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@188.130.185.213:1051
+[2025-05-18 02:59:01] [info] Bot ID:[14] Watching stream...
+[2025-05-18 02:59:01] [info] Bot ID:[14] Connecting to chat as kaoticexorcist
+[2025-05-18 02:59:01] [error] Bot ID:[14] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:01] [info] Bot ID:[66] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@46.8.213.114:1051
+[2025-05-18 02:59:01] [info] Bot ID:[27] Watching stream...
+[2025-05-18 02:59:01] [info] Bot ID:[27] Connecting to chat as soonesong
+[2025-05-18 02:59:01] [info] Bot ID:[29] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.15.90:1051
+[2025-05-18 02:59:01] [error] Bot ID:[27] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:02] [info] Bot ID:[52] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.143.225:1051
+[2025-05-18 02:59:02] [info] Bot ID:[5] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@45.81.137.236:1051
+[2025-05-18 02:59:02] [info] Bot ID:[29] Watching stream...
+[2025-05-18 02:59:02] [info] Bot ID:[29] Connecting to chat as nzbibon
+[2025-05-18 02:59:03] [info] Bot ID:[66] Watching stream...
+[2025-05-18 02:59:03] [error] Bot ID:[29] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:03] [error] Bot ID:[66] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:03] [info] Bot ID:[52] Watching stream...
+[2025-05-18 02:59:03] [error] Bot ID:[52] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:04] [info] Bot ID:[5] Watching stream...
+[2025-05-18 02:59:04] [info] Bot ID:[5] Connecting to chat as walquinfps
+[2025-05-18 02:59:04] [error] Bot ID:[5] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:04] [info] Bot ID:[17] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.142.86:1051
+[2025-05-18 02:59:04] [info] Bot ID:[21] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.143.127:1051
+[2025-05-18 02:59:05] [info] Bot ID:[0] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.142.14:1051
+[2025-05-18 02:59:05] [info] Bot ID:[40] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.204.232:1051
+[2025-05-18 02:59:05] [info] Bot ID:[61] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.138.72:1051
+[2025-05-18 02:59:05] [info] Bot ID:[67] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.14.119:1051
+[2025-05-18 02:59:05] [info] Bot ID:[36] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@45.15.73.177:1051
+[2025-05-18 02:59:05] [info] Bot ID:[17] Watching stream...
+[2025-05-18 02:59:05] [info] Bot ID:[17] Connecting to chat as zlegi
+[2025-05-18 02:59:05] [info] Bot ID:[35] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@46.8.23.195:1051
+[2025-05-18 02:59:06] [error] Bot ID:[17] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:06] [info] Bot ID:[21] Watching stream...
+[2025-05-18 02:59:06] [info] Bot ID:[21] Connecting to chat as aly__nee
+[2025-05-18 02:59:06] [error] Bot ID:[21] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:06] [error] Bot ID:[14] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:06] [info] Bot ID:[36] Watching stream...
+[2025-05-18 02:59:06] [info] Bot ID:[61] Watching stream...
+[2025-05-18 02:59:06] [info] Bot ID:[40] Watching stream...
+[2025-05-18 02:59:06] [info] Bot ID:[0] Watching stream...
+[2025-05-18 02:59:06] [info] Bot ID:[67] Watching stream...
+[2025-05-18 02:59:06] [info] Bot ID:[8] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@188.130.186.169:1051
+[2025-05-18 02:59:06] [error] Bot ID:[36] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:06] [error] Bot ID:[61] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:06] [error] Bot ID:[40] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:06] [error] Bot ID:[0] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:06] [error] Bot ID:[67] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:06] [error] Bot ID:[27] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:07] [info] Bot ID:[35] Watching stream...
+[2025-05-18 02:59:07] [error] Bot ID:[35] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:07] [info] Bot ID:[62] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@2.59.50.220:1051
+[2025-05-18 02:59:07] [info] Bot ID:[8] Watching stream...
+[2025-05-18 02:59:07] [info] Bot ID:[68] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@188.130.186.88:1051
+[2025-05-18 02:59:08] [info] Bot ID:[21] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.143.127:1051
+[2025-05-18 02:59:08] [error] Bot ID:[8] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:08] [info] Bot ID:[26] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@45.86.1.166:1051
+[2025-05-18 02:59:08] [error] Bot ID:[29] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:08] [info] Bot ID:[13] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@46.8.193.118:1051
+[2025-05-18 02:59:08] [error] Bot ID:[66] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:08] [info] Bot ID:[62] Watching stream...
+[2025-05-18 02:59:08] [info] Bot ID:[47] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.167.195:1051
+[2025-05-18 02:59:08] [info] Bot ID:[53] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@46.8.223.89:1051
+[2025-05-18 02:59:09] [error] Bot ID:[62] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:09] [error] Bot ID:[52] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:09] [info] Bot ID:[18] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@45.86.1.196:1051
+[2025-05-18 02:59:09] [info] Bot ID:[68] Watching stream...
+[2025-05-18 02:59:09] [info] Bot ID:[21] Watching stream...
+[2025-05-18 02:59:09] [info] Bot ID:[13] Watching stream...
+[2025-05-18 02:59:09] [info] Bot ID:[28] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@46.8.193.212:1051
+[2025-05-18 02:59:09] [error] Bot ID:[68] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:09] [error] Bot ID:[5] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:09] [error] Bot ID:[21] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:09] [error] Bot ID:[13] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:09] [info] Bot ID:[38] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.142.108:1051
+[2025-05-18 02:59:09] [info] Bot ID:[32] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.167.101:1051
+[2025-05-18 02:59:09] [info] Bot ID:[26] Watching stream...
+[2025-05-18 02:59:10] [info] Bot ID:[18] Watching stream...
+[2025-05-18 02:59:10] [info] Bot ID:[53] Watching stream...
+[2025-05-18 02:59:10] [info] Bot ID:[47] Watching stream...
+[2025-05-18 02:59:10] [error] Bot ID:[26] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:10] [error] Bot ID:[18] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:10] [error] Bot ID:[53] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:10] [error] Bot ID:[47] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:10] [info] Bot ID:[38] Watching stream...
+[2025-05-18 02:59:10] [error] Bot ID:[38] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:11] [info] Bot ID:[28] Watching stream...
+[2025-05-18 02:59:11] [error] Bot ID:[17] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:11] [info] Bot ID:[32] Watching stream...
+[2025-05-18 02:59:11] [error] Bot ID:[28] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:11] [error] Bot ID:[32] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:11] [error] Bot ID:[21] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:11] [info] Bot ID:[55] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@46.8.23.69:1051
+[2025-05-18 02:59:12] [error] Bot ID:[36] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:12] [error] Bot ID:[0] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:12] [error] Bot ID:[61] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:12] [error] Bot ID:[40] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:12] [error] Bot ID:[67] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:12] [info] Bot ID:[55] Watching stream...
+[2025-05-18 02:59:12] [info] Bot ID:[16] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@95.182.127.28:1051
+[2025-05-18 02:59:12] [error] Bot ID:[35] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:12] [info] Bot ID:[50] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@46.8.110.142:1051
+[2025-05-18 02:59:12] [error] Bot ID:[55] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:12] [info] Bot ID:[42] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@31.40.203.75:1051
+[2025-05-18 02:59:13] [error] Bot ID:[8] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:13] [info] Bot ID:[16] Watching stream...
+[2025-05-18 02:59:13] [info] Bot ID:[16] Connecting to chat as zorolev12
+[2025-05-18 02:59:13] [error] Bot ID:[16] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:13] [info] Bot ID:[19] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@46.8.16.237:1051
+[2025-05-18 02:59:13] [info] Bot ID:[50] Watching stream...
+[2025-05-18 02:59:14] [info] Bot ID:[42] Watching stream...
+[2025-05-18 02:59:14] [error] Bot ID:[50] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:14] [error] Bot ID:[62] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:14] [error] Bot ID:[42] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:14] [info] Bot ID:[10] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@45.15.72.40:1051
+[2025-05-18 02:59:14] [info] Bot ID:[25] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@46.8.22.108:1051
+[2025-05-18 02:59:14] [error] Bot ID:[68] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:14] [error] Bot ID:[21] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:14] [info] Bot ID:[19] Watching stream...
+[2025-05-18 02:59:14] [error] Bot ID:[13] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:14] [info] Bot ID:[5] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@45.81.137.236:1051
+[2025-05-18 02:59:15] [error] Bot ID:[19] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:15] [info] Bot ID:[0] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.142.14:1051
+[2025-05-18 02:59:15] [error] Bot ID:[26] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:15] [error] Bot ID:[18] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:15] [error] Bot ID:[53] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:15] [error] Bot ID:[47] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:15] [info] Bot ID:[10] Watching stream...
+[2025-05-18 02:59:15] [info] Bot ID:[3] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@213.226.101.115:1051
+[2025-05-18 02:59:15] [info] Bot ID:[25] Watching stream...
+[2025-05-18 02:59:15] [error] Bot ID:[10] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:16] [error] Bot ID:[25] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:16] [info] Bot ID:[5] Watching stream...
+[2025-05-18 02:59:16] [info] Bot ID:[4] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@188.130.142.220:1051
+[2025-05-18 02:59:16] [error] Bot ID:[38] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:16] [info] Bot ID:[0] Watching stream...
+[2025-05-18 02:59:16] [info] Bot ID:[0] Connecting to chat as matprogamez
+[2025-05-18 02:59:16] [info] Bot ID:[11] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.167.244:1051
+[2025-05-18 02:59:16] [error] Bot ID:[5] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:16] [error] Bot ID:[0] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:16] [error] Bot ID:[28] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:16] [info] Bot ID:[14] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@188.130.129.73:1051
+[2025-05-18 02:59:16] [error] Bot ID:[32] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:16] [info] Bot ID:[3] Watching stream...
+[2025-05-18 02:59:16] [error] Bot ID:[14] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:16] [error] Bot ID:[3] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:17] [error] Bot ID:[27] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:17] [info] Bot ID:[11] Watching stream...
+[2025-05-18 02:59:17] [error] Bot ID:[11] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:17] [info] Bot ID:[4] Watching stream...
+[2025-05-18 02:59:17] [error] Bot ID:[4] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:17] [info] Bot ID:[14] Watching stream...
+[2025-05-18 02:59:18] [error] Bot ID:[55] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:18] [error] Bot ID:[14] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:18] [info] Bot ID:[1] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@46.8.10.65:1051
+[2025-05-18 02:59:18] [error] Bot ID:[29] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:18] [error] Bot ID:[66] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:18] [error] Bot ID:[16] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:19] [info] Bot ID:[11] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.167.244:1051
+[2025-05-18 02:59:19] [error] Bot ID:[52] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:19] [error] Bot ID:[50] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:19] [info] Bot ID:[22] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@188.130.128.220:1051
+[2025-05-18 02:59:19] [info] Bot ID:[1] Watching stream...
+[2025-05-18 02:59:19] [info] Bot ID:[1] Connecting to chat as ezau_8
+[2025-05-18 02:59:19] [error] Bot ID:[42] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:19] [error] Bot ID:[1] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:19] [error] Bot ID:[5] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:20] [info] Bot ID:[11] Watching stream...
+[2025-05-18 02:59:20] [info] Bot ID:[11] Connecting to chat as strawhatr6
+[2025-05-18 02:59:20] [error] Bot ID:[19] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:20] [info] Bot ID:[15] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@45.90.196.121:1051
+[2025-05-18 02:59:20] [error] Bot ID:[11] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:20] [info] Bot ID:[22] Watching stream...
+[2025-05-18 02:59:20] [error] Bot ID:[22] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:21] [error] Bot ID:[10] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:21] [error] Bot ID:[25] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:21] [error] Bot ID:[17] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:21] [error] Bot ID:[5] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:21] [error] Bot ID:[0] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:21] [error] Bot ID:[21] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:21] [info] Bot ID:[15] Watching stream...
+[2025-05-18 02:59:21] [error] Bot ID:[15] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:22] [error] Bot ID:[3] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:22] [error] Bot ID:[61] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:22] [error] Bot ID:[36] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:22] [info] Bot ID:[60] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@185.181.245.63:1051
+[2025-05-18 02:59:22] [error] Bot ID:[0] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:22] [error] Bot ID:[40] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:22] [error] Bot ID:[67] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:22] [info] Bot ID:[26] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@45.86.1.166:1051
+[2025-05-18 02:59:22] [info] Bot ID:[29] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.15.90:1051
+[2025-05-18 02:59:22] [error] Bot ID:[11] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:22] [error] Bot ID:[35] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:23] [error] Bot ID:[4] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:23] [info] Bot ID:[60] Watching stream...
+[2025-05-18 02:59:23] [error] Bot ID:[14] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:23] [info] Bot ID:[15] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@45.90.196.121:1051
+[2025-05-18 02:59:23] [error] Bot ID:[60] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:23] [error] Bot ID:[8] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:23] [info] Bot ID:[29] Watching stream...
+[2025-05-18 02:59:23] [info] Bot ID:[26] Watching stream...
+[2025-05-18 02:59:23] [info] Bot ID:[26] Connecting to chat as nobreadface
+[2025-05-18 02:59:23] [error] Bot ID:[29] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:23] [error] Bot ID:[26] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:24] [error] Bot ID:[62] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:24] [info] Bot ID:[15] Watching stream...
+[2025-05-18 02:59:24] [info] Bot ID:[15] Connecting to chat as steezywicked
+[2025-05-18 02:59:24] [error] Bot ID:[15] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:24] [error] Bot ID:[1] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:25] [error] Bot ID:[68] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:25] [error] Bot ID:[21] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:25] [error] Bot ID:[13] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:25] [info] Bot ID:[31] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@46.8.57.96:1051
+[2025-05-18 02:59:25] [info] Bot ID:[44] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@46.8.155.30:1051
+[2025-05-18 02:59:25] [info] Bot ID:[2] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@45.11.20.219:1051
+[2025-05-18 02:59:25] [error] Bot ID:[26] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:25] [info] Bot ID:[16] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@95.182.127.28:1051
+[2025-05-18 02:59:25] [error] Bot ID:[11] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:25] [error] Bot ID:[18] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:25] [error] Bot ID:[53] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:25] [error] Bot ID:[47] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:25] [error] Bot ID:[22] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:26] [info] Bot ID:[6] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@188.130.137.120:1051
+[2025-05-18 02:59:26] [info] Bot ID:[31] Watching stream...
+[2025-05-18 02:59:26] [error] Bot ID:[38] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:26] [info] Bot ID:[44] Watching stream...
+[2025-05-18 02:59:26] [error] Bot ID:[31] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:26] [info] Bot ID:[17] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.142.86:1051
+[2025-05-18 02:59:26] [error] Bot ID:[44] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:26] [error] Bot ID:[28] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:26] [info] Bot ID:[2] Watching stream...
+[2025-05-18 02:59:26] [info] Bot ID:[2] Connecting to chat as exotiic_r
+[2025-05-18 02:59:26] [error] Bot ID:[32] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:26] [error] Bot ID:[2] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:27] [info] Bot ID:[16] Watching stream...
+[2025-05-18 02:59:27] [error] Bot ID:[15] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:27] [error] Bot ID:[16] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:27] [info] Bot ID:[6] Watching stream...
+[2025-05-18 02:59:27] [error] Bot ID:[6] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:27] [info] Bot ID:[17] Watching stream...
+[2025-05-18 02:59:27] [error] Bot ID:[17] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:28] [error] Bot ID:[55] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:28] [info] Bot ID:[54] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@188.130.186.132:1051
+[2025-05-18 02:59:28] [error] Bot ID:[60] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:28] [error] Bot ID:[29] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:29] [info] Bot ID:[63] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@46.8.14.58:1051
+[2025-05-18 02:59:29] [error] Bot ID:[26] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:29] [error] Bot ID:[16] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:29] [info] Bot ID:[45] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@46.8.17.231:1051
+[2025-05-18 02:59:29] [info] Bot ID:[54] Watching stream...
+[2025-05-18 02:59:29] [error] Bot ID:[50] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:29] [error] Bot ID:[54] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:29] [error] Bot ID:[42] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:29] [error] Bot ID:[15] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:30] [info] Bot ID:[65] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@46.8.56.253:1051
+[2025-05-18 02:59:30] [error] Bot ID:[19] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:30] [info] Bot ID:[63] Watching stream...
+[2025-05-18 02:59:30] [error] Bot ID:[63] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:30] [info] Bot ID:[34] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@46.8.56.211:1051
+[2025-05-18 02:59:30] [info] Bot ID:[45] Watching stream...
+[2025-05-18 02:59:31] [error] Bot ID:[45] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:31] [error] Bot ID:[10] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:31] [info] Bot ID:[24] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@194.34.248.5:1051
+[2025-05-18 02:59:31] [error] Bot ID:[25] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:31] [info] Bot ID:[65] Watching stream...
+[2025-05-18 02:59:31] [info] Bot ID:[14] One of tasks completed, restarting...
+[2025-05-18 02:59:31] [error] Bot ID:[0] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:31] [error] Bot ID:[5] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:31] [error] Bot ID:[31] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:31] [error] Bot ID:[44] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:31] [error] Bot ID:[65] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:32] [info] Bot ID:[27] One of tasks completed, restarting...
+[2025-05-18 02:59:32] [error] Bot ID:[2] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:32] [error] Bot ID:[3] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:32] [info] Bot ID:[28] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@46.8.193.212:1051
+[2025-05-18 02:59:32] [info] Bot ID:[34] Watching stream...
+[2025-05-18 02:59:32] [info] Bot ID:[24] Watching stream...
+[2025-05-18 02:59:32] [info] Bot ID:[24] Connecting to chat as chungyqueso
+[2025-05-18 02:59:32] [error] Bot ID:[16] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:32] [error] Bot ID:[24] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:32] [error] Bot ID:[34] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:32] [error] Bot ID:[6] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:32] [error] Bot ID:[11] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:33] [error] Bot ID:[17] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:33] [error] Bot ID:[4] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:33] [info] Bot ID:[29] One of tasks completed, restarting...
+[2025-05-18 02:59:33] [error] Bot ID:[14] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:33] [info] Bot ID:[57] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@46.8.155.238:1051
+[2025-05-18 02:59:33] [info] Bot ID:[46] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@45.15.73.143:1051
+[2025-05-18 02:59:33] [info] Bot ID:[28] Watching stream...
+[2025-05-18 02:59:33] [info] Bot ID:[28] Connecting to chat as benni2131
+[2025-05-18 02:59:33] [error] Bot ID:[28] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:34] [info] Bot ID:[9] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@46.8.23.199:1051
+[2025-05-18 02:59:34] [info] Bot ID:[57] Watching stream...
+[2025-05-18 02:59:34] [info] Bot ID:[5] One of tasks completed, restarting...
+[2025-05-18 02:59:34] [info] Bot ID:[46] Watching stream...
+[2025-05-18 02:59:34] [error] Bot ID:[54] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:34] [error] Bot ID:[57] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:35] [error] Bot ID:[46] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:35] [info] Bot ID:[7] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.142.136:1051
+[2025-05-18 02:59:35] [error] Bot ID:[1] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:35] [info] Bot ID:[37] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@95.182.124.145:1051
+[2025-05-18 02:59:35] [info] Bot ID:[9] Watching stream...
+[2025-05-18 02:59:35] [error] Bot ID:[11] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:35] [error] Bot ID:[9] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:36] [error] Bot ID:[63] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:36] [error] Bot ID:[22] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:36] [info] Bot ID:[30] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@46.8.57.126:1051
+[2025-05-18 02:59:36] [info] Bot ID:[7] Watching stream...
+[2025-05-18 02:59:36] [info] Bot ID:[7] Connecting to chat as mafas_jb
+[2025-05-18 02:59:36] [info] Bot ID:[17] One of tasks completed, restarting...
+[2025-05-18 02:59:36] [error] Bot ID:[45] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:36] [error] Bot ID:[7] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:36] [info] Bot ID:[21] One of tasks completed, restarting...
+[2025-05-18 02:59:36] [info] Bot ID:[37] Watching stream...
+[2025-05-18 02:59:36] [error] Bot ID:[37] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:37] [info] Bot ID:[23] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@45.11.20.111:1051
+[2025-05-18 02:59:37] [error] Bot ID:[65] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:37] [error] Bot ID:[15] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:37] [info] Bot ID:[39] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@194.34.248.143:1051
+[2025-05-18 02:59:37] [info] Bot ID:[30] Watching stream...
+[2025-05-18 02:59:37] [error] Bot ID:[24] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:37] [error] Bot ID:[34] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:37] [error] Bot ID:[30] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:38] [info] Bot ID:[12] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.142.138:1051
+[2025-05-18 02:59:38] [info] Bot ID:[23] Watching stream...
+[2025-05-18 02:59:38] [error] Bot ID:[23] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:38] [info] Bot ID:[12] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.142.138:1051
+[2025-05-18 02:59:38] [info] Bot ID:[39] Watching stream...
+[2025-05-18 02:59:38] [error] Bot ID:[60] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:38] [error] Bot ID:[39] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:39] [info] Bot ID:[6] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@188.130.137.120:1051
+[2025-05-18 02:59:39] [error] Bot ID:[28] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:39] [error] Bot ID:[29] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:39] [info] Bot ID:[12] Watching stream...
+[2025-05-18 02:59:39] [info] Bot ID:[12] Connecting to chat as 3sway_
+[2025-05-18 02:59:39] [error] Bot ID:[26] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:39] [error] Bot ID:[12] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:39] [info] Bot ID:[25] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@46.8.22.108:1051
+[2025-05-18 02:59:40] [error] Bot ID:[15] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:40] [info] Bot ID:[12] Watching stream...
+[2025-05-18 02:59:40] [error] Bot ID:[57] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:40] [error] Bot ID:[46] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:40] [error] Bot ID:[12] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:40] [info] Bot ID:[6] Watching stream...
+[2025-05-18 02:59:40] [info] Bot ID:[6] Connecting to chat as juancamilojimenez4567
+[2025-05-18 02:59:40] [error] Bot ID:[6] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:41] [info] Bot ID:[25] Watching stream...
+[2025-05-18 02:59:41] [info] Bot ID:[25] Connecting to chat as italo186465
+[2025-05-18 02:59:41] [error] Bot ID:[9] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:41] [error] Bot ID:[25] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:41] [error] Bot ID:[7] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:41] [info] Bot ID:[59] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@188.130.129.42:1051
+[2025-05-18 02:59:42] [error] Bot ID:[31] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:42] [error] Bot ID:[44] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:42] [error] Bot ID:[37] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:42] [error] Bot ID:[2] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:42] [error] Bot ID:[16] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:42] [error] Bot ID:[6] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:43] [error] Bot ID:[30] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:43] [info] Bot ID:[59] Watching stream...
+[2025-05-18 02:59:43] [error] Bot ID:[17] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:43] [info] Bot ID:[22] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@188.130.128.220:1051
+[2025-05-18 02:59:43] [error] Bot ID:[59] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:43] [info] Bot ID:[8] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@188.130.186.169:1051
+[2025-05-18 02:59:43] [error] Bot ID:[23] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:44] [info] Bot ID:[16] One of tasks completed, restarting...
+[2025-05-18 02:59:44] [error] Bot ID:[39] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:44] [info] Bot ID:[22] Watching stream...
+[2025-05-18 02:59:44] [info] Bot ID:[22] Connecting to chat as core_z0mb1e
+[2025-05-18 02:59:44] [error] Bot ID:[12] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:44] [error] Bot ID:[22] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:44] [info] Bot ID:[2] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@45.11.20.219:1051
+[2025-05-18 02:59:44] [info] Bot ID:[49] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@188.130.219.61:1051
+[2025-05-18 02:59:44] [info] Bot ID:[1] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@46.8.10.65:1051
+[2025-05-18 02:59:45] [error] Bot ID:[54] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:45] [info] Bot ID:[8] Watching stream...
+[2025-05-18 02:59:45] [info] Bot ID:[8] Connecting to chat as justmartinyo
+[2025-05-18 02:59:45] [info] Bot ID:[9] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@46.8.23.199:1051
+[2025-05-18 02:59:45] [error] Bot ID:[8] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:45] [error] Bot ID:[12] Watch loop error: 0 bytes read on a total of 2 expected bytes
+[2025-05-18 02:59:45] [info] Bot ID:[2] Watching stream...
+[2025-05-18 02:59:45] [info] Bot ID:[51] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.205.187:1051
+[2025-05-18 02:59:45] [info] Bot ID:[69] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.204.204:1051
+[2025-05-18 02:59:45] [error] Bot ID:[2] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:46] [info] Bot ID:[49] Watching stream...
+[2025-05-18 02:59:46] [info] Bot ID:[1] Watching stream...
+[2025-05-18 02:59:46] [error] Bot ID:[6] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:46] [error] Bot ID:[49] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:46] [error] Bot ID:[63] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:46] [error] Bot ID:[1] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:46] [error] Bot ID:[25] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:46] [error] Bot ID:[45] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:46] [info] Bot ID:[9] Watching stream...
+[2025-05-18 02:59:46] [info] Bot ID:[9] Connecting to chat as gbfxp55
+[2025-05-18 02:59:46] [info] Bot ID:[33] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@45.87.252.181:1051
+[2025-05-18 02:59:46] [info] Bot ID:[0] One of tasks completed, restarting...
+[2025-05-18 02:59:46] [error] Bot ID:[9] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:46] [info] Bot ID:[51] Watching stream...
+[2025-05-18 02:59:47] [error] Bot ID:[51] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:47] [info] Bot ID:[41] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@194.32.229.62:1051
+[2025-05-18 02:59:47] [info] Bot ID:[69] Watching stream...
+[2025-05-18 02:59:47] [error] Bot ID:[65] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:47] [error] Bot ID:[69] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:47] [info] Bot ID:[33] Watching stream...
+[2025-05-18 02:59:47] [error] Bot ID:[33] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:48] [error] Bot ID:[24] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:48] [error] Bot ID:[34] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:48] [info] Bot ID:[41] Watching stream...
+[2025-05-18 02:59:48] [error] Bot ID:[41] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:48] [info] Bot ID:[3] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@213.226.101.115:1051
+[2025-05-18 02:59:48] [info] Bot ID:[20] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@46.8.212.110:1051
+[2025-05-18 02:59:48] [info] Bot ID:[18] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@45.86.1.196:1051
+[2025-05-18 02:59:48] [error] Bot ID:[59] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:49] [info] Bot ID:[64] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@45.86.0.54:1051
+[2025-05-18 02:59:49] [error] Bot ID:[28] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:49] [info] Bot ID:[3] Watching stream...
+[2025-05-18 02:59:49] [info] Bot ID:[3] Connecting to chat as tossantos2
+[2025-05-18 02:59:49] [info] Bot ID:[20] Watching stream...
+[2025-05-18 02:59:49] [info] Bot ID:[20] Connecting to chat as 666_bambi_666
+[2025-05-18 02:59:49] [info] Bot ID:[18] Watching stream...
+[2025-05-18 02:59:49] [info] Bot ID:[18] Connecting to chat as brunax___
+[2025-05-18 02:59:49] [error] Bot ID:[3] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:49] [error] Bot ID:[20] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:49] [error] Bot ID:[18] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:49] [error] Bot ID:[22] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:50] [info] Bot ID:[1] One of tasks completed, restarting...
+[2025-05-18 02:59:50] [info] Bot ID:[27] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@188.130.185.213:1051
+[2025-05-18 02:59:50] [error] Bot ID:[57] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:50] [error] Bot ID:[46] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:50] [info] Bot ID:[64] Watching stream...
+[2025-05-18 02:59:50] [error] Bot ID:[8] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:50] [error] Bot ID:[64] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:50] [info] Bot ID:[11] One of tasks completed, restarting...
+[2025-05-18 02:59:51] [info] Bot ID:[23] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@45.11.20.111:1051
+[2025-05-18 02:59:51] [error] Bot ID:[2] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:51] [info] Bot ID:[27] Watching stream...
+[2025-05-18 02:59:51] [error] Bot ID:[9] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:51] [error] Bot ID:[49] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:51] [error] Bot ID:[1] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:51] [error] Bot ID:[27] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:51] [info] Bot ID:[13] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@46.8.193.118:1051
+[2025-05-18 02:59:51] [error] Bot ID:[7] Watch loop error: 0 bytes read on a total of 2 expected bytes
+[2025-05-18 02:59:52] [error] Bot ID:[9] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:52] [info] Bot ID:[23] Watching stream...
+[2025-05-18 02:59:52] [info] Bot ID:[23] Connecting to chat as shadowanrs3
+[2025-05-18 02:59:52] [error] Bot ID:[51] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:52] [error] Bot ID:[23] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:52] [error] Bot ID:[37] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:52] [error] Bot ID:[69] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:53] [error] Bot ID:[33] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:53] [error] Bot ID:[30] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:53] [info] Bot ID:[13] Watching stream...
+[2025-05-18 02:59:53] [info] Bot ID:[13] Connecting to chat as valehps99
+[2025-05-18 02:59:53] [info] Bot ID:[43] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@194.35.113.21:1051
+[2025-05-18 02:59:53] [error] Bot ID:[13] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:53] [error] Bot ID:[41] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:54] [info] Bot ID:[10] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@45.15.72.40:1051
+[2025-05-18 02:59:54] [error] Bot ID:[23] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:54] [info] Bot ID:[58] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.204.216:1051
+[2025-05-18 02:59:54] [info] Bot ID:[26] One of tasks completed, restarting...
+[2025-05-18 02:59:54] [error] Bot ID:[39] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:54] [info] Bot ID:[43] Watching stream...
+[2025-05-18 02:59:54] [error] Bot ID:[12] Watch loop error: 0 bytes read on a total of 2 expected bytes
+[2025-05-18 02:59:54] [error] Bot ID:[43] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:54] [error] Bot ID:[20] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:54] [error] Bot ID:[3] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:55] [error] Bot ID:[18] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:55] [info] Bot ID:[15] One of tasks completed, restarting...
+[2025-05-18 02:59:55] [info] Bot ID:[24] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@194.34.248.5:1051
+[2025-05-18 02:59:55] [info] Bot ID:[4] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@188.130.142.220:1051
+[2025-05-18 02:59:55] [info] Bot ID:[10] Watching stream...
+[2025-05-18 02:59:55] [info] Bot ID:[10] Connecting to chat as the_gamer_003
+[2025-05-18 02:59:55] [info] Bot ID:[58] Watching stream...
+[2025-05-18 02:59:55] [error] Bot ID:[10] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:55] [error] Bot ID:[12] Watch loop error: 0 bytes read on a total of 2 expected bytes
+[2025-05-18 02:59:55] [error] Bot ID:[58] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:55] [info] Bot ID:[7] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.142.136:1051
+[2025-05-18 02:59:55] [error] Bot ID:[64] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:56] [info] Bot ID:[4] Watching stream...
+[2025-05-18 02:59:56] [info] Bot ID:[4] Connecting to chat as jonnypatak1
+[2025-05-18 02:59:56] [error] Bot ID:[6] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:56] [error] Bot ID:[4] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:56] [info] Bot ID:[24] Watching stream...
+[2025-05-18 02:59:56] [info] Bot ID:[56] Connecting with proxy: socks5://rlF97R:IL9MJzmIaa@109.248.14.113:1051
+[2025-05-18 02:59:56] [error] Bot ID:[24] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:56] [error] Bot ID:[27] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:56] [error] Bot ID:[25] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:56] [info] Bot ID:[7] Watching stream...
+[2025-05-18 02:59:57] [error] Bot ID:[7] Watch loop error: 0 bytes read on a total of 2 expected bytes
+[2025-05-18 02:59:57] [info] Bot ID:[2] One of tasks completed, restarting...
+[2025-05-18 02:59:57] [error] Bot ID:[23] Watch loop error: Connection not allowed by ruleset
+[2025-05-18 02:59:57] [info] Bot ID:[56] Watching stream...

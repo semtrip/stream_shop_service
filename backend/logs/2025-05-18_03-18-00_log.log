@@ -1,0 +1,1757 @@
+[2025-05-18 03:18:01] [info] Загружено [36m1[0m задач в память
+[2025-05-18 03:18:01] [info] Сброс выполняющихся и ошибочных задач в статус Pending...
+[2025-05-18 03:18:01] [info] Сброшено [33m1[0m задач.
+[2025-05-18 03:18:01] [info] Загружено [36m800[0m прокси в память
+[2025-05-18 03:18:01] [info] Загружено [36m800[0m аккаунтов в память
+[2025-05-18 03:18:05] [info] Ошибка: задача 1 не найдена
+[2025-05-18 03:18:12] [info] Initialized TwitchService for channel: semtrip
+[2025-05-18 03:18:12] [info] Запускается Twitch-сервис для задачи 2 (URL: https://www.twitch.tv/semtrip)
+[2025-05-18 03:18:12] [info] Checking stream status for [36msemtrip[0m
+[2025-05-18 03:18:15] [info] [Stream Status] semtrip - Online
+[2025-05-18 03:18:15] [info] Стрим https://www.twitch.tv/semtrip в эфире. Начинаем выполнение задачи 2.
+[2025-05-18 03:18:15] [info] Starting 100 bots (ramp-up 1 min)
+[2025-05-18 03:18:19] [info] Задача 2 запущена на 00:32:00 (1920 секунд)
+[2025-05-18 03:18:19] [info] Задача 2: следующий чек через 60 сек...
+[2025-05-18 03:18:19] [info] Bot ID:[0] starting now
+[2025-05-18 03:18:19] [info] [BOT 0] Starting with proxy socks5://rlF97R:IL9MJzmIaa@213.226.101.227:1051
+[2025-05-18 03:18:19] [info] Bot ID:[1] will start in 0.6 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[2] will start in 1.2 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[3] will start in 1.8 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[4] will start in 2.4 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[5] will start in 3.0 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[6] will start in 3.6 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[7] will start in 4.2 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[8] will start in 4.8 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[9] will start in 5.4 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[10] will start in 6.0 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[11] will start in 6.6 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[12] will start in 7.2 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[13] will start in 7.8 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[14] will start in 8.4 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[15] will start in 9.0 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[16] will start in 9.6 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[17] will start in 10.2 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[18] will start in 10.8 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[19] will start in 11.4 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[20] will start in 12.0 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[21] will start in 12.6 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[22] will start in 13.2 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[23] will start in 13.8 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[24] will start in 14.4 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[25] will start in 15.0 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[26] will start in 15.6 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[27] will start in 16.2 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[28] will start in 16.8 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[29] will start in 17.4 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[30] will start in 18.0 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[31] will start in 18.6 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[32] will start in 19.2 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[33] will start in 19.8 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[34] will start in 20.4 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[35] will start in 21.0 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[36] will start in 21.6 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[37] will start in 22.2 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[38] will start in 22.8 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[39] will start in 23.4 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[40] will start in 24.0 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[41] will start in 24.6 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[42] will start in 25.2 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[43] will start in 25.8 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[44] will start in 26.4 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[45] will start in 27.0 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[46] will start in 27.6 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[47] will start in 28.2 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[48] will start in 28.8 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[49] will start in 29.4 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[50] will start in 30.0 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[51] will start in 30.6 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[52] will start in 31.2 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[53] will start in 31.8 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[54] will start in 32.4 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[55] will start in 33.0 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[56] will start in 33.6 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[57] will start in 34.2 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[58] will start in 34.8 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[59] will start in 35.4 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[60] will start in 36.0 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[61] will start in 36.6 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[62] will start in 37.2 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[63] will start in 37.8 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[64] will start in 38.4 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[65] will start in 39.0 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[66] will start in 39.6 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[67] will start in 40.2 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[68] will start in 40.8 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[69] will start in 41.4 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[70] will start in 42.0 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[71] will start in 42.6 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[72] will start in 43.2 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[73] will start in 43.8 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[74] will start in 44.4 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[75] will start in 45.0 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[76] will start in 45.6 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[77] will start in 46.2 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[78] will start in 46.8 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[79] will start in 47.4 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[80] will start in 48.0 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[81] will start in 48.6 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[82] will start in 49.2 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[83] will start in 49.8 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[84] will start in 50.4 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[85] will start in 51.0 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[86] will start in 51.6 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[87] will start in 52.2 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[88] will start in 52.8 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[89] will start in 53.4 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[90] will start in 54.0 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[91] will start in 54.6 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[92] will start in 55.2 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[93] will start in 55.8 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[94] will start in 56.4 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[95] will start in 57.0 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[96] will start in 57.6 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[97] will start in 58.2 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[98] will start in 58.8 seconds
+[2025-05-18 03:18:19] [info] Bot ID:[99] will start in 59.4 seconds
+[2025-05-18 03:18:20] [info] Bot ID:[1] starting now
+[2025-05-18 03:18:20] [info] [BOT 1] Starting with proxy socks5://rlF97R:IL9MJzmIaa@188.130.210.196:1051
+[2025-05-18 03:18:21] [info] Bot ID:[2] starting now
+[2025-05-18 03:18:21] [info] [BOT 2] Starting with proxy socks5://rlF97R:IL9MJzmIaa@109.248.143.147:1051
+[2025-05-18 03:18:21] [info] Bot ID:[3] starting now
+[2025-05-18 03:18:21] [info] [BOT 3] Starting with proxy socks5://rlF97R:IL9MJzmIaa@45.81.137.90:1051
+[2025-05-18 03:18:22] [info] Bot ID:[4] starting now
+[2025-05-18 03:18:22] [info] [BOT 4] Starting with proxy socks5://rlF97R:IL9MJzmIaa@188.130.136.216:1051
+[2025-05-18 03:18:22] [info] [BOT 0] Connected to stream
+[2025-05-18 03:18:22] [info] Bot ID:[5] starting now
+[2025-05-18 03:18:22] [info] [BOT 5] Starting with proxy socks5://rlF97R:IL9MJzmIaa@45.87.252.248:1051
+[2025-05-18 03:18:23] [info] [BOT 1] Connected to stream
+[2025-05-18 03:18:23] [warning] [BOT 0] Heartbeat error: Server disconnected
+[2025-05-18 03:18:23] [info] [BOT 0] IRC connected as oooooyoyoooooo
+[2025-05-18 03:18:23] [info] [BOT 1] IRC connected as diegofellipe
+[2025-05-18 03:18:23] [warning] [BOT 1] Heartbeat error: Server disconnected
+[2025-05-18 03:18:23] [info] Bot ID:[6] starting now
+[2025-05-18 03:18:23] [info] [BOT 6] Starting with proxy socks5://rlF97R:IL9MJzmIaa@188.130.211.147:1051
+[2025-05-18 03:18:23] [info] [BOT 2] Connected to stream
+[2025-05-18 03:18:23] [info] [BOT 2] IRC connected as deadszczur
+[2025-05-18 03:18:23] [warning] [BOT 2] Heartbeat error: Server disconnected
+[2025-05-18 03:18:24] [info] Bot ID:[7] starting now
+[2025-05-18 03:18:24] [info] [BOT 7] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.10.134:1051
+[2025-05-18 03:18:24] [info] [BOT 3] Connected to stream
+[2025-05-18 03:18:24] [warning] [BOT 3] Heartbeat error: Server disconnected
+[2025-05-18 03:18:24] [info] [BOT 3] IRC connected as koonnyball007
+[2025-05-18 03:18:24] [info] Bot ID:[8] starting now
+[2025-05-18 03:18:24] [info] [BOT 8] Starting with proxy socks5://rlF97R:IL9MJzmIaa@109.248.55.128:1051
+[2025-05-18 03:18:25] [info] [BOT 4] Connected to stream
+[2025-05-18 03:18:25] [info] Bot ID:[9] starting now
+[2025-05-18 03:18:25] [info] [BOT 9] Starting with proxy socks5://rlF97R:IL9MJzmIaa@109.248.204.104:1051
+[2025-05-18 03:18:25] [warning] [BOT 4] Heartbeat error: Server disconnected
+[2025-05-18 03:18:25] [info] [BOT 5] Connected to stream
+[2025-05-18 03:18:25] [info] [BOT 4] IRC connected as dgxxx1
+[2025-05-18 03:18:25] [warning] [BOT 5] Heartbeat error: Server disconnected
+[2025-05-18 03:18:25] [info] [BOT 5] IRC connected as dragon_slayer_call4
+[2025-05-18 03:18:25] [info] Bot ID:[10] starting now
+[2025-05-18 03:18:25] [info] [BOT 10] Starting with proxy socks5://rlF97R:IL9MJzmIaa@109.248.14.164:1051
+[2025-05-18 03:18:26] [info] [BOT 6] Connected to stream
+[2025-05-18 03:18:26] [warning] [BOT 6] Heartbeat error: Server disconnected
+[2025-05-18 03:18:26] [info] [BOT 6] IRC connected as izumiknox
+[2025-05-18 03:18:26] [info] Bot ID:[11] starting now
+[2025-05-18 03:18:26] [info] [BOT 11] Starting with proxy socks5://rlF97R:IL9MJzmIaa@188.130.211.226:1051
+[2025-05-18 03:18:26] [info] [BOT 7] Connected to stream
+[2025-05-18 03:18:26] [warning] [BOT 7] Heartbeat error: Server disconnected
+[2025-05-18 03:18:26] [info] [BOT 7] IRC connected as bluefiree_2426
+[2025-05-18 03:18:27] [info] Bot ID:[12] starting now
+[2025-05-18 03:18:27] [info] [BOT 12] Starting with proxy socks5://rlF97R:IL9MJzmIaa@188.130.142.57:1051
+[2025-05-18 03:18:27] [info] [BOT 8] Connected to stream
+[2025-05-18 03:18:27] [warning] [BOT 8] Heartbeat error: Server disconnected
+[2025-05-18 03:18:27] [info] [BOT 8] IRC connected as maxpxdh
+[2025-05-18 03:18:27] [info] Bot ID:[13] starting now
+[2025-05-18 03:18:27] [info] [BOT 13] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.17.89:1051
+[2025-05-18 03:18:27] [info] [BOT 9] Connected to stream
+[2025-05-18 03:18:28] [warning] [BOT 9] Heartbeat error: Server disconnected
+[2025-05-18 03:18:28] [info] [BOT 9] IRC connected as slalom_alejkom
+[2025-05-18 03:18:28] [info] [BOT 10] Connected to stream
+[2025-05-18 03:18:28] [info] Bot ID:[14] starting now
+[2025-05-18 03:18:28] [info] [BOT 14] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.10.15:1051
+[2025-05-18 03:18:28] [warning] [BOT 10] Heartbeat error: Server disconnected
+[2025-05-18 03:18:28] [info] [BOT 10] IRC connected as wgn02
+[2025-05-18 03:18:28] [info] Bot ID:[15] starting now
+[2025-05-18 03:18:28] [info] [BOT 15] Starting with proxy socks5://rlF97R:IL9MJzmIaa@94.158.190.168:1051
+[2025-05-18 03:18:29] [info] [BOT 11] Connected to stream
+[2025-05-18 03:18:29] [info] [BOT 11] IRC connected as s4anc
+[2025-05-18 03:18:29] [warning] [BOT 11] Heartbeat error: Server disconnected
+[2025-05-18 03:18:29] [info] Bot ID:[16] starting now
+[2025-05-18 03:18:29] [info] [BOT 16] Starting with proxy socks5://rlF97R:IL9MJzmIaa@92.119.193.14:1051
+[2025-05-18 03:18:29] [info] [BOT 12] Connected to stream
+[2025-05-18 03:18:30] [warning] [BOT 12] Heartbeat error: Server disconnected
+[2025-05-18 03:18:30] [info] [BOT 12] IRC connected as leivajoyas_
+[2025-05-18 03:18:30] [info] Bot ID:[17] starting now
+[2025-05-18 03:18:30] [info] [BOT 17] Starting with proxy socks5://rlF97R:IL9MJzmIaa@185.181.247.195:1051
+[2025-05-18 03:18:30] [info] [BOT 13] Connected to stream
+[2025-05-18 03:18:30] [warning] [BOT 13] Heartbeat error: Server disconnected
+[2025-05-18 03:18:30] [info] [BOT 13] IRC connected as lilzin_04
+[2025-05-18 03:18:30] [info] Bot ID:[18] starting now
+[2025-05-18 03:18:30] [info] [BOT 18] Starting with proxy socks5://rlF97R:IL9MJzmIaa@45.84.177.243:1051
+[2025-05-18 03:18:30] [info] [BOT 14] Connected to stream
+[2025-05-18 03:18:31] [info] [BOT 14] IRC connected as herrjummak
+[2025-05-18 03:18:31] [warning] [BOT 14] Heartbeat error: Server disconnected
+[2025-05-18 03:18:31] [info] Bot ID:[19] starting now
+[2025-05-18 03:18:31] [info] [BOT 19] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.222.222:1051
+[2025-05-18 03:18:31] [info] [BOT 15] Connected to stream
+[2025-05-18 03:18:31] [warning] [BOT 15] Heartbeat error: Server disconnected
+[2025-05-18 03:18:31] [info] [BOT 15] IRC connected as zkinny
+[2025-05-18 03:18:31] [info] Bot ID:[20] starting now
+[2025-05-18 03:18:31] [info] [BOT 20] Starting with proxy socks5://rlF97R:IL9MJzmIaa@109.248.166.155:1051
+[2025-05-18 03:18:32] [info] [BOT 16] Connected to stream
+[2025-05-18 03:18:32] [warning] [BOT 16] Heartbeat error: Server disconnected
+[2025-05-18 03:18:32] [info] [BOT 16] IRC connected as pretzalnomv
+[2025-05-18 03:18:32] [info] Bot ID:[21] starting now
+[2025-05-18 03:18:32] [info] [BOT 21] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.17.187:1051
+[2025-05-18 03:18:32] [info] [BOT 17] Connected to stream
+[2025-05-18 03:18:33] [info] Bot ID:[22] starting now
+[2025-05-18 03:18:33] [info] [BOT 22] Starting with proxy socks5://rlF97R:IL9MJzmIaa@188.130.129.188:1051
+[2025-05-18 03:18:33] [warning] [BOT 17] Heartbeat error: Server disconnected
+[2025-05-18 03:18:33] [info] [BOT 17] IRC connected as madafakinmotherg
+[2025-05-18 03:18:33] [info] [BOT 18] Connected to stream
+[2025-05-18 03:18:33] [warning] [BOT 18] Heartbeat error: Server disconnected
+[2025-05-18 03:18:33] [info] [BOT 18] IRC connected as bago231
+[2025-05-18 03:18:33] [info] Bot ID:[23] starting now
+[2025-05-18 03:18:33] [info] [BOT 23] Starting with proxy socks5://rlF97R:IL9MJzmIaa@45.15.73.210:1051
+[2025-05-18 03:18:33] [info] [BOT 19] Connected to stream
+[2025-05-18 03:18:33] [warning] [BOT 19] Heartbeat error: Server disconnected
+[2025-05-18 03:18:33] [info] [BOT 19] IRC connected as lucadifra13
+[2025-05-18 03:18:34] [info] [BOT 20] Connected to stream
+[2025-05-18 03:18:34] [info] Bot ID:[24] starting now
+[2025-05-18 03:18:34] [info] [BOT 24] Starting with proxy socks5://rlF97R:IL9MJzmIaa@95.182.126.101:1051
+[2025-05-18 03:18:34] [info] [BOT 20] IRC connected as kourlee_
+[2025-05-18 03:18:34] [warning] [BOT 20] Heartbeat error: Server disconnected
+[2025-05-18 03:18:34] [info] Bot ID:[25] starting now
+[2025-05-18 03:18:34] [info] [BOT 25] Starting with proxy socks5://rlF97R:IL9MJzmIaa@109.248.143.207:1051
+[2025-05-18 03:18:35] [info] [BOT 21] Connected to stream
+[2025-05-18 03:18:35] [warning] [BOT 21] Heartbeat error: Server disconnected
+[2025-05-18 03:18:35] [info] [BOT 21] IRC connected as ro3nd312
+[2025-05-18 03:18:35] [info] Bot ID:[26] starting now
+[2025-05-18 03:18:35] [info] [BOT 26] Starting with proxy socks5://rlF97R:IL9MJzmIaa@109.248.204.199:1051
+[2025-05-18 03:18:35] [info] [BOT 22] Connected to stream
+[2025-05-18 03:18:35] [warning] [BOT 22] Heartbeat error: Server disconnected
+[2025-05-18 03:18:35] [info] [BOT 22] IRC connected as thekingjeff99
+[2025-05-18 03:18:36] [info] Bot ID:[27] starting now
+[2025-05-18 03:18:36] [info] [BOT 27] Starting with proxy socks5://rlF97R:IL9MJzmIaa@109.248.139.226:1051
+[2025-05-18 03:18:36] [info] [BOT 23] Connected to stream
+[2025-05-18 03:18:36] [warning] [BOT 23] Heartbeat error: Server disconnected
+[2025-05-18 03:18:36] [info] [BOT 23] IRC connected as kacperoo1019
+[2025-05-18 03:18:36] [info] Bot ID:[28] starting now
+[2025-05-18 03:18:36] [info] [BOT 28] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.154.51:1051
+[2025-05-18 03:18:36] [info] [BOT 24] Connected to stream
+[2025-05-18 03:18:37] [warning] [BOT 24] Heartbeat error: Server disconnected
+[2025-05-18 03:18:37] [info] [BOT 24] IRC connected as hefajstek
+[2025-05-18 03:18:37] [info] Bot ID:[29] starting now
+[2025-05-18 03:18:37] [info] [BOT 29] Starting with proxy socks5://rlF97R:IL9MJzmIaa@95.182.126.151:1051
+[2025-05-18 03:18:37] [info] [BOT 25] Connected to stream
+[2025-05-18 03:18:37] [warning] [BOT 25] Heartbeat error: Server disconnected
+[2025-05-18 03:18:37] [info] [BOT 25] IRC connected as kobaakos
+[2025-05-18 03:18:37] [info] Bot ID:[30] starting now
+[2025-05-18 03:18:37] [info] [BOT 30] Starting with proxy socks5://rlF97R:IL9MJzmIaa@194.34.248.135:1051
+[2025-05-18 03:18:38] [info] [BOT 26] Connected to stream
+[2025-05-18 03:18:38] [warning] [BOT 0] Heartbeat error: Server disconnected
+[2025-05-18 03:18:38] [warning] [BOT 26] Heartbeat error: Server disconnected
+[2025-05-18 03:18:38] [info] [BOT 26] IRC connected as mikey_arw
+[2025-05-18 03:18:38] [info] Bot ID:[31] starting now
+[2025-05-18 03:18:38] [info] [BOT 31] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.110.116:1051
+[2025-05-18 03:18:38] [info] [BOT 27] Connected to stream
+[2025-05-18 03:18:38] [warning] [BOT 1] Heartbeat error: Server disconnected
+[2025-05-18 03:18:38] [warning] [BOT 27] Heartbeat error: Server disconnected
+[2025-05-18 03:18:38] [info] [BOT 27] IRC connected as oiroquinho
+[2025-05-18 03:18:39] [warning] [BOT 2] Heartbeat error: Server disconnected
+[2025-05-18 03:18:39] [info] Bot ID:[32] starting now
+[2025-05-18 03:18:39] [info] [BOT 32] Starting with proxy socks5://rlF97R:IL9MJzmIaa@109.248.15.210:1051
+[2025-05-18 03:18:39] [info] [BOT 28] Connected to stream
+[2025-05-18 03:18:39] [warning] [BOT 28] Heartbeat error: Server disconnected
+[2025-05-18 03:18:39] [info] [BOT 28] IRC connected as prizixfn
+[2025-05-18 03:18:39] [warning] [BOT 3] Heartbeat error: Server disconnected
+[2025-05-18 03:18:39] [info] Bot ID:[33] starting now
+[2025-05-18 03:18:39] [info] [BOT 33] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.156.224:1051
+[2025-05-18 03:18:40] [info] [BOT 29] Connected to stream
+[2025-05-18 03:18:40] [info] Bot ID:[34] starting now
+[2025-05-18 03:18:40] [info] [BOT 34] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.192.220:1051
+[2025-05-18 03:18:40] [warning] [BOT 29] Heartbeat error: Server disconnected
+[2025-05-18 03:18:40] [info] [BOT 30] Connected to stream
+[2025-05-18 03:18:40] [info] [BOT 29] IRC connected as rly_meillya
+[2025-05-18 03:18:40] [warning] [BOT 4] Heartbeat error: Server disconnected
+[2025-05-18 03:18:40] [warning] [BOT 30] Heartbeat error: Server disconnected
+[2025-05-18 03:18:40] [warning] [BOT 5] Heartbeat error: Server disconnected
+[2025-05-18 03:18:40] [info] Bot ID:[35] starting now
+[2025-05-18 03:18:40] [info] [BOT 35] Starting with proxy socks5://rlF97R:IL9MJzmIaa@188.130.129.180:1051
+[2025-05-18 03:18:41] [info] [BOT 31] Connected to stream
+[2025-05-18 03:18:41] [warning] [BOT 31] Heartbeat error: Server disconnected
+[2025-05-18 03:18:41] [info] [BOT 32] Connected to stream
+[2025-05-18 03:18:41] [info] Bot ID:[36] starting now
+[2025-05-18 03:18:41] [info] [BOT 36] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.16.99:1051
+[2025-05-18 03:18:41] [warning] [BOT 6] Heartbeat error: Server disconnected
+[2025-05-18 03:18:41] [warning] [BOT 32] Heartbeat error: Server disconnected
+[2025-05-18 03:18:42] [warning] [BOT 7] Heartbeat error: Server disconnected
+[2025-05-18 03:18:42] [info] Bot ID:[37] starting now
+[2025-05-18 03:18:42] [info] [BOT 37] Starting with proxy socks5://rlF97R:IL9MJzmIaa@45.90.196.20:1051
+[2025-05-18 03:18:42] [info] [BOT 33] Connected to stream
+[2025-05-18 03:18:42] [warning] [BOT 33] Heartbeat error: Server disconnected
+[2025-05-18 03:18:42] [info] Bot ID:[38] starting now
+[2025-05-18 03:18:42] [info] [BOT 38] Starting with proxy socks5://rlF97R:IL9MJzmIaa@188.130.220.251:1051
+[2025-05-18 03:18:42] [warning] [BOT 8] Heartbeat error: Server disconnected
+[2025-05-18 03:18:42] [info] [BOT 34] Connected to stream
+[2025-05-18 03:18:43] [warning] [BOT 34] Heartbeat error: Server disconnected
+[2025-05-18 03:18:43] [warning] [BOT 9] Heartbeat error: Server disconnected
+[2025-05-18 03:18:43] [info] Bot ID:[39] starting now
+[2025-05-18 03:18:43] [info] [BOT 39] Starting with proxy socks5://rlF97R:IL9MJzmIaa@31.40.203.126:1051
+[2025-05-18 03:18:43] [info] [BOT 35] Connected to stream
+[2025-05-18 03:18:43] [warning] [BOT 10] Heartbeat error: Server disconnected
+[2025-05-18 03:18:43] [warning] [BOT 35] Heartbeat error: Server disconnected
+[2025-05-18 03:18:43] [info] Bot ID:[40] starting now
+[2025-05-18 03:18:43] [info] [BOT 40] Starting with proxy socks5://rlF97R:IL9MJzmIaa@188.130.218.242:1051
+[2025-05-18 03:18:44] [info] [BOT 36] Connected to stream
+[2025-05-18 03:18:44] [warning] [BOT 36] Heartbeat error: Server disconnected
+[2025-05-18 03:18:44] [info] Bot ID:[41] starting now
+[2025-05-18 03:18:44] [info] [BOT 41] Starting with proxy socks5://rlF97R:IL9MJzmIaa@45.84.177.76:1051
+[2025-05-18 03:18:44] [info] [BOT 37] Connected to stream
+[2025-05-18 03:18:44] [warning] [BOT 11] Heartbeat error: Server disconnected
+[2025-05-18 03:18:44] [warning] [BOT 37] Heartbeat error: Server disconnected
+[2025-05-18 03:18:45] [info] Bot ID:[42] starting now
+[2025-05-18 03:18:45] [info] [BOT 42] Starting with proxy socks5://rlF97R:IL9MJzmIaa@45.90.196.95:1051
+[2025-05-18 03:18:45] [warning] [BOT 12] Heartbeat error: Server disconnected
+[2025-05-18 03:18:45] [info] [BOT 38] Connected to stream
+[2025-05-18 03:18:45] [warning] [BOT 38] Heartbeat error: Server disconnected
+[2025-05-18 03:18:45] [info] Bot ID:[43] starting now
+[2025-05-18 03:18:45] [info] [BOT 43] Starting with proxy socks5://rlF97R:IL9MJzmIaa@109.248.49.40:1051
+[2025-05-18 03:18:45] [info] [BOT 39] Connected to stream
+[2025-05-18 03:18:45] [warning] [BOT 13] Heartbeat error: Server disconnected
+[2025-05-18 03:18:46] [warning] [BOT 39] Heartbeat error: Server disconnected
+[2025-05-18 03:18:46] [info] Bot ID:[44] starting now
+[2025-05-18 03:18:46] [info] [BOT 44] Starting with proxy socks5://rlF97R:IL9MJzmIaa@109.248.15.10:1051
+[2025-05-18 03:18:46] [warning] [BOT 14] Heartbeat error: Server disconnected
+[2025-05-18 03:18:46] [info] [BOT 40] Connected to stream
+[2025-05-18 03:18:46] [warning] [BOT 40] Heartbeat error: Server disconnected
+[2025-05-18 03:18:46] [warning] [BOT 15] Heartbeat error: Server disconnected
+[2025-05-18 03:18:46] [info] Bot ID:[45] starting now
+[2025-05-18 03:18:46] [info] [BOT 45] Starting with proxy socks5://rlF97R:IL9MJzmIaa@109.248.205.76:1051
+[2025-05-18 03:18:47] [info] [BOT 41] Connected to stream
+[2025-05-18 03:18:47] [warning] [BOT 41] Heartbeat error: Server disconnected
+[2025-05-18 03:18:47] [info] Bot ID:[46] starting now
+[2025-05-18 03:18:47] [info] [BOT 46] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.22.22:1051
+[2025-05-18 03:18:47] [warning] [BOT 16] Heartbeat error: Server disconnected
+[2025-05-18 03:18:47] [info] [BOT 42] Connected to stream
+[2025-05-18 03:18:47] [warning] [BOT 42] Heartbeat error: Server disconnected
+[2025-05-18 03:18:48] [info] Bot ID:[47] starting now
+[2025-05-18 03:18:48] [info] [BOT 47] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.157.206:1051
+[2025-05-18 03:18:48] [info] [BOT 43] Connected to stream
+[2025-05-18 03:18:48] [warning] [BOT 17] Heartbeat error: Server disconnected
+[2025-05-18 03:18:48] [warning] [BOT 43] Heartbeat error: Server disconnected
+[2025-05-18 03:18:48] [info] Bot ID:[48] starting now
+[2025-05-18 03:18:48] [info] [BOT 48] Starting with proxy socks5://rlF97R:IL9MJzmIaa@109.248.139.136:1051
+[2025-05-18 03:18:48] [warning] [BOT 18] Heartbeat error: Server disconnected
+[2025-05-18 03:18:48] [info] [BOT 44] Connected to stream
+[2025-05-18 03:18:49] [warning] [BOT 44] Heartbeat error: Server disconnected
+[2025-05-18 03:18:49] [warning] [BOT 19] Heartbeat error: Server disconnected
+[2025-05-18 03:18:49] [info] Bot ID:[49] starting now
+[2025-05-18 03:18:49] [info] [BOT 49] Starting with proxy socks5://rlF97R:IL9MJzmIaa@185.181.244.43:1051
+[2025-05-18 03:18:49] [info] [BOT 45] Connected to stream
+[2025-05-18 03:18:49] [warning] [BOT 20] Heartbeat error: Server disconnected
+[2025-05-18 03:18:49] [warning] [BOT 45] Heartbeat error: Server disconnected
+[2025-05-18 03:18:49] [info] Bot ID:[50] starting now
+[2025-05-18 03:18:49] [info] [BOT 50] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.110.16:1051
+[2025-05-18 03:18:50] [info] [BOT 46] Connected to stream
+[2025-05-18 03:18:50] [warning] [BOT 46] Heartbeat error: Server disconnected
+[2025-05-18 03:18:50] [warning] [BOT 21] Heartbeat error: Server disconnected
+[2025-05-18 03:18:50] [info] Bot ID:[51] starting now
+[2025-05-18 03:18:50] [info] [BOT 51] Starting with proxy socks5://rlF97R:IL9MJzmIaa@95.182.124.53:1051
+[2025-05-18 03:18:50] [info] [BOT 47] Connected to stream
+[2025-05-18 03:18:50] [warning] [BOT 47] Heartbeat error: Server disconnected
+[2025-05-18 03:18:51] [warning] [BOT 22] Heartbeat error: Server disconnected
+[2025-05-18 03:18:51] [info] Bot ID:[52] starting now
+[2025-05-18 03:18:51] [info] [BOT 52] Starting with proxy socks5://rlF97R:IL9MJzmIaa@213.226.101.216:1051
+[2025-05-18 03:18:51] [info] [BOT 48] Connected to stream
+[2025-05-18 03:18:51] [warning] [BOT 48] Heartbeat error: Server disconnected
+[2025-05-18 03:18:51] [info] Bot ID:[53] starting now
+[2025-05-18 03:18:51] [info] [BOT 53] Starting with proxy socks5://rlF97R:IL9MJzmIaa@109.248.204.241:1051
+[2025-05-18 03:18:51] [warning] [BOT 23] Heartbeat error: Server disconnected
+[2025-05-18 03:18:51] [info] [BOT 49] Connected to stream
+[2025-05-18 03:18:52] [warning] [BOT 49] Heartbeat error: Server disconnected
+[2025-05-18 03:18:52] [info] Bot ID:[54] starting now
+[2025-05-18 03:18:52] [info] [BOT 54] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.23.161:1051
+[2025-05-18 03:18:52] [warning] [BOT 24] Heartbeat error: Server disconnected
+[2025-05-18 03:18:52] [info] [BOT 50] Connected to stream
+[2025-05-18 03:18:52] [warning] [BOT 50] Heartbeat error: Server disconnected
+[2025-05-18 03:18:52] [warning] [BOT 25] Heartbeat error: Server disconnected
+[2025-05-18 03:18:52] [info] Bot ID:[55] starting now
+[2025-05-18 03:18:52] [info] [BOT 55] Starting with proxy socks5://rlF97R:IL9MJzmIaa@194.34.248.242:1051
+[2025-05-18 03:18:53] [info] [BOT 51] Connected to stream
+[2025-05-18 03:18:53] [info] Bot ID:[56] starting now
+[2025-05-18 03:18:53] [info] [BOT 56] Starting with proxy socks5://rlF97R:IL9MJzmIaa@109.248.14.196:1051
+[2025-05-18 03:18:53] [warning] [BOT 51] Heartbeat error: Server disconnected
+[2025-05-18 03:18:53] [warning] [BOT 0] Heartbeat error: Server disconnected
+[2025-05-18 03:18:53] [warning] [BOT 26] Heartbeat error: Server disconnected
+[2025-05-18 03:18:53] [warning] [BOT 1] Heartbeat error: Server disconnected
+[2025-05-18 03:18:53] [info] [BOT 52] Connected to stream
+[2025-05-18 03:18:54] [warning] [BOT 27] Heartbeat error: Server disconnected
+[2025-05-18 03:18:54] [info] [BOT 53] Connected to stream
+[2025-05-18 03:18:54] [info] Bot ID:[57] starting now
+[2025-05-18 03:18:54] [info] [BOT 57] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.110.98:1051
+[2025-05-18 03:18:54] [warning] [BOT 52] Heartbeat error: Server disconnected
+[2025-05-18 03:18:54] [warning] [BOT 2] Heartbeat error: Server disconnected
+[2025-05-18 03:18:54] [warning] [BOT 53] Heartbeat error: Server disconnected
+[2025-05-18 03:18:54] [info] Bot ID:[58] starting now
+[2025-05-18 03:18:54] [info] [BOT 58] Starting with proxy socks5://rlF97R:IL9MJzmIaa@109.248.13.12:1051
+[2025-05-18 03:18:54] [warning] [BOT 28] Heartbeat error: Server disconnected
+[2025-05-18 03:18:54] [warning] [BOT 3] Heartbeat error: Server disconnected
+[2025-05-18 03:18:54] [info] [BOT 54] Connected to stream
+[2025-05-18 03:18:55] [warning] [BOT 54] Heartbeat error: Server disconnected
+[2025-05-18 03:18:55] [info] Bot ID:[59] starting now
+[2025-05-18 03:18:55] [info] [BOT 59] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.222.109:1051
+[2025-05-18 03:18:55] [info] [BOT 55] Connected to stream
+[2025-05-18 03:18:55] [warning] [BOT 29] Heartbeat error: Server disconnected
+[2025-05-18 03:18:55] [warning] [BOT 55] Heartbeat error: Server disconnected
+[2025-05-18 03:18:55] [warning] [BOT 4] Heartbeat error: Server disconnected
+[2025-05-18 03:18:55] [warning] [BOT 30] Heartbeat error: Server disconnected
+[2025-05-18 03:18:55] [info] Bot ID:[60] starting now
+[2025-05-18 03:18:55] [info] [BOT 60] Starting with proxy socks5://rlF97R:IL9MJzmIaa@188.130.129.103:1051
+[2025-05-18 03:18:56] [info] [BOT 56] Connected to stream
+[2025-05-18 03:18:56] [warning] [BOT 5] Heartbeat error: Server disconnected
+[2025-05-18 03:18:56] [warning] [BOT 56] Heartbeat error: Server disconnected
+[2025-05-18 03:18:56] [info] Bot ID:[61] starting now
+[2025-05-18 03:18:56] [info] [BOT 61] Starting with proxy socks5://rlF97R:IL9MJzmIaa@109.248.14.10:1051
+[2025-05-18 03:18:56] [warning] [BOT 31] Heartbeat error: Server disconnected
+[2025-05-18 03:18:56] [info] [BOT 57] Connected to stream
+[2025-05-18 03:18:56] [warning] [BOT 6] Heartbeat error: Server disconnected
+[2025-05-18 03:18:56] [warning] [BOT 32] Heartbeat error: Server disconnected
+[2025-05-18 03:18:56] [warning] [BOT 57] Heartbeat error: Server disconnected
+[2025-05-18 03:18:57] [info] Bot ID:[62] starting now
+[2025-05-18 03:18:57] [info] [BOT 62] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.16.150:1051
+[2025-05-18 03:18:57] [warning] [BOT 7] Heartbeat error: Server disconnected
+[2025-05-18 03:18:57] [info] [BOT 58] Connected to stream
+[2025-05-18 03:18:57] [warning] [BOT 58] Heartbeat error: Server disconnected
+[2025-05-18 03:18:57] [info] Bot ID:[63] starting now
+[2025-05-18 03:18:57] [info] [BOT 63] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.222.119:1051
+[2025-05-18 03:18:57] [warning] [BOT 33] Heartbeat error: Server disconnected
+[2025-05-18 03:18:57] [warning] [BOT 8] Heartbeat error: Server disconnected
+[2025-05-18 03:18:57] [info] [BOT 59] Connected to stream
+[2025-05-18 03:18:58] [warning] [BOT 59] Heartbeat error: Server disconnected
+[2025-05-18 03:18:58] [info] Bot ID:[64] starting now
+[2025-05-18 03:18:58] [info] [BOT 64] Starting with proxy socks5://rlF97R:IL9MJzmIaa@194.34.248.88:1051
+[2025-05-18 03:18:58] [warning] [BOT 34] Heartbeat error: Server disconnected
+[2025-05-18 03:18:58] [warning] [BOT 9] Heartbeat error: Server disconnected
+[2025-05-18 03:18:58] [info] [BOT 60] Connected to stream
+[2025-05-18 03:18:58] [warning] [BOT 10] Heartbeat error: Server disconnected
+[2025-05-18 03:18:58] [info] Bot ID:[65] starting now
+[2025-05-18 03:18:58] [info] [BOT 65] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.23.100:1051
+[2025-05-18 03:18:58] [warning] [BOT 35] Heartbeat error: Server disconnected
+[2025-05-18 03:18:59] [warning] [BOT 60] Heartbeat error: Server disconnected
+[2025-05-18 03:18:59] [info] [BOT 61] Connected to stream
+[2025-05-18 03:18:59] [warning] [BOT 61] Heartbeat error: Server disconnected
+[2025-05-18 03:18:59] [info] Bot ID:[66] starting now
+[2025-05-18 03:18:59] [info] [BOT 66] Starting with proxy socks5://rlF97R:IL9MJzmIaa@109.248.129.30:1051
+[2025-05-18 03:18:59] [warning] [BOT 36] Heartbeat error: Server disconnected
+[2025-05-18 03:18:59] [info] [BOT 62] Connected to stream
+[2025-05-18 03:18:59] [warning] [BOT 37] Heartbeat error: Server disconnected
+[2025-05-18 03:18:59] [warning] [BOT 11] Heartbeat error: Server disconnected
+[2025-05-18 03:19:00] [info] Bot ID:[67] starting now
+[2025-05-18 03:19:00] [info] [BOT 67] Starting with proxy socks5://rlF97R:IL9MJzmIaa@188.130.184.3:1051
+[2025-05-18 03:19:00] [warning] [BOT 62] Heartbeat error: Server disconnected
+[2025-05-18 03:19:00] [warning] [BOT 12] Heartbeat error: Server disconnected
+[2025-05-18 03:19:00] [info] [BOT 63] Connected to stream
+[2025-05-18 03:19:00] [info] Bot ID:[68] starting now
+[2025-05-18 03:19:00] [info] [BOT 68] Starting with proxy socks5://rlF97R:IL9MJzmIaa@188.130.128.151:1051
+[2025-05-18 03:19:00] [warning] [BOT 38] Heartbeat error: Server disconnected
+[2025-05-18 03:19:00] [warning] [BOT 63] Heartbeat error: Server disconnected
+[2025-05-18 03:19:00] [info] [BOT 64] Connected to stream
+[2025-05-18 03:19:01] [warning] [BOT 13] Heartbeat error: Server disconnected
+[2025-05-18 03:19:01] [warning] [BOT 64] Heartbeat error: Server disconnected
+[2025-05-18 03:19:01] [warning] [BOT 39] Heartbeat error: Server disconnected
+[2025-05-18 03:19:01] [info] Bot ID:[69] starting now
+[2025-05-18 03:19:01] [info] [BOT 69] Starting with proxy socks5://rlF97R:IL9MJzmIaa@188.130.218.24:1051
+[2025-05-18 03:19:01] [info] [BOT 65] Connected to stream
+[2025-05-18 03:19:01] [warning] [BOT 14] Heartbeat error: Server disconnected
+[2025-05-18 03:19:01] [info] Bot ID:[70] starting now
+[2025-05-18 03:19:01] [info] [BOT 70] Starting with proxy socks5://rlF97R:IL9MJzmIaa@45.15.72.84:1051
+[2025-05-18 03:19:01] [warning] [BOT 65] Heartbeat error: Server disconnected
+[2025-05-18 03:19:02] [warning] [BOT 40] Heartbeat error: Server disconnected
+[2025-05-18 03:19:02] [warning] [BOT 15] Heartbeat error: Server disconnected
+[2025-05-18 03:19:02] [info] [BOT 66] Connected to stream
+[2025-05-18 03:19:02] [warning] [BOT 66] Heartbeat error: Server disconnected
+[2025-05-18 03:19:02] [info] Bot ID:[71] starting now
+[2025-05-18 03:19:02] [info] [BOT 71] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.223.20:1051
+[2025-05-18 03:19:02] [info] [BOT 67] Connected to stream
+[2025-05-18 03:19:02] [warning] [BOT 41] Heartbeat error: Server disconnected
+[2025-05-18 03:19:02] [warning] [BOT 67] Heartbeat error: Server disconnected
+[2025-05-18 03:19:02] [warning] [BOT 16] Heartbeat error: Server disconnected
+[2025-05-18 03:19:03] [warning] [BOT 42] Heartbeat error: Server disconnected
+[2025-05-18 03:19:03] [info] Bot ID:[72] starting now
+[2025-05-18 03:19:03] [info] [BOT 72] Starting with proxy socks5://rlF97R:IL9MJzmIaa@188.130.143.75:1051
+[2025-05-18 03:19:03] [info] [BOT 68] Connected to stream
+[2025-05-18 03:19:03] [info] Bot ID:[73] starting now
+[2025-05-18 03:19:03] [info] [BOT 73] Starting with proxy socks5://rlF97R:IL9MJzmIaa@45.90.196.193:1051
+[2025-05-18 03:19:03] [warning] [BOT 17] Heartbeat error: Server disconnected
+[2025-05-18 03:19:03] [info] [BOT 69] Connected to stream
+[2025-05-18 03:19:03] [warning] [BOT 68] Heartbeat error: Server disconnected
+[2025-05-18 03:19:03] [warning] [BOT 43] Heartbeat error: Server disconnected
+[2025-05-18 03:19:04] [warning] [BOT 18] Heartbeat error: Server disconnected
+[2025-05-18 03:19:04] [warning] [BOT 69] Heartbeat error: Server disconnected
+[2025-05-18 03:19:04] [info] Bot ID:[74] starting now
+[2025-05-18 03:19:04] [info] [BOT 74] Starting with proxy socks5://rlF97R:IL9MJzmIaa@188.130.129.71:1051
+[2025-05-18 03:19:04] [warning] [BOT 44] Heartbeat error: Server disconnected
+[2025-05-18 03:19:04] [warning] [BOT 19] Heartbeat error: Server disconnected
+[2025-05-18 03:19:04] [info] [BOT 70] Connected to stream
+[2025-05-18 03:19:04] [info] Bot ID:[75] starting now
+[2025-05-18 03:19:05] [info] [BOT 75] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.22.93:1051
+[2025-05-18 03:19:05] [warning] [BOT 20] Heartbeat error: Server disconnected
+[2025-05-18 03:19:05] [warning] [BOT 70] Heartbeat error: Server disconnected
+[2025-05-18 03:19:05] [warning] [BOT 45] Heartbeat error: Server disconnected
+[2025-05-18 03:19:05] [warning] [BOT 46] Heartbeat error: Server disconnected
+[2025-05-18 03:19:05] [info] Bot ID:[76] starting now
+[2025-05-18 03:19:05] [info] [BOT 76] Starting with proxy socks5://rlF97R:IL9MJzmIaa@188.130.221.154:1051
+[2025-05-18 03:19:05] [info] [BOT 71] Connected to stream
+[2025-05-18 03:19:05] [warning] [BOT 21] Heartbeat error: Server disconnected
+[2025-05-18 03:19:05] [info] [BOT 72] Connected to stream
+[2025-05-18 03:19:06] [info] Bot ID:[77] starting now
+[2025-05-18 03:19:06] [info] [BOT 77] Starting with proxy socks5://rlF97R:IL9MJzmIaa@94.158.190.229:1051
+[2025-05-18 03:19:06] [warning] [BOT 71] Heartbeat error: Server disconnected
+[2025-05-18 03:19:06] [warning] [BOT 47] Heartbeat error: Server disconnected
+[2025-05-18 03:19:06] [warning] [BOT 72] Heartbeat error: Server disconnected
+[2025-05-18 03:19:06] [warning] [BOT 22] Heartbeat error: Server disconnected
+[2025-05-18 03:19:06] [info] [BOT 73] Connected to stream
+[2025-05-18 03:19:06] [warning] [BOT 48] Heartbeat error: Server disconnected
+[2025-05-18 03:19:06] [info] Bot ID:[78] starting now
+[2025-05-18 03:19:06] [info] [BOT 78] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.222.195:1051
+[2025-05-18 03:19:06] [warning] [BOT 73] Heartbeat error: Server disconnected
+[2025-05-18 03:19:07] [info] [BOT 74] Connected to stream
+[2025-05-18 03:19:07] [warning] [BOT 23] Heartbeat error: Server disconnected
+[2025-05-18 03:19:07] [info] Bot ID:[79] starting now
+[2025-05-18 03:19:07] [info] [BOT 79] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.156.79:1051
+[2025-05-18 03:19:07] [warning] [BOT 49] Heartbeat error: Server disconnected
+[2025-05-18 03:19:07] [warning] [BOT 74] Heartbeat error: Server disconnected
+[2025-05-18 03:19:07] [warning] [BOT 24] Heartbeat error: Server disconnected
+[2025-05-18 03:19:07] [info] Bot ID:[80] starting now
+[2025-05-18 03:19:07] [info] [BOT 80] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.213.39:1051
+[2025-05-18 03:19:07] [warning] [BOT 50] Heartbeat error: Server disconnected
+[2025-05-18 03:19:08] [warning] [BOT 25] Heartbeat error: Server disconnected
+[2025-05-18 03:19:08] [info] [BOT 75] Connected to stream
+[2025-05-18 03:19:08] [info] Bot ID:[81] starting now
+[2025-05-18 03:19:08] [info] [BOT 81] Starting with proxy socks5://rlF97R:IL9MJzmIaa@45.81.136.163:1051
+[2025-05-18 03:19:09] [info] [BOT 76] Connected to stream
+[2025-05-18 03:19:09] [info] Bot ID:[82] starting now
+[2025-05-18 03:19:09] [info] [BOT 82] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.212.78:1051
+[2025-05-18 03:19:09] [info] [BOT 77] Connected to stream
+[2025-05-18 03:19:10] [info] Bot ID:[83] starting now
+[2025-05-18 03:19:10] [info] [BOT 83] Starting with proxy socks5://rlF97R:IL9MJzmIaa@45.86.0.222:1051
+[2025-05-18 03:19:10] [info] [BOT 78] Connected to stream
+[2025-05-18 03:19:10] [info] Bot ID:[84] starting now
+[2025-05-18 03:19:10] [info] [BOT 84] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.22.24:1051
+[2025-05-18 03:19:11] [warning] [BOT 75] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:11] [warning] [BOT 51] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:11] [warning] [BOT 0] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:11] [info] Bot ID:[85] starting now
+[2025-05-18 03:19:11] [info] [BOT 85] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.23.107:1051
+[2025-05-18 03:19:11] [info] [BOT 79] Connected to stream
+[2025-05-18 03:19:11] [warning] [BOT 26] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:11] [warning] [BOT 1] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:12] [info] Bot ID:[86] starting now
+[2025-05-18 03:19:12] [info] [BOT 86] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.22.86:1051
+[2025-05-18 03:19:12] [info] [BOT 80] Connected to stream
+[2025-05-18 03:19:13] [warning] [BOT 76] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:13] [warning] [BOT 27] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:13] [info] Bot ID:[87] starting now
+[2025-05-18 03:19:13] [info] [BOT 87] Starting with proxy socks5://rlF97R:IL9MJzmIaa@188.130.221.220:1051
+[2025-05-18 03:19:13] [info] Bot ID:[88] starting now
+[2025-05-18 03:19:13] [info] [BOT 88] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.22.37:1051
+[2025-05-18 03:19:14] [warning] [BOT 2] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:14] [warning] [BOT 53] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:14] [warning] [BOT 52] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:14] [info] [BOT 81] Connected to stream
+[2025-05-18 03:19:14] [info] Bot ID:[89] starting now
+[2025-05-18 03:19:14] [info] [BOT 89] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.156.243:1051
+[2025-05-18 03:19:15] [info] Bot ID:[90] starting now
+[2025-05-18 03:19:15] [info] [BOT 90] Starting with proxy socks5://rlF97R:IL9MJzmIaa@2.59.50.74:1051
+[2025-05-18 03:19:15] [warning] [BOT 77] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:16] [info] Bot ID:[91] starting now
+[2025-05-18 03:19:16] [info] [BOT 91] Starting with proxy socks5://rlF97R:IL9MJzmIaa@45.11.21.132:1051
+[2025-05-18 03:19:16] [info] [BOT 82] Connected to stream
+[2025-05-18 03:19:16] [info] Bot ID:[92] starting now
+[2025-05-18 03:19:16] [info] [BOT 92] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.155.101:1051
+[2025-05-18 03:19:16] [info] Bot ID:[93] starting now
+[2025-05-18 03:19:16] [info] [BOT 93] Starting with proxy socks5://rlF97R:IL9MJzmIaa@185.181.246.109:1051
+[2025-05-18 03:19:17] [warning] [BOT 28] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:17] [warning] [BOT 3] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:17] [warning] [BOT 54] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:17] [info] [BOT 84] Connected to stream
+[2025-05-18 03:19:17] [info] [BOT 83] Connected to stream
+[2025-05-18 03:19:18] [info] Bot ID:[94] starting now
+[2025-05-18 03:19:18] [info] [BOT 94] Starting with proxy socks5://rlF97R:IL9MJzmIaa@213.226.101.47:1051
+[2025-05-18 03:19:18] [warning] [BOT 78] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:18] [info] [BOT 85] Connected to stream
+[2025-05-18 03:19:20] [info] Bot ID:[95] starting now
+[2025-05-18 03:19:20] [info] [BOT 95] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.155.164:1051
+[2025-05-18 03:19:20] [warning] [BOT 29] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:21] [info] Bot ID:[96] starting now
+[2025-05-18 03:19:21] [info] [BOT 96] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.222.170:1051
+[2025-05-18 03:19:21] [info] Bot ID:[97] starting now
+[2025-05-18 03:19:21] [info] [BOT 97] Starting with proxy socks5://rlF97R:IL9MJzmIaa@188.130.128.95:1051
+[2025-05-18 03:19:21] [warning] [BOT 55] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:21] [info] [BOT 86] Connected to stream
+[2025-05-18 03:19:21] [warning] [BOT 4] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:21] [warning] [BOT 30] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:21] [info] [BOT 87] Connected to stream
+[2025-05-18 03:19:22] [info] Bot ID:[98] starting now
+[2025-05-18 03:19:22] [info] [BOT 98] Starting with proxy socks5://rlF97R:IL9MJzmIaa@45.84.176.120:1051
+[2025-05-18 03:19:22] [info] Bot ID:[99] starting now
+[2025-05-18 03:19:22] [info] [BOT 99] Starting with proxy socks5://rlF97R:IL9MJzmIaa@46.8.22.166:1051
+[2025-05-18 03:19:23] [warning] Bot 85 dead → restarting
+[2025-05-18 03:19:24] [info] [BOT 88] Connected to stream
+[2025-05-18 03:19:24] [warning] [BOT 5] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:27] [info] [BOT 89] Connected to stream
+[2025-05-18 03:19:27] [warning] [BOT 79] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:27] [warning] [BOT 56] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:27] [info] [BOT 90] Connected to stream
+[2025-05-18 03:19:27] [info] [BOT 91] Connected to stream
+[2025-05-18 03:19:28] [warning] [BOT 84] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:28] [warning] [BOT 83] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:30] [info] [BOT 92] Connected to stream
+[2025-05-18 03:19:30] [info] [BOT 93] Connected to stream
+[2025-05-18 03:19:30] [warning] [BOT 31] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:31] [warning] [BOT 85] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:31] [warning] [BOT 41] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:31] [warning] [BOT 67] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:31] [warning] [BOT 16] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:31] [warning] [BOT 42] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:31] [warning] [BOT 82] Heartbeat error: Invalid authentication response
+[2025-05-18 03:19:31] [warning] [BOT 13] Heartbeat error: Invalid authentication response
+[2025-05-18 03:19:31] [warning] [BOT 64] Heartbeat error: Invalid authentication response
+[2025-05-18 03:19:31] [warning] [BOT 39] Heartbeat error: Invalid authentication response
+[2025-05-18 03:19:31] [warning] [BOT 81] Heartbeat error: General SOCKS server failure
+[2025-05-18 03:19:31] [warning] [BOT 35] Heartbeat error: General SOCKS server failure
+[2025-05-18 03:19:31] [warning] [BOT 60] Heartbeat error: General SOCKS server failure
+[2025-05-18 03:19:31] [warning] [BOT 61] Heartbeat error: General SOCKS server failure
+[2025-05-18 03:19:34] [warning] [BOT 7] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:34] [warning] [BOT 33] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:34] [warning] [BOT 6] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:34] [warning] [BOT 32] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:34] [warning] [BOT 58] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:34] [info] [BOT 94] Connected to stream
+[2025-05-18 03:19:34] [warning] [BOT 57] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:34] [info] [BOT 85] Stopped
+[2025-05-18 03:19:35] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:19:35] [warning] [BOT 17] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:35] [warning] [BOT 68] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:35] [warning] [BOT 43] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:35] [warning] [BOT 18] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:35] [warning] [BOT 69] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:35] [warning] [BOT 44] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:35] [warning] [BOT 19] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:35] [warning] [BOT 20] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:35] [warning] [BOT 70] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:35] [warning] [BOT 45] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:35] [warning] [BOT 46] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:35] [warning] [BOT 14] Heartbeat error: Invalid authentication response
+[2025-05-18 03:19:35] [warning] [BOT 65] Heartbeat error: Invalid authentication response
+[2025-05-18 03:19:35] [warning] [BOT 66] Heartbeat error: Invalid authentication response
+[2025-05-18 03:19:35] [warning] [BOT 15] Heartbeat error: Invalid authentication response
+[2025-05-18 03:19:35] [warning] [BOT 40] Heartbeat error: Invalid authentication response
+[2025-05-18 03:19:35] [warning] [BOT 36] Heartbeat error: General SOCKS server failure
+[2025-05-18 03:19:35] [warning] [BOT 37] Heartbeat error: General SOCKS server failure
+[2025-05-18 03:19:35] [warning] [BOT 11] Heartbeat error: General SOCKS server failure
+[2025-05-18 03:19:35] [warning] [BOT 62] Heartbeat error: General SOCKS server failure
+[2025-05-18 03:19:35] [warning] [BOT 12] Heartbeat error: General SOCKS server failure
+[2025-05-18 03:19:35] [warning] [BOT 38] Heartbeat error: General SOCKS server failure
+[2025-05-18 03:19:36] [warning] [BOT 63] Heartbeat error: General SOCKS server failure
+[2025-05-18 03:19:36] [info] [BOT 95] Connected to stream
+[2025-05-18 03:19:37] [warning] [BOT 80] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:37] [info] [BOT 96] Connected to stream
+[2025-05-18 03:19:37] [info] [BOT 97] Connected to stream
+[2025-05-18 03:19:37] [info] [BOT 98] Connected to stream
+[2025-05-18 03:19:37] [warning] [BOT 86] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:37] [warning] [BOT 87] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:37] [warning] [BOT 21] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:37] [warning] [BOT 71] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:37] [warning] [BOT 47] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:37] [warning] [BOT 72] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:37] [warning] [BOT 22] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:37] [warning] [BOT 48] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:38] [warning] [BOT 73] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:39] [info] [BOT 99] Connected to stream
+[2025-05-18 03:19:39] [warning] [BOT 8] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:39] [warning] [BOT 59] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:39] [warning] [BOT 9] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:39] [warning] [BOT 34] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:39] [warning] [BOT 10] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:39] [info] Bot ID:[85] started successfully
+[2025-05-18 03:19:39] [warning] [BOT 88] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:39] [warning] [BOT 23] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:39] [warning] [BOT 49] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:40] [warning] [BOT 74] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:40] [warning] [BOT 24] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:40] [warning] [BOT 50] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:40] [warning] [BOT 25] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:42] [warning] [BOT 89] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:42] [warning] [BOT 90] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:42] [warning] [BOT 91] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:42] [warning] [BOT 75] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:42] [warning] [BOT 51] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:42] [warning] [BOT 0] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:42] [warning] [BOT 26] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:42] [warning] [BOT 1] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:43] [warning] [BOT 92] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:43] [warning] [BOT 93] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:43] [info] Задача 2: осталось 00:31:00 (1860 сек)
+[2025-05-18 03:19:43] [info] Задача 2: следующий чек через 60 сек...
+[2025-05-18 03:19:43] [warning] [BOT 76] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:43] [warning] [BOT 27] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:43] [warning] [BOT 2] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:43] [warning] [BOT 53] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:43] [warning] [BOT 52] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:43] [warning] Bot 99 dead → restarting
+[2025-05-18 03:19:44] [warning] [BOT 94] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:46] [warning] [BOT 95] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:46] [info] [BOT 99] Stopped
+[2025-05-18 03:19:46] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:19:47] [warning] [BOT 96] Heartbeat error: Unexpected SOCKS version number: 0
+[2025-05-18 03:19:50] [info] Bot ID:[99] started successfully
+[2025-05-18 03:19:50] [warning] [BOT 99] Heartbeat error: Connector is closed.
+[2025-05-18 03:19:50] [warning] [BOT 28] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:50] [warning] [BOT 77] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:50] [warning] [BOT 3] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:50] [warning] [BOT 54] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:50] [warning] [BOT 78] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:51] [warning] [BOT 97] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:51] [warning] [BOT 29] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:51] [warning] [BOT 98] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:51] [warning] [BOT 55] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:51] [warning] [BOT 4] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:51] [warning] [BOT 30] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:52] [warning] [BOT 5] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:52] [warning] [BOT 56] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:52] [warning] [BOT 79] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:52] [warning] Bot 85 dead → restarting
+[2025-05-18 03:19:52] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:19:52] [warning] [BOT 84] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:52] [warning] [BOT 83] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:52] [warning] [BOT 31] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:52] [warning] [BOT 41] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:52] [warning] [BOT 64] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:52] [warning] [BOT 39] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:52] [warning] [BOT 42] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:52] [warning] [BOT 82] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:52] [warning] [BOT 35] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:52] [warning] [BOT 13] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:53] [warning] [BOT 67] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:53] [warning] [BOT 16] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:53] [warning] [BOT 81] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:53] [warning] [BOT 60] Heartbeat error: Server disconnected
+[2025-05-18 03:19:53] [warning] [BOT 61] Heartbeat error: Server disconnected
+[2025-05-18 03:19:53] [warning] [BOT 57] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:53] [warning] [BOT 43] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:53] [warning] [BOT 32] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:53] [warning] [BOT 58] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:53] [warning] [BOT 7] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:53] [warning] [BOT 33] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:53] [warning] [BOT 6] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:53] [warning] [BOT 17] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:53] [warning] [BOT 68] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:54] [warning] [BOT 44] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:54] [warning] [BOT 20] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:54] [warning] [BOT 66] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:54] [warning] [BOT 69] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:54] [warning] [BOT 14] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:54] [warning] [BOT 18] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:54] [warning] [BOT 45] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:54] [warning] [BOT 19] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:54] [warning] [BOT 46] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:54] [warning] [BOT 70] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:54] [warning] [BOT 15] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:54] [warning] [BOT 11] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:54] [warning] [BOT 65] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:54] [warning] [BOT 38] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:54] [warning] [BOT 37] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:54] [warning] [BOT 12] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:54] [warning] [BOT 40] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:54] [warning] [BOT 36] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:54] [warning] [BOT 63] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:54] [warning] [BOT 62] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:54] [warning] [BOT 80] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:54] [warning] [BOT 86] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:54] [warning] [BOT 87] Heartbeat error: Server disconnected
+[2025-05-18 03:19:54] [warning] [BOT 71] Heartbeat error: Server disconnected
+[2025-05-18 03:19:54] [warning] [BOT 21] Heartbeat error: Server disconnected
+[2025-05-18 03:19:54] [warning] [BOT 73] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:54] [warning] [BOT 47] Heartbeat error: Server disconnected
+[2025-05-18 03:19:54] [warning] [BOT 72] Heartbeat error: Server disconnected
+[2025-05-18 03:19:54] [warning] [BOT 22] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:54] [warning] [BOT 48] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:54] [warning] [BOT 8] Heartbeat error: Server disconnected
+[2025-05-18 03:19:54] [warning] [BOT 59] Heartbeat error: Server disconnected
+[2025-05-18 03:19:54] [warning] [BOT 9] Heartbeat error: Server disconnected
+[2025-05-18 03:19:54] [warning] [BOT 34] Heartbeat error: Server disconnected
+[2025-05-18 03:19:54] [warning] [BOT 10] Heartbeat error: Server disconnected
+[2025-05-18 03:19:55] [warning] [BOT 88] Heartbeat error: Server disconnected
+[2025-05-18 03:19:55] [warning] [BOT 23] Heartbeat error: Server disconnected
+[2025-05-18 03:19:55] [warning] [BOT 49] Heartbeat error: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+[2025-05-18 03:19:56] [warning] [BOT 74] Heartbeat error: Server disconnected
+[2025-05-18 03:19:56] [warning] [BOT 24] Heartbeat error: Server disconnected
+[2025-05-18 03:19:56] [warning] [BOT 50] Heartbeat error: Server disconnected
+[2025-05-18 03:19:56] [warning] [BOT 25] Heartbeat error: Server disconnected
+[2025-05-18 03:19:57] [warning] [BOT 89] Heartbeat error: Server disconnected
+[2025-05-18 03:19:57] [warning] [BOT 90] Heartbeat error: Server disconnected
+[2025-05-18 03:19:57] [warning] [BOT 91] Heartbeat error: Server disconnected
+[2025-05-18 03:19:57] [warning] [BOT 75] Heartbeat error: Server disconnected
+[2025-05-18 03:19:57] [warning] [BOT 0] Heartbeat error: Server disconnected
+[2025-05-18 03:19:57] [warning] [BOT 51] Heartbeat error: Server disconnected
+[2025-05-18 03:19:57] [warning] [BOT 26] Heartbeat error: Server disconnected
+[2025-05-18 03:19:57] [warning] [BOT 1] Heartbeat error: Server disconnected
+[2025-05-18 03:19:57] [warning] Bot 85 dead → restarting
+[2025-05-18 03:19:57] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:19:58] [warning] [BOT 92] Heartbeat error: Server disconnected
+[2025-05-18 03:19:58] [warning] [BOT 93] Heartbeat error: Server disconnected
+[2025-05-18 03:19:58] [warning] [BOT 76] Heartbeat error: Server disconnected
+[2025-05-18 03:19:58] [warning] [BOT 27] Heartbeat error: Server disconnected
+[2025-05-18 03:19:58] [warning] [BOT 2] Heartbeat error: Server disconnected
+[2025-05-18 03:19:58] [warning] [BOT 53] Heartbeat error: Server disconnected
+[2025-05-18 03:19:58] [warning] [BOT 52] Heartbeat error: Server disconnected
+[2025-05-18 03:19:59] [warning] [BOT 94] Heartbeat error: Server disconnected
+[2025-05-18 03:20:01] [warning] [BOT 95] Heartbeat error: Server disconnected
+[2025-05-18 03:20:02] [warning] [BOT 96] Heartbeat error: Server disconnected
+[2025-05-18 03:20:02] [warning] Bot 85 dead → restarting
+[2025-05-18 03:20:02] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:20:05] [warning] [BOT 77] Heartbeat error: Server disconnected
+[2025-05-18 03:20:05] [warning] [BOT 28] Heartbeat error: Server disconnected
+[2025-05-18 03:20:05] [warning] [BOT 3] Heartbeat error: Server disconnected
+[2025-05-18 03:20:05] [warning] [BOT 54] Heartbeat error: Server disconnected
+[2025-05-18 03:20:05] [warning] [BOT 78] Heartbeat error: Server disconnected
+[2025-05-18 03:20:06] [warning] [BOT 97] Heartbeat error: Server disconnected
+[2025-05-18 03:20:06] [warning] [BOT 29] Heartbeat error: Server disconnected
+[2025-05-18 03:20:06] [warning] [BOT 98] Heartbeat error: Server disconnected
+[2025-05-18 03:20:06] [warning] [BOT 30] Heartbeat error: Server disconnected
+[2025-05-18 03:20:06] [warning] [BOT 55] Heartbeat error: Server disconnected
+[2025-05-18 03:20:06] [warning] [BOT 4] Heartbeat error: Server disconnected
+[2025-05-18 03:20:07] [warning] [BOT 5] Heartbeat error: Server disconnected
+[2025-05-18 03:20:07] [warning] Bot 85 dead → restarting
+[2025-05-18 03:20:07] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:20:07] [warning] [BOT 56] Heartbeat error: Server disconnected
+[2025-05-18 03:20:07] [warning] [BOT 79] Heartbeat error: Server disconnected
+[2025-05-18 03:20:08] [warning] [BOT 84] Heartbeat error: Server disconnected
+[2025-05-18 03:20:08] [warning] [BOT 83] Heartbeat error: Server disconnected
+[2025-05-18 03:20:08] [warning] [BOT 31] Heartbeat error: Server disconnected
+[2025-05-18 03:20:08] [warning] [BOT 41] Heartbeat error: Server disconnected
+[2025-05-18 03:20:08] [warning] [BOT 39] Heartbeat error: Server disconnected
+[2025-05-18 03:20:08] [warning] [BOT 64] Heartbeat error: Server disconnected
+[2025-05-18 03:20:08] [warning] [BOT 42] Heartbeat error: Server disconnected
+[2025-05-18 03:20:08] [warning] [BOT 82] Heartbeat error: Server disconnected
+[2025-05-18 03:20:08] [warning] [BOT 35] Heartbeat error: Server disconnected
+[2025-05-18 03:20:08] [warning] [BOT 67] Heartbeat error: Server disconnected
+[2025-05-18 03:20:08] [warning] [BOT 16] Heartbeat error: Server disconnected
+[2025-05-18 03:20:08] [warning] [BOT 13] Heartbeat error: Server disconnected
+[2025-05-18 03:20:08] [warning] [BOT 81] Heartbeat error: Server disconnected
+[2025-05-18 03:20:08] [warning] [BOT 61] Heartbeat error: Server disconnected
+[2025-05-18 03:20:08] [warning] [BOT 60] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 57] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 43] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 32] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 7] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 58] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 33] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 6] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 17] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 68] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 45] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 14] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 69] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 70] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 46] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 44] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 38] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 66] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 15] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 40] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 37] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 20] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 36] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 63] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 11] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 19] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 18] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 12] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 62] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 65] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 80] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 86] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 87] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 21] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 73] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 71] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 72] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 47] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 48] Heartbeat error: Server disconnected
+[2025-05-18 03:20:09] [warning] [BOT 22] Heartbeat error: Server disconnected
+[2025-05-18 03:20:10] [warning] [BOT 8] Heartbeat error: Server disconnected
+[2025-05-18 03:20:10] [warning] [BOT 9] Heartbeat error: Server disconnected
+[2025-05-18 03:20:10] [warning] [BOT 59] Heartbeat error: Server disconnected
+[2025-05-18 03:20:10] [warning] [BOT 34] Heartbeat error: Server disconnected
+[2025-05-18 03:20:10] [warning] [BOT 10] Heartbeat error: Server disconnected
+[2025-05-18 03:20:10] [warning] [BOT 88] Heartbeat error: Server disconnected
+[2025-05-18 03:20:11] [warning] [BOT 23] Heartbeat error: Server disconnected
+[2025-05-18 03:20:11] [warning] [BOT 49] Heartbeat error: Server disconnected
+[2025-05-18 03:20:11] [warning] [BOT 74] Heartbeat error: Server disconnected
+[2025-05-18 03:20:11] [warning] [BOT 24] Heartbeat error: Server disconnected
+[2025-05-18 03:20:11] [warning] [BOT 50] Heartbeat error: Server disconnected
+[2025-05-18 03:20:11] [warning] [BOT 25] Heartbeat error: Server disconnected
+[2025-05-18 03:20:12] [warning] [BOT 89] Heartbeat error: Server disconnected
+[2025-05-18 03:20:12] [warning] [BOT 90] Heartbeat error: Server disconnected
+[2025-05-18 03:20:12] [warning] [BOT 91] Heartbeat error: Server disconnected
+[2025-05-18 03:20:12] [warning] [BOT 75] Heartbeat error: Server disconnected
+[2025-05-18 03:20:12] [warning] Bot 85 dead → restarting
+[2025-05-18 03:20:12] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:20:12] [warning] [BOT 0] Heartbeat error: Server disconnected
+[2025-05-18 03:20:12] [warning] [BOT 51] Heartbeat error: Server disconnected
+[2025-05-18 03:20:12] [warning] [BOT 26] Heartbeat error: Server disconnected
+[2025-05-18 03:20:12] [warning] [BOT 1] Heartbeat error: Server disconnected
+[2025-05-18 03:20:13] [warning] [BOT 92] Heartbeat error: Server disconnected
+[2025-05-18 03:20:13] [warning] [BOT 93] Heartbeat error: Server disconnected
+[2025-05-18 03:20:14] [warning] [BOT 76] Heartbeat error: Server disconnected
+[2025-05-18 03:20:14] [warning] [BOT 27] Heartbeat error: Server disconnected
+[2025-05-18 03:20:14] [warning] [BOT 2] Heartbeat error: Server disconnected
+[2025-05-18 03:20:14] [warning] [BOT 53] Heartbeat error: Server disconnected
+[2025-05-18 03:20:14] [warning] [BOT 52] Heartbeat error: Server disconnected
+[2025-05-18 03:20:14] [warning] [BOT 94] Heartbeat error: Server disconnected
+[2025-05-18 03:20:17] [warning] [BOT 95] Heartbeat error: Server disconnected
+[2025-05-18 03:20:17] [warning] [BOT 96] Heartbeat error: Server disconnected
+[2025-05-18 03:20:17] [warning] Bot 85 dead → restarting
+[2025-05-18 03:20:17] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:20:20] [warning] [BOT 77] Heartbeat error: Server disconnected
+[2025-05-18 03:20:20] [warning] [BOT 3] Heartbeat error: Server disconnected
+[2025-05-18 03:20:20] [warning] [BOT 28] Heartbeat error: Server disconnected
+[2025-05-18 03:20:20] [warning] [BOT 54] Heartbeat error: Server disconnected
+[2025-05-18 03:20:20] [warning] [BOT 78] Heartbeat error: Server disconnected
+[2025-05-18 03:20:21] [warning] [BOT 97] Heartbeat error: Server disconnected
+[2025-05-18 03:20:21] [warning] [BOT 29] Heartbeat error: Server disconnected
+[2025-05-18 03:20:21] [warning] [BOT 98] Heartbeat error: Server disconnected
+[2025-05-18 03:20:22] [warning] [BOT 30] Heartbeat error: Server disconnected
+[2025-05-18 03:20:22] [warning] [BOT 55] Heartbeat error: Server disconnected
+[2025-05-18 03:20:22] [warning] [BOT 4] Heartbeat error: Server disconnected
+[2025-05-18 03:20:22] [warning] [BOT 5] Heartbeat error: Server disconnected
+[2025-05-18 03:20:22] [warning] Bot 85 dead → restarting
+[2025-05-18 03:20:22] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:20:23] [warning] [BOT 56] Heartbeat error: Server disconnected
+[2025-05-18 03:20:23] [warning] [BOT 79] Heartbeat error: Server disconnected
+[2025-05-18 03:20:23] [warning] [BOT 83] Heartbeat error: Server disconnected
+[2025-05-18 03:20:23] [warning] [BOT 84] Heartbeat error: Server disconnected
+[2025-05-18 03:20:23] [warning] [BOT 41] Heartbeat error: Server disconnected
+[2025-05-18 03:20:23] [warning] [BOT 31] Heartbeat error: Server disconnected
+[2025-05-18 03:20:23] [warning] [BOT 64] Heartbeat error: Server disconnected
+[2025-05-18 03:20:23] [warning] [BOT 39] Heartbeat error: Server disconnected
+[2025-05-18 03:20:23] [warning] [BOT 42] Heartbeat error: Server disconnected
+[2025-05-18 03:20:23] [warning] [BOT 82] Heartbeat error: Server disconnected
+[2025-05-18 03:20:23] [warning] [BOT 67] Heartbeat error: Server disconnected
+[2025-05-18 03:20:23] [warning] [BOT 35] Heartbeat error: Server disconnected
+[2025-05-18 03:20:23] [warning] [BOT 16] Heartbeat error: Server disconnected
+[2025-05-18 03:20:23] [warning] [BOT 13] Heartbeat error: Server disconnected
+[2025-05-18 03:20:23] [warning] [BOT 81] Heartbeat error: Server disconnected
+[2025-05-18 03:20:23] [warning] [BOT 61] Heartbeat error: Server disconnected
+[2025-05-18 03:20:23] [warning] [BOT 60] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 43] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 57] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 32] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 58] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 7] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 33] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 6] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 17] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 68] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 45] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 14] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 69] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 70] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 37] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 15] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 46] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 44] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 66] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 38] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 11] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 20] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 63] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 40] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 36] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 19] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 12] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 18] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 80] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 62] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 65] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 86] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 87] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 21] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 73] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 71] Heartbeat error: Server disconnected
+[2025-05-18 03:20:24] [warning] [BOT 72] Heartbeat error: Server disconnected
+[2025-05-18 03:20:25] [warning] [BOT 47] Heartbeat error: Server disconnected
+[2025-05-18 03:20:25] [warning] [BOT 48] Heartbeat error: Server disconnected
+[2025-05-18 03:20:25] [warning] [BOT 22] Heartbeat error: Server disconnected
+[2025-05-18 03:20:25] [warning] [BOT 8] Heartbeat error: Server disconnected
+[2025-05-18 03:20:25] [warning] [BOT 9] Heartbeat error: Server disconnected
+[2025-05-18 03:20:25] [warning] [BOT 59] Heartbeat error: Server disconnected
+[2025-05-18 03:20:25] [warning] [BOT 10] Heartbeat error: Server disconnected
+[2025-05-18 03:20:25] [warning] [BOT 34] Heartbeat error: Server disconnected
+[2025-05-18 03:20:26] [warning] [BOT 88] Heartbeat error: Server disconnected
+[2025-05-18 03:20:26] [warning] [BOT 23] Heartbeat error: Server disconnected
+[2025-05-18 03:20:26] [warning] [BOT 49] Heartbeat error: Server disconnected
+[2025-05-18 03:20:26] [warning] [BOT 74] Heartbeat error: Server disconnected
+[2025-05-18 03:20:26] [warning] [BOT 50] Heartbeat error: Server disconnected
+[2025-05-18 03:20:26] [warning] [BOT 25] Heartbeat error: Server disconnected
+[2025-05-18 03:20:26] [warning] [BOT 24] Heartbeat error: Server disconnected
+[2025-05-18 03:20:27] [warning] [BOT 89] Heartbeat error: Server disconnected
+[2025-05-18 03:20:27] [warning] [BOT 90] Heartbeat error: Server disconnected
+[2025-05-18 03:20:27] [warning] Bot 85 dead → restarting
+[2025-05-18 03:20:27] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:20:27] [warning] [BOT 75] Heartbeat error: Server disconnected
+[2025-05-18 03:20:27] [warning] [BOT 91] Heartbeat error: Server disconnected
+[2025-05-18 03:20:28] [warning] [BOT 0] Heartbeat error: Server disconnected
+[2025-05-18 03:20:28] [warning] [BOT 51] Heartbeat error: Server disconnected
+[2025-05-18 03:20:28] [warning] [BOT 26] Heartbeat error: Server disconnected
+[2025-05-18 03:20:28] [warning] [BOT 1] Heartbeat error: Server disconnected
+[2025-05-18 03:20:28] [warning] [BOT 92] Heartbeat error: Server disconnected
+[2025-05-18 03:20:29] [warning] [BOT 93] Heartbeat error: Server disconnected
+[2025-05-18 03:20:29] [warning] [BOT 76] Heartbeat error: Server disconnected
+[2025-05-18 03:20:29] [warning] [BOT 27] Heartbeat error: Server disconnected
+[2025-05-18 03:20:29] [warning] [BOT 2] Heartbeat error: Server disconnected
+[2025-05-18 03:20:29] [warning] [BOT 53] Heartbeat error: Server disconnected
+[2025-05-18 03:20:29] [warning] [BOT 52] Heartbeat error: Server disconnected
+[2025-05-18 03:20:30] [warning] [BOT 94] Heartbeat error: Server disconnected
+[2025-05-18 03:20:32] [warning] [BOT 95] Heartbeat error: Server disconnected
+[2025-05-18 03:20:32] [warning] [BOT 96] Heartbeat error: Server disconnected
+[2025-05-18 03:20:32] [warning] Bot 85 dead → restarting
+[2025-05-18 03:20:32] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:20:36] [warning] [BOT 77] Heartbeat error: Server disconnected
+[2025-05-18 03:20:36] [warning] [BOT 3] Heartbeat error: Server disconnected
+[2025-05-18 03:20:36] [warning] [BOT 28] Heartbeat error: Server disconnected
+[2025-05-18 03:20:36] [warning] [BOT 54] Heartbeat error: Server disconnected
+[2025-05-18 03:20:36] [warning] [BOT 78] Heartbeat error: Server disconnected
+[2025-05-18 03:20:36] [warning] [BOT 97] Heartbeat error: Server disconnected
+[2025-05-18 03:20:36] [warning] [BOT 29] Heartbeat error: Server disconnected
+[2025-05-18 03:20:36] [warning] [BOT 98] Heartbeat error: Server disconnected
+[2025-05-18 03:20:37] [warning] [BOT 55] Heartbeat error: Server disconnected
+[2025-05-18 03:20:37] [warning] [BOT 30] Heartbeat error: Server disconnected
+[2025-05-18 03:20:37] [warning] [BOT 4] Heartbeat error: Server disconnected
+[2025-05-18 03:20:37] [warning] Bot 85 dead → restarting
+[2025-05-18 03:20:37] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:20:37] [warning] [BOT 5] Heartbeat error: Server disconnected
+[2025-05-18 03:20:38] [warning] [BOT 56] Heartbeat error: Server disconnected
+[2025-05-18 03:20:38] [warning] [BOT 79] Heartbeat error: Server disconnected
+[2025-05-18 03:20:38] [warning] [BOT 84] Heartbeat error: Server disconnected
+[2025-05-18 03:20:38] [warning] [BOT 83] Heartbeat error: Server disconnected
+[2025-05-18 03:20:38] [warning] [BOT 41] Heartbeat error: Server disconnected
+[2025-05-18 03:20:38] [warning] [BOT 31] Heartbeat error: Server disconnected
+[2025-05-18 03:20:38] [warning] [BOT 39] Heartbeat error: Server disconnected
+[2025-05-18 03:20:38] [warning] [BOT 64] Heartbeat error: Server disconnected
+[2025-05-18 03:20:38] [warning] [BOT 42] Heartbeat error: Server disconnected
+[2025-05-18 03:20:38] [warning] [BOT 82] Heartbeat error: Server disconnected
+[2025-05-18 03:20:38] [warning] [BOT 67] Heartbeat error: Server disconnected
+[2025-05-18 03:20:38] [warning] [BOT 35] Heartbeat error: Server disconnected
+[2025-05-18 03:20:38] [warning] [BOT 16] Heartbeat error: Server disconnected
+[2025-05-18 03:20:38] [warning] [BOT 13] Heartbeat error: Server disconnected
+[2025-05-18 03:20:38] [warning] [BOT 81] Heartbeat error: Server disconnected
+[2025-05-18 03:20:38] [warning] [BOT 61] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 60] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 43] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 57] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 32] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 7] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 58] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 33] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 6] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 17] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 68] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 45] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 69] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 14] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 70] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 37] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 20] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 44] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 15] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 46] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 66] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 18] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 38] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 11] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 36] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 12] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 80] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 19] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 63] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 40] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 62] Heartbeat error: Server disconnected
+[2025-05-18 03:20:39] [warning] [BOT 65] Heartbeat error: Server disconnected
+[2025-05-18 03:20:40] [warning] [BOT 86] Heartbeat error: Server disconnected
+[2025-05-18 03:20:40] [warning] [BOT 87] Heartbeat error: Server disconnected
+[2025-05-18 03:20:40] [warning] [BOT 73] Heartbeat error: Server disconnected
+[2025-05-18 03:20:40] [warning] [BOT 71] Heartbeat error: Server disconnected
+[2025-05-18 03:20:40] [warning] [BOT 21] Heartbeat error: Server disconnected
+[2025-05-18 03:20:40] [warning] [BOT 72] Heartbeat error: Server disconnected
+[2025-05-18 03:20:40] [warning] [BOT 47] Heartbeat error: Server disconnected
+[2025-05-18 03:20:40] [warning] [BOT 48] Heartbeat error: Server disconnected
+[2025-05-18 03:20:40] [warning] [BOT 22] Heartbeat error: Server disconnected
+[2025-05-18 03:20:40] [warning] [BOT 8] Heartbeat error: Server disconnected
+[2025-05-18 03:20:40] [warning] [BOT 9] Heartbeat error: Server disconnected
+[2025-05-18 03:20:40] [warning] [BOT 59] Heartbeat error: Server disconnected
+[2025-05-18 03:20:40] [warning] [BOT 10] Heartbeat error: Server disconnected
+[2025-05-18 03:20:40] [warning] [BOT 34] Heartbeat error: Server disconnected
+[2025-05-18 03:20:41] [warning] [BOT 88] Heartbeat error: Server disconnected
+[2025-05-18 03:20:41] [warning] [BOT 23] Heartbeat error: Server disconnected
+[2025-05-18 03:20:41] [warning] [BOT 49] Heartbeat error: Server disconnected
+[2025-05-18 03:20:41] [warning] [BOT 74] Heartbeat error: Server disconnected
+[2025-05-18 03:20:41] [warning] [BOT 50] Heartbeat error: Server disconnected
+[2025-05-18 03:20:41] [warning] [BOT 25] Heartbeat error: Server disconnected
+[2025-05-18 03:20:41] [warning] [BOT 24] Heartbeat error: Server disconnected
+[2025-05-18 03:20:42] [warning] Bot 85 dead → restarting
+[2025-05-18 03:20:42] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:20:42] [warning] [BOT 89] Heartbeat error: Server disconnected
+[2025-05-18 03:20:42] [warning] [BOT 90] Heartbeat error: Server disconnected
+[2025-05-18 03:20:43] [warning] [BOT 75] Heartbeat error: Server disconnected
+[2025-05-18 03:20:43] [warning] [BOT 91] Heartbeat error: Server disconnected
+[2025-05-18 03:20:43] [warning] [BOT 0] Heartbeat error: Server disconnected
+[2025-05-18 03:20:43] [warning] [BOT 51] Heartbeat error: Server disconnected
+[2025-05-18 03:20:43] [warning] [BOT 26] Heartbeat error: Server disconnected
+[2025-05-18 03:20:43] [warning] [BOT 1] Heartbeat error: Server disconnected
+[2025-05-18 03:20:43] [info] Задача 2: осталось 00:30:00 (1800 сек)
+[2025-05-18 03:20:43] [info] Задача 2: следующий чек через 60 сек...
+[2025-05-18 03:20:44] [warning] [BOT 92] Heartbeat error: Server disconnected
+[2025-05-18 03:20:44] [warning] [BOT 93] Heartbeat error: Server disconnected
+[2025-05-18 03:20:44] [warning] [BOT 27] Heartbeat error: Server disconnected
+[2025-05-18 03:20:44] [warning] [BOT 76] Heartbeat error: Server disconnected
+[2025-05-18 03:20:44] [warning] [BOT 2] Heartbeat error: Server disconnected
+[2025-05-18 03:20:44] [warning] [BOT 53] Heartbeat error: Server disconnected
+[2025-05-18 03:20:44] [warning] [BOT 52] Heartbeat error: Server disconnected
+[2025-05-18 03:20:45] [warning] [BOT 94] Heartbeat error: Server disconnected
+[2025-05-18 03:20:47] [warning] [BOT 95] Heartbeat error: Server disconnected
+[2025-05-18 03:20:47] [warning] Bot 85 dead → restarting
+[2025-05-18 03:20:47] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:20:47] [warning] [BOT 96] Heartbeat error: Server disconnected
+[2025-05-18 03:20:51] [warning] [BOT 77] Heartbeat error: Server disconnected
+[2025-05-18 03:20:51] [warning] [BOT 3] Heartbeat error: Server disconnected
+[2025-05-18 03:20:51] [warning] [BOT 28] Heartbeat error: Server disconnected
+[2025-05-18 03:20:51] [warning] [BOT 54] Heartbeat error: Server disconnected
+[2025-05-18 03:20:51] [warning] [BOT 78] Heartbeat error: Server disconnected
+[2025-05-18 03:20:51] [warning] [BOT 97] Heartbeat error: Server disconnected
+[2025-05-18 03:20:51] [warning] [BOT 29] Heartbeat error: Server disconnected
+[2025-05-18 03:20:52] [warning] [BOT 98] Heartbeat error: Server disconnected
+[2025-05-18 03:20:52] [warning] [BOT 30] Heartbeat error: Server disconnected
+[2025-05-18 03:20:52] [warning] [BOT 55] Heartbeat error: Server disconnected
+[2025-05-18 03:20:52] [warning] [BOT 4] Heartbeat error: Server disconnected
+[2025-05-18 03:20:52] [warning] Bot 85 dead → restarting
+[2025-05-18 03:20:52] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:20:53] [warning] [BOT 5] Heartbeat error: Server disconnected
+[2025-05-18 03:20:53] [warning] [BOT 56] Heartbeat error: Server disconnected
+[2025-05-18 03:20:53] [warning] [BOT 79] Heartbeat error: Server disconnected
+[2025-05-18 03:20:53] [warning] [BOT 83] Heartbeat error: Server disconnected
+[2025-05-18 03:20:53] [warning] [BOT 84] Heartbeat error: Server disconnected
+[2025-05-18 03:20:53] [warning] [BOT 31] Heartbeat error: Server disconnected
+[2025-05-18 03:20:53] [warning] [BOT 41] Heartbeat error: Server disconnected
+[2025-05-18 03:20:53] [warning] [BOT 64] Heartbeat error: Server disconnected
+[2025-05-18 03:20:53] [warning] [BOT 39] Heartbeat error: Server disconnected
+[2025-05-18 03:20:53] [warning] [BOT 42] Heartbeat error: Server disconnected
+[2025-05-18 03:20:53] [warning] [BOT 82] Heartbeat error: Server disconnected
+[2025-05-18 03:20:53] [warning] [BOT 35] Heartbeat error: Server disconnected
+[2025-05-18 03:20:53] [warning] [BOT 13] Heartbeat error: Server disconnected
+[2025-05-18 03:20:53] [warning] [BOT 16] Heartbeat error: Server disconnected
+[2025-05-18 03:20:53] [warning] [BOT 67] Heartbeat error: Server disconnected
+[2025-05-18 03:20:53] [warning] [BOT 81] Heartbeat error: Server disconnected
+[2025-05-18 03:20:54] [warning] [BOT 61] Heartbeat error: Server disconnected
+[2025-05-18 03:20:54] [warning] [BOT 60] Heartbeat error: Server disconnected
+[2025-05-18 03:20:54] [warning] [BOT 43] Heartbeat error: Server disconnected
+[2025-05-18 03:20:54] [warning] [BOT 57] Heartbeat error: Server disconnected
+[2025-05-18 03:20:54] [warning] [BOT 32] Heartbeat error: Server disconnected
+[2025-05-18 03:20:54] [warning] [BOT 33] Heartbeat error: Server disconnected
+[2025-05-18 03:20:54] [warning] [BOT 58] Heartbeat error: Server disconnected
+[2025-05-18 03:20:54] [warning] [BOT 6] Heartbeat error: Server disconnected
+[2025-05-18 03:20:54] [warning] [BOT 17] Heartbeat error: Server disconnected
+[2025-05-18 03:20:54] [warning] [BOT 7] Heartbeat error: Server disconnected
+[2025-05-18 03:20:54] [warning] [BOT 68] Heartbeat error: Server disconnected
+[2025-05-18 03:20:54] [warning] [BOT 45] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 69] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 37] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 20] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 44] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 14] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 70] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 15] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 66] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 46] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 38] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 36] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 12] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 18] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 11] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 80] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 19] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 63] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 62] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 40] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 65] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 86] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 87] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 73] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 71] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 72] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 21] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 47] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 48] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 22] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 8] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 9] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 10] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 59] Heartbeat error: Server disconnected
+[2025-05-18 03:20:55] [warning] [BOT 34] Heartbeat error: Server disconnected
+[2025-05-18 03:20:56] [warning] [BOT 88] Heartbeat error: Server disconnected
+[2025-05-18 03:20:56] [warning] [BOT 23] Heartbeat error: Server disconnected
+[2025-05-18 03:20:56] [warning] [BOT 49] Heartbeat error: Server disconnected
+[2025-05-18 03:20:57] [warning] [BOT 74] Heartbeat error: Server disconnected
+[2025-05-18 03:20:57] [warning] [BOT 50] Heartbeat error: Server disconnected
+[2025-05-18 03:20:57] [warning] [BOT 25] Heartbeat error: Server disconnected
+[2025-05-18 03:20:57] [warning] [BOT 24] Heartbeat error: Server disconnected
+[2025-05-18 03:20:57] [warning] Bot 85 dead → restarting
+[2025-05-18 03:20:57] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:20:58] [warning] [BOT 90] Heartbeat error: Server disconnected
+[2025-05-18 03:20:58] [warning] [BOT 89] Heartbeat error: Server disconnected
+[2025-05-18 03:20:58] [warning] [BOT 75] Heartbeat error: Server disconnected
+[2025-05-18 03:20:58] [warning] [BOT 91] Heartbeat error: Server disconnected
+[2025-05-18 03:20:58] [warning] [BOT 0] Heartbeat error: Server disconnected
+[2025-05-18 03:20:58] [warning] [BOT 26] Heartbeat error: Server disconnected
+[2025-05-18 03:20:58] [warning] [BOT 51] Heartbeat error: Server disconnected
+[2025-05-18 03:20:58] [warning] [BOT 1] Heartbeat error: Server disconnected
+[2025-05-18 03:20:59] [warning] [BOT 92] Heartbeat error: Server disconnected
+[2025-05-18 03:20:59] [warning] [BOT 93] Heartbeat error: Server disconnected
+[2025-05-18 03:20:59] [warning] [BOT 27] Heartbeat error: Server disconnected
+[2025-05-18 03:20:59] [warning] [BOT 76] Heartbeat error: Server disconnected
+[2025-05-18 03:20:59] [warning] [BOT 2] Heartbeat error: Server disconnected
+[2025-05-18 03:20:59] [warning] [BOT 53] Heartbeat error: Server disconnected
+[2025-05-18 03:20:59] [warning] [BOT 52] Heartbeat error: Server disconnected
+[2025-05-18 03:21:00] [warning] [BOT 94] Heartbeat error: Server disconnected
+[2025-05-18 03:21:02] [warning] [BOT 95] Heartbeat error: Server disconnected
+[2025-05-18 03:21:02] [warning] Bot 85 dead → restarting
+[2025-05-18 03:21:02] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:21:03] [warning] [BOT 96] Heartbeat error: Server disconnected
+[2025-05-18 03:21:06] [warning] [BOT 77] Heartbeat error: Server disconnected
+[2025-05-18 03:21:06] [warning] [BOT 3] Heartbeat error: Server disconnected
+[2025-05-18 03:21:06] [warning] [BOT 28] Heartbeat error: Server disconnected
+[2025-05-18 03:21:06] [warning] [BOT 54] Heartbeat error: Server disconnected
+[2025-05-18 03:21:06] [warning] [BOT 78] Heartbeat error: Server disconnected
+[2025-05-18 03:21:07] [warning] [BOT 97] Heartbeat error: Server disconnected
+[2025-05-18 03:21:07] [warning] [BOT 29] Heartbeat error: Server disconnected
+[2025-05-18 03:21:07] [warning] [BOT 98] Heartbeat error: Server disconnected
+[2025-05-18 03:21:07] [warning] [BOT 30] Heartbeat error: Server disconnected
+[2025-05-18 03:21:07] [warning] [BOT 55] Heartbeat error: Server disconnected
+[2025-05-18 03:21:07] [warning] [BOT 4] Heartbeat error: Server disconnected
+[2025-05-18 03:21:07] [warning] Bot 85 dead → restarting
+[2025-05-18 03:21:07] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:21:08] [warning] [BOT 5] Heartbeat error: Server disconnected
+[2025-05-18 03:21:08] [warning] [BOT 56] Heartbeat error: Server disconnected
+[2025-05-18 03:21:08] [warning] [BOT 79] Heartbeat error: Server disconnected
+[2025-05-18 03:21:08] [warning] [BOT 84] Heartbeat error: Server disconnected
+[2025-05-18 03:21:08] [warning] [BOT 31] Heartbeat error: Server disconnected
+[2025-05-18 03:21:08] [warning] [BOT 83] Heartbeat error: Server disconnected
+[2025-05-18 03:21:08] [warning] [BOT 64] Heartbeat error: Server disconnected
+[2025-05-18 03:21:08] [warning] [BOT 41] Heartbeat error: Server disconnected
+[2025-05-18 03:21:08] [warning] [BOT 39] Heartbeat error: Server disconnected
+[2025-05-18 03:21:09] [warning] [BOT 82] Heartbeat error: Server disconnected
+[2025-05-18 03:21:09] [warning] [BOT 42] Heartbeat error: Server disconnected
+[2025-05-18 03:21:09] [warning] [BOT 35] Heartbeat error: Server disconnected
+[2025-05-18 03:21:09] [warning] [BOT 16] Heartbeat error: Server disconnected
+[2025-05-18 03:21:09] [warning] [BOT 13] Heartbeat error: Server disconnected
+[2025-05-18 03:21:09] [warning] [BOT 67] Heartbeat error: Server disconnected
+[2025-05-18 03:21:09] [warning] [BOT 81] Heartbeat error: Server disconnected
+[2025-05-18 03:21:09] [warning] [BOT 61] Heartbeat error: Server disconnected
+[2025-05-18 03:21:09] [warning] [BOT 60] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 43] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 57] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 32] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 58] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 6] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 7] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 68] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 33] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 17] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 45] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 44] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 37] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 20] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 15] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 69] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 14] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 70] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 66] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 46] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 12] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 38] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 36] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 18] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 19] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 63] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 80] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 62] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 40] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 65] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 11] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 86] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 87] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 73] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 71] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 72] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 21] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 47] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 48] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 22] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 8] Heartbeat error: Server disconnected
+[2025-05-18 03:21:10] [warning] [BOT 9] Heartbeat error: Server disconnected
+[2025-05-18 03:21:11] [warning] [BOT 10] Heartbeat error: Server disconnected
+[2025-05-18 03:21:11] [warning] [BOT 59] Heartbeat error: Server disconnected
+[2025-05-18 03:21:11] [warning] [BOT 34] Heartbeat error: Server disconnected
+[2025-05-18 03:21:11] [warning] [BOT 88] Heartbeat error: Server disconnected
+[2025-05-18 03:21:11] [warning] [BOT 23] Heartbeat error: Server disconnected
+[2025-05-18 03:21:12] [warning] [BOT 49] Heartbeat error: Server disconnected
+[2025-05-18 03:21:12] [warning] [BOT 74] Heartbeat error: Server disconnected
+[2025-05-18 03:21:12] [warning] [BOT 50] Heartbeat error: Server disconnected
+[2025-05-18 03:21:12] [warning] [BOT 25] Heartbeat error: Server disconnected
+[2025-05-18 03:21:12] [warning] [BOT 24] Heartbeat error: Server disconnected
+[2025-05-18 03:21:12] [warning] Bot 85 dead → restarting
+[2025-05-18 03:21:12] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:21:13] [warning] [BOT 90] Heartbeat error: Server disconnected
+[2025-05-18 03:21:13] [warning] [BOT 89] Heartbeat error: Server disconnected
+[2025-05-18 03:21:13] [warning] [BOT 75] Heartbeat error: Server disconnected
+[2025-05-18 03:21:13] [warning] [BOT 91] Heartbeat error: Server disconnected
+[2025-05-18 03:21:13] [warning] [BOT 26] Heartbeat error: Server disconnected
+[2025-05-18 03:21:13] [warning] [BOT 0] Heartbeat error: Server disconnected
+[2025-05-18 03:21:13] [warning] [BOT 1] Heartbeat error: Server disconnected
+[2025-05-18 03:21:13] [warning] [BOT 51] Heartbeat error: Server disconnected
+[2025-05-18 03:21:14] [warning] [BOT 92] Heartbeat error: Server disconnected
+[2025-05-18 03:21:14] [warning] [BOT 93] Heartbeat error: Server disconnected
+[2025-05-18 03:21:14] [warning] [BOT 27] Heartbeat error: Server disconnected
+[2025-05-18 03:21:14] [warning] [BOT 76] Heartbeat error: Server disconnected
+[2025-05-18 03:21:14] [warning] [BOT 2] Heartbeat error: Server disconnected
+[2025-05-18 03:21:14] [warning] [BOT 53] Heartbeat error: Server disconnected
+[2025-05-18 03:21:15] [warning] [BOT 52] Heartbeat error: Server disconnected
+[2025-05-18 03:21:15] [warning] [BOT 94] Heartbeat error: Server disconnected
+[2025-05-18 03:21:17] [warning] Bot 85 dead → restarting
+[2025-05-18 03:21:17] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:21:17] [warning] [BOT 95] Heartbeat error: Server disconnected
+[2025-05-18 03:21:18] [warning] [BOT 96] Heartbeat error: Server disconnected
+[2025-05-18 03:21:21] [warning] [BOT 77] Heartbeat error: Server disconnected
+[2025-05-18 03:21:21] [warning] [BOT 3] Heartbeat error: Server disconnected
+[2025-05-18 03:21:21] [warning] [BOT 28] Heartbeat error: Server disconnected
+[2025-05-18 03:21:21] [warning] [BOT 54] Heartbeat error: Server disconnected
+[2025-05-18 03:21:21] [warning] [BOT 78] Heartbeat error: Server disconnected
+[2025-05-18 03:21:22] [warning] [BOT 97] Heartbeat error: Server disconnected
+[2025-05-18 03:21:22] [warning] [BOT 29] Heartbeat error: Server disconnected
+[2025-05-18 03:21:22] [warning] [BOT 98] Heartbeat error: Server disconnected
+[2025-05-18 03:21:22] [warning] Bot 85 dead → restarting
+[2025-05-18 03:21:22] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:21:22] [warning] [BOT 55] Heartbeat error: Server disconnected
+[2025-05-18 03:21:22] [warning] [BOT 30] Heartbeat error: Server disconnected
+[2025-05-18 03:21:23] [warning] [BOT 4] Heartbeat error: Server disconnected
+[2025-05-18 03:21:23] [warning] [BOT 5] Heartbeat error: Server disconnected
+[2025-05-18 03:21:23] [warning] [BOT 56] Heartbeat error: Server disconnected
+[2025-05-18 03:21:23] [warning] [BOT 79] Heartbeat error: Server disconnected
+[2025-05-18 03:21:24] [warning] [BOT 31] Heartbeat error: Server disconnected
+[2025-05-18 03:21:24] [warning] [BOT 83] Heartbeat error: Server disconnected
+[2025-05-18 03:21:24] [warning] [BOT 84] Heartbeat error: Server disconnected
+[2025-05-18 03:21:24] [warning] [BOT 64] Heartbeat error: Server disconnected
+[2025-05-18 03:21:24] [warning] [BOT 41] Heartbeat error: Server disconnected
+[2025-05-18 03:21:24] [warning] [BOT 39] Heartbeat error: Server disconnected
+[2025-05-18 03:21:24] [warning] [BOT 42] Heartbeat error: Server disconnected
+[2025-05-18 03:21:24] [warning] [BOT 82] Heartbeat error: Server disconnected
+[2025-05-18 03:21:24] [warning] [BOT 35] Heartbeat error: Server disconnected
+[2025-05-18 03:21:24] [warning] [BOT 16] Heartbeat error: Server disconnected
+[2025-05-18 03:21:24] [warning] [BOT 67] Heartbeat error: Server disconnected
+[2025-05-18 03:21:24] [warning] [BOT 81] Heartbeat error: Server disconnected
+[2025-05-18 03:21:24] [warning] [BOT 13] Heartbeat error: Server disconnected
+[2025-05-18 03:21:24] [warning] [BOT 61] Heartbeat error: Server disconnected
+[2025-05-18 03:21:24] [warning] [BOT 60] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 43] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 57] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 32] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 58] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 6] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 7] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 33] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 68] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 17] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 45] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 37] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 44] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 20] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 15] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 14] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 66] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 12] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 46] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 36] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 18] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 19] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 38] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 63] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 62] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 70] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 69] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 65] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 40] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 80] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 11] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 86] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 87] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 73] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 71] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 21] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 47] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 72] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 48] Heartbeat error: Server disconnected
+[2025-05-18 03:21:25] [warning] [BOT 22] Heartbeat error: Server disconnected
+[2025-05-18 03:21:26] [warning] [BOT 8] Heartbeat error: Server disconnected
+[2025-05-18 03:21:26] [warning] [BOT 9] Heartbeat error: Server disconnected
+[2025-05-18 03:21:26] [warning] [BOT 10] Heartbeat error: Server disconnected
+[2025-05-18 03:21:26] [warning] [BOT 59] Heartbeat error: Server disconnected
+[2025-05-18 03:21:26] [warning] [BOT 34] Heartbeat error: Server disconnected
+[2025-05-18 03:21:26] [warning] [BOT 88] Heartbeat error: Server disconnected
+[2025-05-18 03:21:27] [warning] [BOT 23] Heartbeat error: Server disconnected
+[2025-05-18 03:21:27] [warning] [BOT 49] Heartbeat error: Server disconnected
+[2025-05-18 03:21:27] [warning] [BOT 74] Heartbeat error: Server disconnected
+[2025-05-18 03:21:27] [warning] [BOT 50] Heartbeat error: Server disconnected
+[2025-05-18 03:21:27] [warning] [BOT 25] Heartbeat error: Server disconnected
+[2025-05-18 03:21:27] [warning] [BOT 24] Heartbeat error: Server disconnected
+[2025-05-18 03:21:27] [warning] Bot 85 dead → restarting
+[2025-05-18 03:21:27] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:21:28] [warning] [BOT 90] Heartbeat error: Server disconnected
+[2025-05-18 03:21:28] [warning] [BOT 89] Heartbeat error: Server disconnected
+[2025-05-18 03:21:28] [warning] [BOT 75] Heartbeat error: Server disconnected
+[2025-05-18 03:21:28] [warning] [BOT 91] Heartbeat error: Server disconnected
+[2025-05-18 03:21:28] [warning] [BOT 0] Heartbeat error: Server disconnected
+[2025-05-18 03:21:28] [warning] [BOT 26] Heartbeat error: Server disconnected
+[2025-05-18 03:21:29] [warning] [BOT 1] Heartbeat error: Server disconnected
+[2025-05-18 03:21:29] [warning] [BOT 51] Heartbeat error: Server disconnected
+[2025-05-18 03:21:29] [warning] [BOT 92] Heartbeat error: Server disconnected
+[2025-05-18 03:21:29] [warning] [BOT 93] Heartbeat error: Server disconnected
+[2025-05-18 03:21:30] [warning] [BOT 27] Heartbeat error: Server disconnected
+[2025-05-18 03:21:30] [warning] [BOT 76] Heartbeat error: Server disconnected
+[2025-05-18 03:21:30] [warning] [BOT 2] Heartbeat error: Server disconnected
+[2025-05-18 03:21:30] [warning] [BOT 53] Heartbeat error: Server disconnected
+[2025-05-18 03:21:30] [warning] [BOT 52] Heartbeat error: Server disconnected
+[2025-05-18 03:21:31] [warning] [BOT 94] Heartbeat error: Server disconnected
+[2025-05-18 03:21:32] [warning] Bot 85 dead → restarting
+[2025-05-18 03:21:32] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:21:33] [warning] [BOT 95] Heartbeat error: Server disconnected
+[2025-05-18 03:21:33] [warning] [BOT 96] Heartbeat error: Server disconnected
+[2025-05-18 03:21:37] [warning] [BOT 77] Heartbeat error: Server disconnected
+[2025-05-18 03:21:37] [warning] [BOT 3] Heartbeat error: Server disconnected
+[2025-05-18 03:21:37] [warning] [BOT 54] Heartbeat error: Server disconnected
+[2025-05-18 03:21:37] [warning] [BOT 78] Heartbeat error: Server disconnected
+[2025-05-18 03:21:37] [warning] [BOT 28] Heartbeat error: Server disconnected
+[2025-05-18 03:21:37] [warning] [BOT 97] Heartbeat error: Server disconnected
+[2025-05-18 03:21:37] [warning] [BOT 29] Heartbeat error: Server disconnected
+[2025-05-18 03:21:37] [warning] [BOT 98] Heartbeat error: Server disconnected
+[2025-05-18 03:21:37] [warning] Bot 85 dead → restarting
+[2025-05-18 03:21:37] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:21:38] [warning] [BOT 30] Heartbeat error: Server disconnected
+[2025-05-18 03:21:38] [warning] [BOT 55] Heartbeat error: Server disconnected
+[2025-05-18 03:21:38] [warning] [BOT 4] Heartbeat error: Server disconnected
+[2025-05-18 03:21:38] [warning] [BOT 5] Heartbeat error: Server disconnected
+[2025-05-18 03:21:39] [warning] [BOT 56] Heartbeat error: Server disconnected
+[2025-05-18 03:21:39] [warning] [BOT 79] Heartbeat error: Server disconnected
+[2025-05-18 03:21:39] [warning] [BOT 31] Heartbeat error: Server disconnected
+[2025-05-18 03:21:39] [warning] [BOT 83] Heartbeat error: Server disconnected
+[2025-05-18 03:21:39] [warning] [BOT 84] Heartbeat error: Server disconnected
+[2025-05-18 03:21:39] [warning] [BOT 64] Heartbeat error: Server disconnected
+[2025-05-18 03:21:39] [warning] [BOT 41] Heartbeat error: Server disconnected
+[2025-05-18 03:21:39] [warning] [BOT 39] Heartbeat error: Server disconnected
+[2025-05-18 03:21:39] [warning] [BOT 42] Heartbeat error: Server disconnected
+[2025-05-18 03:21:39] [warning] [BOT 82] Heartbeat error: Server disconnected
+[2025-05-18 03:21:39] [warning] [BOT 16] Heartbeat error: Server disconnected
+[2025-05-18 03:21:39] [warning] [BOT 35] Heartbeat error: Server disconnected
+[2025-05-18 03:21:39] [warning] [BOT 13] Heartbeat error: Server disconnected
+[2025-05-18 03:21:39] [warning] [BOT 67] Heartbeat error: Server disconnected
+[2025-05-18 03:21:39] [warning] [BOT 81] Heartbeat error: Server disconnected
+[2025-05-18 03:21:39] [warning] [BOT 61] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 60] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 43] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 57] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 32] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 58] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 7] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 6] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 33] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 17] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 68] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 45] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 44] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 37] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 20] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 15] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 14] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 66] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 18] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 12] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 36] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 19] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 38] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 63] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 70] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 62] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 65] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 69] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 46] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 80] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 11] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 40] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 86] Heartbeat error: Server disconnected
+[2025-05-18 03:21:40] [warning] [BOT 73] Heartbeat error: Server disconnected
+[2025-05-18 03:21:41] [warning] [BOT 87] Heartbeat error: Server disconnected
+[2025-05-18 03:21:41] [warning] [BOT 71] Heartbeat error: Server disconnected
+[2025-05-18 03:21:41] [warning] [BOT 72] Heartbeat error: Server disconnected
+[2025-05-18 03:21:41] [warning] [BOT 21] Heartbeat error: Server disconnected
+[2025-05-18 03:21:41] [warning] [BOT 47] Heartbeat error: Server disconnected
+[2025-05-18 03:21:41] [warning] [BOT 48] Heartbeat error: Server disconnected
+[2025-05-18 03:21:41] [warning] [BOT 22] Heartbeat error: Server disconnected
+[2025-05-18 03:21:41] [warning] [BOT 8] Heartbeat error: Server disconnected
+[2025-05-18 03:21:41] [warning] [BOT 9] Heartbeat error: Server disconnected
+[2025-05-18 03:21:41] [warning] [BOT 10] Heartbeat error: Server disconnected
+[2025-05-18 03:21:41] [warning] [BOT 59] Heartbeat error: Server disconnected
+[2025-05-18 03:21:41] [warning] [BOT 34] Heartbeat error: Server disconnected
+[2025-05-18 03:21:42] [warning] [BOT 88] Heartbeat error: Server disconnected
+[2025-05-18 03:21:42] [warning] [BOT 23] Heartbeat error: Server disconnected
+[2025-05-18 03:21:42] [warning] [BOT 49] Heartbeat error: Server disconnected
+[2025-05-18 03:21:42] [warning] [BOT 74] Heartbeat error: Server disconnected
+[2025-05-18 03:21:42] [warning] [BOT 50] Heartbeat error: Server disconnected
+[2025-05-18 03:21:42] [warning] [BOT 25] Heartbeat error: Server disconnected
+[2025-05-18 03:21:42] [warning] [BOT 24] Heartbeat error: Server disconnected
+[2025-05-18 03:21:42] [warning] Bot 85 dead → restarting
+[2025-05-18 03:21:42] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:21:43] [info] Задача 2: осталось 00:29:00 (1740 сек)
+[2025-05-18 03:21:43] [info] Задача 2: следующий чек через 60 сек...
+[2025-05-18 03:21:43] [warning] [BOT 90] Heartbeat error: Server disconnected
+[2025-05-18 03:21:43] [warning] [BOT 89] Heartbeat error: Server disconnected
+[2025-05-18 03:21:44] [warning] [BOT 75] Heartbeat error: Server disconnected
+[2025-05-18 03:21:44] [warning] [BOT 91] Heartbeat error: Server disconnected
+[2025-05-18 03:21:44] [warning] [BOT 0] Heartbeat error: Server disconnected
+[2025-05-18 03:21:44] [warning] [BOT 26] Heartbeat error: Server disconnected
+[2025-05-18 03:21:44] [warning] [BOT 1] Heartbeat error: Server disconnected
+[2025-05-18 03:21:44] [warning] [BOT 51] Heartbeat error: Server disconnected
+[2025-05-18 03:21:44] [warning] [BOT 92] Heartbeat error: Server disconnected
+[2025-05-18 03:21:45] [warning] [BOT 93] Heartbeat error: Server disconnected
+[2025-05-18 03:21:45] [warning] [BOT 27] Heartbeat error: Server disconnected
+[2025-05-18 03:21:45] [warning] [BOT 76] Heartbeat error: Server disconnected
+[2025-05-18 03:21:45] [warning] [BOT 2] Heartbeat error: Server disconnected
+[2025-05-18 03:21:45] [warning] [BOT 53] Heartbeat error: Server disconnected
+[2025-05-18 03:21:45] [warning] [BOT 52] Heartbeat error: Server disconnected
+[2025-05-18 03:21:46] [warning] [BOT 94] Heartbeat error: Server disconnected
+[2025-05-18 03:21:47] [warning] Bot 85 dead → restarting
+[2025-05-18 03:21:47] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:21:48] [warning] [BOT 95] Heartbeat error: Server disconnected
+[2025-05-18 03:21:48] [warning] [BOT 96] Heartbeat error: Server disconnected
+[2025-05-18 03:21:52] [warning] [BOT 77] Heartbeat error: Server disconnected
+[2025-05-18 03:21:52] [warning] [BOT 78] Heartbeat error: Server disconnected
+[2025-05-18 03:21:52] [warning] [BOT 3] Heartbeat error: Server disconnected
+[2025-05-18 03:21:52] [warning] [BOT 54] Heartbeat error: Server disconnected
+[2025-05-18 03:21:52] [warning] [BOT 28] Heartbeat error: Server disconnected
+[2025-05-18 03:21:52] [warning] [BOT 97] Heartbeat error: Server disconnected
+[2025-05-18 03:21:52] [warning] [BOT 29] Heartbeat error: Server disconnected
+[2025-05-18 03:21:52] [warning] Bot 85 dead → restarting
+[2025-05-18 03:21:52] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:21:52] [warning] [BOT 98] Heartbeat error: Server disconnected
+[2025-05-18 03:21:53] [warning] [BOT 30] Heartbeat error: Server disconnected
+[2025-05-18 03:21:53] [warning] [BOT 55] Heartbeat error: Server disconnected
+[2025-05-18 03:21:53] [warning] [BOT 4] Heartbeat error: Server disconnected
+[2025-05-18 03:21:54] [warning] [BOT 5] Heartbeat error: Server disconnected
+[2025-05-18 03:21:54] [warning] [BOT 56] Heartbeat error: Server disconnected
+[2025-05-18 03:21:54] [warning] [BOT 79] Heartbeat error: Server disconnected
+[2025-05-18 03:21:54] [warning] [BOT 31] Heartbeat error: Server disconnected
+[2025-05-18 03:21:54] [warning] [BOT 83] Heartbeat error: Server disconnected
+[2025-05-18 03:21:54] [warning] [BOT 84] Heartbeat error: Server disconnected
+[2025-05-18 03:21:54] [warning] [BOT 64] Heartbeat error: Server disconnected
+[2025-05-18 03:21:54] [warning] [BOT 42] Heartbeat error: Server disconnected
+[2025-05-18 03:21:54] [warning] [BOT 41] Heartbeat error: Server disconnected
+[2025-05-18 03:21:54] [warning] [BOT 39] Heartbeat error: Server disconnected
+[2025-05-18 03:21:54] [warning] [BOT 82] Heartbeat error: Server disconnected
+[2025-05-18 03:21:54] [warning] [BOT 16] Heartbeat error: Server disconnected
+[2025-05-18 03:21:54] [warning] [BOT 35] Heartbeat error: Server disconnected
+[2025-05-18 03:21:54] [warning] [BOT 13] Heartbeat error: Server disconnected
+[2025-05-18 03:21:54] [warning] [BOT 67] Heartbeat error: Server disconnected
+[2025-05-18 03:21:54] [warning] [BOT 81] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 61] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 60] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 43] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 57] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 32] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 58] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 7] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 33] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 6] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 17] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 68] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 45] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 44] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 37] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 20] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 15] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 14] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 66] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 18] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 12] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 19] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 70] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 36] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 38] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 63] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 62] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 11] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 46] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 69] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 40] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 80] Heartbeat error: Server disconnected
+[2025-05-18 03:21:55] [warning] [BOT 65] Heartbeat error: Server disconnected
+[2025-05-18 03:21:56] [warning] [BOT 86] Heartbeat error: Server disconnected
+[2025-05-18 03:21:56] [warning] [BOT 73] Heartbeat error: Server disconnected
+[2025-05-18 03:21:56] [warning] [BOT 87] Heartbeat error: Server disconnected
+[2025-05-18 03:21:56] [warning] [BOT 71] Heartbeat error: Server disconnected
+[2025-05-18 03:21:56] [warning] [BOT 21] Heartbeat error: Server disconnected
+[2025-05-18 03:21:56] [warning] [BOT 72] Heartbeat error: Server disconnected
+[2025-05-18 03:21:56] [warning] [BOT 47] Heartbeat error: Server disconnected
+[2025-05-18 03:21:56] [warning] [BOT 48] Heartbeat error: Server disconnected
+[2025-05-18 03:21:56] [warning] [BOT 22] Heartbeat error: Server disconnected
+[2025-05-18 03:21:56] [warning] [BOT 8] Heartbeat error: Server disconnected
+[2025-05-18 03:21:56] [warning] [BOT 9] Heartbeat error: Server disconnected
+[2025-05-18 03:21:56] [warning] [BOT 10] Heartbeat error: Server disconnected
+[2025-05-18 03:21:56] [warning] [BOT 59] Heartbeat error: Server disconnected
+[2025-05-18 03:21:56] [warning] [BOT 34] Heartbeat error: Server disconnected
+[2025-05-18 03:21:57] [warning] [BOT 88] Heartbeat error: Server disconnected
+[2025-05-18 03:21:57] [warning] [BOT 23] Heartbeat error: Server disconnected
+[2025-05-18 03:21:57] [warning] [BOT 49] Heartbeat error: Server disconnected
+[2025-05-18 03:21:57] [warning] Bot 85 dead → restarting
+[2025-05-18 03:21:57] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:21:57] [warning] [BOT 74] Heartbeat error: Server disconnected
+[2025-05-18 03:21:57] [warning] [BOT 50] Heartbeat error: Server disconnected
+[2025-05-18 03:21:58] [warning] [BOT 25] Heartbeat error: Server disconnected
+[2025-05-18 03:21:58] [warning] [BOT 24] Heartbeat error: Server disconnected
+[2025-05-18 03:21:59] [warning] [BOT 90] Heartbeat error: Server disconnected
+[2025-05-18 03:21:59] [warning] [BOT 89] Heartbeat error: Server disconnected
+[2025-05-18 03:21:59] [warning] [BOT 91] Heartbeat error: Server disconnected
+[2025-05-18 03:21:59] [warning] [BOT 75] Heartbeat error: Server disconnected
+[2025-05-18 03:21:59] [warning] [BOT 0] Heartbeat error: Server disconnected
+[2025-05-18 03:21:59] [warning] [BOT 26] Heartbeat error: Server disconnected
+[2025-05-18 03:21:59] [warning] [BOT 1] Heartbeat error: Server disconnected
+[2025-05-18 03:21:59] [warning] [BOT 51] Heartbeat error: Server disconnected
+[2025-05-18 03:22:00] [warning] [BOT 92] Heartbeat error: Server disconnected
+[2025-05-18 03:22:00] [warning] [BOT 93] Heartbeat error: Server disconnected
+[2025-05-18 03:22:00] [warning] [BOT 27] Heartbeat error: Server disconnected
+[2025-05-18 03:22:00] [warning] [BOT 76] Heartbeat error: Server disconnected
+[2025-05-18 03:22:00] [warning] [BOT 2] Heartbeat error: Server disconnected
+[2025-05-18 03:22:00] [warning] [BOT 53] Heartbeat error: Server disconnected
+[2025-05-18 03:22:00] [warning] [BOT 52] Heartbeat error: Server disconnected
+[2025-05-18 03:22:01] [warning] [BOT 94] Heartbeat error: Server disconnected
+[2025-05-18 03:22:02] [warning] Bot 85 dead → restarting
+[2025-05-18 03:22:02] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:22:03] [warning] [BOT 95] Heartbeat error: Server disconnected
+[2025-05-18 03:22:04] [warning] [BOT 96] Heartbeat error: Server disconnected
+[2025-05-18 03:22:07] [warning] [BOT 77] Heartbeat error: Server disconnected
+[2025-05-18 03:22:07] [warning] [BOT 3] Heartbeat error: Server disconnected
+[2025-05-18 03:22:07] [warning] [BOT 78] Heartbeat error: Server disconnected
+[2025-05-18 03:22:07] [warning] [BOT 28] Heartbeat error: Server disconnected
+[2025-05-18 03:22:07] [warning] [BOT 54] Heartbeat error: Server disconnected
+[2025-05-18 03:22:07] [warning] Bot 85 dead → restarting
+[2025-05-18 03:22:07] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:22:08] [warning] [BOT 97] Heartbeat error: Server disconnected
+[2025-05-18 03:22:08] [warning] [BOT 29] Heartbeat error: Server disconnected
+[2025-05-18 03:22:08] [warning] [BOT 98] Heartbeat error: Server disconnected
+[2025-05-18 03:22:08] [warning] [BOT 55] Heartbeat error: Server disconnected
+[2025-05-18 03:22:08] [warning] [BOT 30] Heartbeat error: Server disconnected
+[2025-05-18 03:22:08] [warning] [BOT 4] Heartbeat error: Server disconnected
+[2025-05-18 03:22:09] [warning] [BOT 5] Heartbeat error: Server disconnected
+[2025-05-18 03:22:09] [warning] [BOT 56] Heartbeat error: Server disconnected
+[2025-05-18 03:22:09] [warning] [BOT 79] Heartbeat error: Server disconnected
+[2025-05-18 03:22:09] [warning] [BOT 31] Heartbeat error: Server disconnected
+[2025-05-18 03:22:09] [warning] [BOT 83] Heartbeat error: Server disconnected
+[2025-05-18 03:22:09] [warning] [BOT 64] Heartbeat error: Server disconnected
+[2025-05-18 03:22:09] [warning] [BOT 84] Heartbeat error: Server disconnected
+[2025-05-18 03:22:09] [warning] [BOT 42] Heartbeat error: Server disconnected
+[2025-05-18 03:22:09] [warning] [BOT 41] Heartbeat error: Server disconnected
+[2025-05-18 03:22:09] [warning] [BOT 39] Heartbeat error: Server disconnected
+[2025-05-18 03:22:09] [warning] [BOT 82] Heartbeat error: Server disconnected
+[2025-05-18 03:22:09] [warning] [BOT 16] Heartbeat error: Server disconnected
+[2025-05-18 03:22:09] [warning] [BOT 35] Heartbeat error: Server disconnected
+[2025-05-18 03:22:09] [warning] [BOT 13] Heartbeat error: Server disconnected
+[2025-05-18 03:22:09] [warning] [BOT 67] Heartbeat error: Server disconnected
+[2025-05-18 03:22:09] [warning] [BOT 81] Heartbeat error: Server disconnected
+[2025-05-18 03:22:10] [warning] [BOT 61] Heartbeat error: Server disconnected
+[2025-05-18 03:22:10] [warning] [BOT 60] Heartbeat error: Server disconnected
+[2025-05-18 03:22:10] [warning] [BOT 43] Heartbeat error: Server disconnected
+[2025-05-18 03:22:10] [warning] [BOT 57] Heartbeat error: Server disconnected
+[2025-05-18 03:22:10] [warning] [BOT 32] Heartbeat error: Server disconnected
+[2025-05-18 03:22:10] [warning] [BOT 58] Heartbeat error: Server disconnected
+[2025-05-18 03:22:10] [warning] [BOT 33] Heartbeat error: Server disconnected
+[2025-05-18 03:22:10] [warning] [BOT 7] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 6] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 17] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 68] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 45] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 44] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 20] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 15] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 37] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 66] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 14] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 18] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 12] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 19] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 70] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 63] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 38] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 62] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 11] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 46] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 69] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 80] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 36] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 40] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 65] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 86] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 73] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 87] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 71] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 21] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 72] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 48] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 47] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 22] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 8] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 9] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 10] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 59] Heartbeat error: Server disconnected
+[2025-05-18 03:22:11] [warning] [BOT 34] Heartbeat error: Server disconnected
+[2025-05-18 03:22:12] [warning] [BOT 88] Heartbeat error: Server disconnected
+[2025-05-18 03:22:12] [warning] [BOT 23] Heartbeat error: Server disconnected
+[2025-05-18 03:22:12] [warning] [BOT 49] Heartbeat error: Server disconnected
+[2025-05-18 03:22:12] [warning] Bot 85 dead → restarting
+[2025-05-18 03:22:12] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:22:13] [warning] [BOT 74] Heartbeat error: Server disconnected
+[2025-05-18 03:22:13] [warning] [BOT 50] Heartbeat error: Server disconnected
+[2025-05-18 03:22:13] [warning] [BOT 25] Heartbeat error: Server disconnected
+[2025-05-18 03:22:13] [warning] [BOT 24] Heartbeat error: Server disconnected
+[2025-05-18 03:22:14] [warning] [BOT 90] Heartbeat error: Server disconnected
+[2025-05-18 03:22:14] [warning] [BOT 89] Heartbeat error: Server disconnected
+[2025-05-18 03:22:14] [warning] [BOT 91] Heartbeat error: Server disconnected
+[2025-05-18 03:22:14] [warning] [BOT 75] Heartbeat error: Server disconnected
+[2025-05-18 03:22:14] [warning] [BOT 0] Heartbeat error: Server disconnected
+[2025-05-18 03:22:14] [warning] [BOT 26] Heartbeat error: Server disconnected
+[2025-05-18 03:22:14] [warning] [BOT 1] Heartbeat error: Server disconnected
+[2025-05-18 03:22:14] [warning] [BOT 51] Heartbeat error: Server disconnected
+[2025-05-18 03:22:15] [warning] [BOT 92] Heartbeat error: Server disconnected
+[2025-05-18 03:22:15] [warning] [BOT 93] Heartbeat error: Server disconnected
+[2025-05-18 03:22:15] [warning] [BOT 27] Heartbeat error: Server disconnected
+[2025-05-18 03:22:15] [warning] [BOT 76] Heartbeat error: Server disconnected
+[2025-05-18 03:22:15] [warning] [BOT 2] Heartbeat error: Server disconnected
+[2025-05-18 03:22:15] [warning] [BOT 53] Heartbeat error: Server disconnected
+[2025-05-18 03:22:15] [warning] [BOT 52] Heartbeat error: Server disconnected
+[2025-05-18 03:22:16] [warning] [BOT 94] Heartbeat error: Server disconnected
+[2025-05-18 03:22:17] [warning] Bot 85 dead → restarting
+[2025-05-18 03:22:17] [error] Monitoring error: 'MainBot' object has no attribute 'proxy'
+[2025-05-18 03:22:18] [warning] [BOT 95] Heartbeat error: Server disconnected
+[2025-05-18 03:22:19] [warning] [BOT 96] Heartbeat error: Server disconnected

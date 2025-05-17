@@ -1,0 +1,12 @@
+[2025-05-18 03:42:27] [error] [BOT 91] Error: name 'contextlib' is not defined
+Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\test\main_bot.py", line 146, in start
+    with contextlib.suppress(asyncio.CancelledError):
+         ^^^^^^^^^^
+NameError: name 'contextlib' is not defined. Did you forget to import 'contextlib'?
+[2025-05-18 03:42:30] [error] [BOT 96] Error: name 'contextlib' is not defined
+Traceback (most recent call last):
+  File "C:\Users\semtrip.DESKTOP-QDM923H\Documents\GitHub\stream_shop_service\backend\Service\test\main_bot.py", line 146, in start
+    with contextlib.suppress(asyncio.CancelledError):
+         ^^^^^^^^^^
+NameError: name 'contextlib' is not defined. Did you forget to import 'contextlib'?
