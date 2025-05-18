@@ -2,15 +2,16 @@ import asyncio
 import contextlib
 from contextlib import asynccontextmanager
 from typing import List, Optional
+from concurrent.futures import ThreadPoolExecutor
 
 from streamlink import Streamlink
 from fake_useragent import UserAgent
-from sqlalchemy.ext.asyncio import AsyncSession
 
 from Managers.proxy_manager import ProxyManager
 from Managers.account_manager import AccountManager
 from .main_bot import MainBot
 from Logger.log import logger, log_color
+
 
 ua = UserAgent()
 
@@ -33,7 +34,7 @@ class TwitchService:
 
         self.count_bots = count_bots
         self.auth_bots = min(auth_bots, count_bots)
-        self.ramp_up_time = ramp_up_time           # В минутах
+        self.ramp_up_time = ramp_up_time
         self.proxies = proxies
 
         if len(self.proxies) < self.count_bots:
@@ -44,6 +45,7 @@ class TwitchService:
         self._monitor_task: Optional[asyncio.Task] = None
         self._lock = asyncio.Lock()
 
+        self.executor = ThreadPoolExecutor(max_workers=max(50, self.count_bots * 2))
         self.stream_session = Streamlink()
         self.stream_session.set_option(
             "http-headers",
@@ -62,7 +64,7 @@ class TwitchService:
     @classmethod
     async def create(
         cls,
-        db: AsyncSession,
+        db,
         url: str,
         count_bots: int,
         auth_bots: int,
@@ -89,7 +91,11 @@ class TwitchService:
     async def is_stream_live(self) -> bool:
         logger.info(f"Checking stream status for {log_color.CYAN}{self.channel_name}{log_color.RESET}")
         try:
-            live = bool(self.stream_session.streams(self.channel_url))
+            streams = await asyncio.get_event_loop().run_in_executor(
+                self.executor,
+                lambda: self.stream_session.streams(self.channel_url)
+            )
+            live = bool(streams)
             st = "Online" if live else "Offline"
             logger.info(f"[Stream Status] {self.channel_name} - {st}")
             return live
@@ -109,63 +115,69 @@ class TwitchService:
         logger.info(f"Bot ID:[{bot.id}] started successfully")
 
     async def start(self):
-        if self.bots:
-            logger.warning("Bots already running")
-            return
+        logger.info(f"Starting TwitchService with {self.count_bots} bots")
+        self._stop_event.clear()
+        self.bots.clear()
 
-        logger.info(f"Starting {self.count_bots} bots (ramp-up {self.ramp_up_time} min)")
-
-        auth_accounts = []
-        for i in range(self.auth_bots):
-            proxy = self.proxies[i]
-            acc = await self.account_manager.get_account_by_proxy_id(proxy.id)
-            auth_accounts.append(acc if acc and acc.token and acc.user else None)
-
+        # Prepare bots
         for i in range(self.count_bots):
             proxy = self.proxies[i]
-            account = auth_accounts[i] if i < self.auth_bots else None
+            account = None
+            if i < self.auth_bots:
+                account = await self.account_manager.get_account_by_proxy_id(proxy.id)
             bot = MainBot(
                 channel=self.channel_name,
-                proxy=proxy,  # Объект с полями: type, ip, port, username, password
+                proxy=proxy,
                 stop_event=self._stop_event,
                 bot_id=i,
-                account=account  # Объект с полями user, token (опционально)
+                executor=self.executor,
+                account=account,
+                audio_only=True,
             )
             self.bots.append(bot)
 
+        # Ramp-up logic (равномерный старт ботов)
+        if self.ramp_up_time > 0:
+            delay_between = self.ramp_up_time / max(self.count_bots - 1, 1)
+        else:
+            delay_between = 0
+
+        # Запуск ботов с задержкой
+        tasks = []
+        for idx, bot in enumerate(self.bots):
+            delay = idx * delay_between
+            tasks.append(asyncio.create_task(self._spawn_bot(bot, delay)))
+
+        # Запуск мониторинга состояния ботов
         self._monitor_task = asyncio.create_task(self._monitor_bots())
 
-        total_delay = self.ramp_up_time * 60  # секунды
-        interval = total_delay / self.count_bots if self.count_bots > 0 else 0
-
-        for i, bot in enumerate(self.bots):
-            delay = interval * i
-            asyncio.create_task(self._spawn_bot(bot, delay))
+        await asyncio.gather(*tasks)
 
     async def _monitor_bots(self):
-        while not self._stop_event.is_set():
-            try:
+        logger.info("Starting bots monitoring task")
+        try:
+            while not self._stop_event.is_set():
                 async with self._bot_lock():
-                    for idx, bot in enumerate(self.bots):
-                        if bot.is_dead():
-                            logger.warning(f"Bot {bot.id} dead → restarting")
-                            await bot.stop()
-                            new_bot = MainBot(
-                                    channel=self.channel_name,
-                                    proxy=self.proxies[bot.id],  # Объект с полями: type, ip, port, username, password
-                                    stop_event=self._stop_event,
-                                    bot_id=bot.id,
-                                    account=bot.account  # Объект с полями user, token (опционально)
-                                )
-                            self.bots[idx] = new_bot
-                            asyncio.create_task(new_bot.start())
-                await asyncio.sleep(30)
-            except Exception as e:
-                logger.error(f"Monitoring error: {e}")
+                    online_bots = [bot for bot in self.bots if bot.running and not bot.is_dead()]
+                    count_online = len(online_bots)
+                    logger.info(f"Online bots: {count_online}/{self.count_bots}")
+
+                    # Если ботов слишком мало, можно попытаться их перезапустить
+                    if count_online < self.count_bots * 0.95:
+                        logger.warning(f"Недостаточно онлайн ботов ({count_online}), проверяем и рестартуем")
+                        for bot in self.bots:
+                            if not bot.running or bot.is_dead():
+                                logger.info(f"Перезапуск бота ID:{bot.id}")
+                                asyncio.create_task(bot.start())
+
                 await asyncio.sleep(5)
+        except asyncio.CancelledError:
+            logger.info("Мониторинг ботов отменен")
+        except Exception as e:
+            logger.error(f"Ошибка в мониторинге ботов: {e}")
 
     async def stop(self):
-        logger.info("Stopping all bots…")
+        logger.info("Stopping TwitchService and all bots")
         self._stop_event.set()
 
         if self._monitor_task:
@@ -173,9 +185,6 @@ class TwitchService:
             with contextlib.suppress(asyncio.CancelledError):
                 await self._monitor_task
 
-        async with self._bot_lock():
-            await asyncio.gather(*(b.stop() for b in self.bots), return_exceptions=True)
-            self.bots.clear()
-
-        self._stop_event.clear()
+        # Останавливаем всех ботов параллельно
+        await asyncio.gather(*(bot.stop() for bot in self.bots), return_exceptions=True)
         logger.info("All bots stopped")

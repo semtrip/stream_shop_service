@@ -5,7 +5,7 @@ from datetime import time, timedelta
 
 from Logger.log import logger, log_color
 #from Service.Twitch.service import TwitchService
-from Service.test.service2 import TwitchService
+from Service.test.service import TwitchService
 from Models.task import BotTask, TaskStatus
 from Data.Repositories.task_repository import TaskRepository
 import datetime

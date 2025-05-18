@@ -3,3 +3,11 @@ psycopg2-binary
 aiohttp
 asyncio
 fake_useragent
+m3u8
+streamlink
+aioconsole
+prettytable
+inquirer
+keyboard
+asyncpg
+aiohttp_socks

@@ -1,8 +1,0 @@
-[2025-05-18 02:34:05] [error] [BOT 0] Start error: AttributeError("'MainBot' object has no attribute '_heartbeat'")
-[2025-05-18 02:34:05] [error] [BOT 0] Stop error: AttributeError("'MainBot' object has no attribute '_close_stream'")
-[2025-05-18 02:34:05] [error] [BOT 1] Start error: AttributeError("'MainBot' object has no attribute '_heartbeat'")
-[2025-05-18 02:34:05] [error] [BOT 1] Stop error: AttributeError("'MainBot' object has no attribute '_close_stream'")
-[2025-05-18 02:34:06] [error] [BOT 2] Start error: AttributeError("'MainBot' object has no attribute '_heartbeat'")
-[2025-05-18 02:34:06] [error] [BOT 2] Stop error: AttributeError("'MainBot' object has no attribute '_close_stream'")
-[2025-05-18 02:34:07] [error] [BOT 3] Start error: AttributeError("'MainBot' object has no attribute '_heartbeat'")
-[2025-05-18 02:34:07] [error] [BOT 3] Stop error: AttributeError("'MainBot' object has no attribute '_close_stream'")

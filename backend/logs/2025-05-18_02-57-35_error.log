@@ -1,1 +1,0 @@
-[2025-05-18 02:57:44] [error] ОШИБКА в задаче 2: TwitchService.create() got an unexpected keyword argument 'ramp_up_time'. Did you mean 'rump_time'?
